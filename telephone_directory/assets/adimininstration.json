@@ -1,0 +1,286 @@
+[
+    {
+        "section": "DEPARTMENT / SECTION : ADMINISTRATION",
+        "entries":
+        [
+            {
+                "S.N.": "1",
+                "NAME ": "CHAIRMAN",
+                "EXTENSION NO.": "1384",
+                "EMAIL ID": "chairman@vnit.ac.in"
+            },
+            {
+                "S.N.": "2",
+                "NAME ": "DIRECTOR",
+                "EXTENSION NO.": "1370",
+                "EMAIL ID": "director@vnit.ac.in"
+            },
+            {
+                "S.N.": "3",
+                "NAME ": "DIRECTOR OFFICE",
+                "EXTENSION NO.": "1370, 1295, 2223969(Tele/Fax)",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "4",
+                "NAME ": "REGISTRAR",
+                "EXTENSION NO.": "1364, 2226240",
+                "EMAIL ID": "registrar@vnit.ac.in"
+            },
+            {
+                "S.N.": "5",
+                "NAME ": "REGISTRAR OFFICE",
+                "EXTENSION NO.": "1361",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "6",
+                "NAME ": "DEAN (Academic)",
+                "EXTENSION NO.": "1301",
+                "EMAIL ID": "deanacd@vnit.ac.in"
+            },
+            {
+                "S.N.": "7",
+                "NAME ": "DEAN (Faculty Welfare)",
+                "EXTENSION NO.": "1302",
+                "EMAIL ID": "deanfw@vnit.ac.in"
+            },
+            {
+                "S.N.": "8",
+                "NAME ": "DEAN (Planning & Development)",
+                "EXTENSION NO.": "1300",
+                "EMAIL ID": "deanp_f@vnit.ac.in"
+            },
+            {
+                "S.N.": "9",
+                "NAME ": "DEAN (Research & Consultancy)",
+                "EXTENSION NO.": "1304",
+                "EMAIL ID": "deanr_c@vnit.ac.in"
+            },
+            {
+                "S.N.": "10",
+                "NAME ": "DEAN (Student Welfare)",
+                "EXTENSION NO.": "1320",
+                "EMAIL ID": "deanstd_coun@vnit.ac.in"
+            },
+            {
+                "S.N.": "11",
+                "NAME ": "DEAN (International Affairs)",
+                "EXTENSION NO.": "2233",
+                "EMAIL ID": "dean_ia@vnit.ac.in"
+            },
+            {
+                "S.N.": "12",
+                "NAME ": "SUPERINTENDENT / OSD (ADMIN)",
+                "EXTENSION NO.": "1359",
+                "EMAIL ID": "dradmn@vnit.ac.in"
+            },
+            {
+                "S.N.": "13",
+                "NAME ": "ASSOCIATE DEAN – PUBLIC RELATION",
+                "EXTENSION NO.": "1749",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "14",
+                "NAME ": "SENATE HALL ",
+                "EXTENSION NO.": "1019",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "15",
+                "NAME ": "BOARD ROOM",
+                "EXTENSION NO.": "1398",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "16",
+                "NAME ": "ANTE CHAMBER",
+                "EXTENSION NO.": "1263",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "17",
+                "NAME ": "CONFERENCE HALL",
+                "EXTENSION NO.": "1245",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "18",
+                "NAME ": "TEQIP OFFICE",
+                "EXTENSION NO.": "1391",
+                "EMAIL ID": ""
+            },
+            {
+                "S.N.": "19",
+                "NAME ": "  NBA OFFICE",
+                "EXTENSION NO.": "1400",
+                "EMAIL ID": ""
+            }
+        ]
+
+    },
+    {
+        "section": "DEPARTMENT / SECTION : DIRECTOR'S OFFICE",
+        "entries": [
+            {
+                "S.N.": "1",
+                "NAME": "RAKHUNDE RUPALI M.",
+                "EXTENSION NO.": "1370",
+                "EMAIL ID": "rupalirakhunde@vnit.ac.in"
+            },
+            {
+                "S.N.": "2",
+                "NAME": "ALAT SAMIKSHA R.",
+                "EXTENSION NO.": "1370",
+                "EMAIL ID": "samikshaalat@vnit.ac.in"
+            },
+            {
+                "S.N.": "3",
+                "NAME": "LAHARIYA SUNIL B.",
+                "EXTENSION NO.": "1295",
+                "EMAIL ID": "sunillahariya@vnit.ac.in"
+            },
+            {
+                "S.N.": "4",
+                "NAME": "MATANGI CHANDRAMOULI V.",
+                "EXTENSION NO.": "1295",
+                "EMAIL ID": "chandramoulimatangi@vnit.ac.in"
+            },
+            {
+                "S.N.": "5",
+                "NAME": "SAKHARWADE AMOL N.",
+                "EXTENSION NO.": "1295",
+                "EMAIL ID": "amolsakharwade@vnit.ac.in"
+            }
+        ]
+    },
+
+    {
+        "section": "DEPARTMENT / SECTION : REGISTRAR'S OFFICE",
+        "entries": [
+            {
+                "S.N.": "1",
+                "NAME": "AMBEKAR HARSHAD L.",
+                "EXTENSION NO.": "1359",
+                "EMAIL ID": "hlambekar@vnit.ac.in"
+            },
+            {
+                "S.N.": "2",
+                "NAME": "MENDHE VINOD K.",
+                "EXTENSION NO.": "1009",
+                "EMAIL ID": "vinodmendhe@vnit.ac.in"
+            },
+            {
+                "S.N.": "3",
+                "NAME": "KANPATE SURESH V.",
+                "EXTENSION NO.": "1361",
+                "EMAIL ID": "sureshkanpate@vnit.ac.in"
+            },
+            {
+                "S.N.": "4",
+                "NAME": "MANSATA MEGHA G.",
+                "EXTENSION NO.": "1361",
+                "EMAIL ID": "meghamansata@vnit.ac.in"
+            },
+            {
+                "S.N.": "5",
+                "NAME": "DHARNE AKASH M.",
+                "EXTENSION NO.": "1361",
+                "EMAIL ID": "akashdharne@vnit.ac.in"
+            }
+        ]
+    },
+
+    {
+        "section": "DEPARTMENT / SECTION : HEAD OF THE DEPARTMENTS",
+        "entries": [
+
+            {
+                "S.N.": "1",
+                "NAME OF DEPARTMENT": "APPLIED MECHANICS",
+                "EXTENSION NO.": "1323",
+                "EMAIL ID": "hod@apm.vnit.ac.in"
+            },
+            {
+                "S.N.": "2",
+                "NAME OF DEPARTMENT": "ARCHITECTURE",
+                "EXTENSION NO.": "1376",
+                "EMAIL ID": "hod@arc.vnit.ac.in"
+            },
+            {
+                "S.N.": "3",
+                "NAME OF DEPARTMENT": "CHEMISTRY",
+                "EXTENSION NO.": "1357",
+                "EMAIL ID": "head@chm.vnit.ac.in"
+            },
+            {
+                "S.N.": "4",
+                "NAME OF DEPARTMENT": "CHEMICAL ENGINEERING",
+                "EXTENSION NO.": "1565",
+                "EMAIL ID": "head@che.vnit.ac.in"
+            },
+            {
+                "S.N.": "5",
+                "NAME OF DEPARTMENT": "CIVIL ENGINEERING",
+                "EXTENSION NO.": "1371",
+                "EMAIL ID": "hod@civ.vnit.ac.in"
+            },
+            {
+                "S.N.": "6",
+                "NAME OF DEPARTMENT": "COMPUTER SCIENCE",
+                "EXTENSION NO.": "1322",
+                "EMAIL ID": "head@cse.vnit.ac.in"
+            },
+            {
+                "S.N.": "7",
+                "NAME OF DEPARTMENT": "ELECTRICAL ENGINEERING",
+                "EXTENSION NO.": "1349",
+                "EMAIL ID": "head@eee.vnit.ac.in"
+            },
+            {
+                "S.N.": "8",
+                "NAME OF DEPARTMENT": "ELECTRONICS ENGINEERING",
+                "EXTENSION NO.": "1345",
+                "EMAIL ID": "head@ece.vnit.ac.in"
+            },
+            {
+                "S.N.": "9",
+                "NAME OF DEPARTMENT": "HUMANITIES",
+                "EXTENSION NO.": "1352",
+                "EMAIL ID": "head@hum.vnit.ac.in"
+            },
+            {
+                "S.N.": "10",
+                "NAME OF DEPARTMENT": "MATHEMATICS",
+                "EXTENSION NO.": "1356",
+                "EMAIL ID": "head@mth.vnit.ac.in"
+            },
+            {
+                "S.N.": "11",
+                "NAME OF DEPARTMENT": "MECHANICAL ENGINEERING",
+                "EXTENSION NO.": "1379",
+                "EMAIL ID": "head@mec.vnit.ac.in"
+            },
+            {
+                "S.N.": "12",
+                "NAME OF DEPARTMENT": "METALLURGICAL ENGG.",
+                "EXTENSION NO.": "1324",
+                "EMAIL ID": "head@mme.vnit.ac.in"
+            },
+            {
+                "S.N.": "13",
+                "NAME OF DEPARTMENT": "MINING ENGINEERING",
+                "EXTENSION NO.": "1350",
+                "EMAIL ID": "head@mng.vnit.ac.in"
+            },
+            {
+                "S.N.": "14",
+                "NAME OF DEPARTMENT": "PHYSICS",
+                "EXTENSION NO.": "1325",
+                "EMAIL ID": "head@phy.vnit.ac.in"
+            }
+
+        ]
+    }
+]
