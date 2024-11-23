@@ -32,6 +32,11 @@ class LandingPage extends StatelessWidget {
     "DEPARTMENT / SECTION : HEAD OF THE DEPARTMENTS",
   ];
 
+  final List<String> students = [
+    "DEPARTMENT / SECTION : STUDENT COUNCIL",
+    "DEPARTMENT / SECTION : STUDENT CLUBS ",
+  ];
+
   final List<String> services = [
     "DEPARTMENT / SECTION :ACADEMIC SECTION",
     "DEPARTMENT / SECTION :ACCOUNTS SECTION",
@@ -136,6 +141,27 @@ class LandingPage extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) =>
                             DepartmentListPage(department: services)),
+                  );
+                }),
+                // _buildCategoryCard(context,
+                //     label: "Student Council",
+                //     cardHeight: cardHeight, onTap: () {
+                //   Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //       builder: (context) =>
+                //           ContactsPage(sectionTitle: 'STUDENT COUNCIL'),
+                //     ),
+                //   );
+                // }),
+                _buildCategoryCard(context,
+                    label: "Student Activities",
+                    cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            DepartmentListPage(department: students)),
                   );
                 }),
                 _buildCategoryCard(context,
