@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:telephone_directory/About.dart';
 import 'package:telephone_directory/ContactsPage.dart';
 import 'package:telephone_directory/main.dart';
+import 'SearchPage.dart';
 
 class LandingPage extends StatelessWidget {
   final List<String> branches = [
@@ -34,7 +35,7 @@ class LandingPage extends StatelessWidget {
 
   final List<String> students = [
     "DEPARTMENT / SECTION : STUDENT COUNCIL",
-    "DEPARTMENT / SECTION : STUDENT CLUBS ",
+    "DEPARTMENT / SECTION : STUDENT CLUBS",
   ];
 
   final List<String> services = [
@@ -76,39 +77,51 @@ class LandingPage extends StatelessWidget {
                 color: Color.fromARGB(255, 228, 224, 225),
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Padding(
-                padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  // crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(
-                      flex: 1,
-                      child: ClipOval(
-                        child: Image.asset(
-                          'assets/logo.png',
-                          width: height * 0.06,
-                          height: height * 0.06,
-                          // fit: BoxFit.cover,
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SearchPage(),
+                    ),
+                  );
+                },
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Expanded(
+                        flex: 1,
+                        child: ClipOval(
+                          child: Image.asset(
+                            'assets/logo.png',
+                            width: height * 0.06,
+                            height: height * 0.06,
+                          ),
                         ),
                       ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: Text(
-                        'Telephone Directory',
-                        style: TextStyle(
-                          fontSize: height * 0.02,
-                          fontWeight: FontWeight.bold,
+                      Expanded(
+                        flex: 3,
+                        child: Text(
+                          'Telephone Directory',
+                          style: TextStyle(
+                            fontSize: height * 0.02,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
                         ),
-                        textAlign: TextAlign.center,
                       ),
-                    ),
-                    Expanded(
-                      flex: 1,
-                      child: Container(),
-                    ),
-                  ],
+                      Expanded(
+                        flex: 1,
+                        child: Icon(
+                          Icons.search,
+                          size: height * 0.04,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -120,8 +133,8 @@ class LandingPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            DepartmentListPage(department: departments)),
+                        builder: (context) => DepartmentListPage(
+                            department: departments, title: "Administration")),
                   );
                 }),
                 _buildCategoryCard(context,
@@ -129,8 +142,8 @@ class LandingPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            DepartmentListPage(department: branches)),
+                        builder: (context) => DepartmentListPage(
+                            department: branches, title: "Departments")),
                   );
                 }),
                 _buildCategoryCard(context,
@@ -139,29 +152,18 @@ class LandingPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            DepartmentListPage(department: services)),
+                        builder: (context) => DepartmentListPage(
+                            department: services, title: "Sections/Centers")),
                   );
                 }),
-                // _buildCategoryCard(context,
-                //     label: "Student Council",
-                //     cardHeight: cardHeight, onTap: () {
-                //   Navigator.push(
-                //     context,
-                //     MaterialPageRoute(
-                //       builder: (context) =>
-                //           ContactsPage(sectionTitle: 'STUDENT COUNCIL'),
-                //     ),
-                //   );
-                // }),
                 _buildCategoryCard(context,
                     label: "Student Activities",
                     cardHeight: cardHeight, onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) =>
-                            DepartmentListPage(department: students)),
+                        builder: (context) => DepartmentListPage(
+                            department: students, title: "Student Activities")),
                   );
                 }),
                 _buildCategoryCard(context,
@@ -171,7 +173,7 @@ class LandingPage extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                       builder: (context) => ContactsPage(
-                          sectionTitle: 'CENTRALIZED SERVICES (VNIT CAMPUS)'),
+                          sectionTitle: 'Centralized Services (VNIT CAMPUS)'),
                     ),
                   );
                 }),
