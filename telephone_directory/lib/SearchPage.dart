@@ -31,9 +31,12 @@ class _SearchPageState extends State<SearchPage> {
         for (var entry in section['entries']) {
           for (var contact in entry) {
             contacts.add({
-              'NAME': contact['NAME'] != null && contact['NAME'].isNotEmpty
+              'NAME': (contact['NAME'] != null && contact['NAME'].isNotEmpty)
                   ? contact['NAME']
-                  : (contact['LAB NAME'] ?? ''),
+                  : (contact['LAB NAME'] != null &&
+                          contact['LAB NAME'].isNotEmpty)
+                      ? contact['LAB NAME']
+                      : (contact['NAME OF FACULTY'] ?? ''),
               'EXTENSION NO.': contact['EXTENSION NO.'] ?? '',
               'EMAIL ID': contact['EMAIL ID'] ?? '',
             });
