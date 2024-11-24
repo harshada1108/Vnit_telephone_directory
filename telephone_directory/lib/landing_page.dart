@@ -66,6 +66,11 @@ class LandingPage extends StatelessWidget {
     final cardHeight = height * 0.07;
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text(''),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
