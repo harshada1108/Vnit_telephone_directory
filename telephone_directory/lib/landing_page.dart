@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:telephone_directory/About.dart';
 import 'package:telephone_directory/ContactsPage.dart';

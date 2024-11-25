@@ -452,8 +452,11 @@ class _ContactPageState extends State<ContactPage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             ...phoneNumbers.map((phone) {
+              final displayPhone = phone.length == 10
+                  ? phone // Display mobile number as is
+                  : "0712-280$phone";
               return ListTile(
-                title: Text(phone),
+                title: Text(displayPhone),
                 leading: Icon(Icons.phone),
                 onTap: () => _makePhoneCall(phone),
               );
