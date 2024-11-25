@@ -70,8 +70,11 @@ class _SearchPageState extends State<SearchPage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             ...phoneNumbers.map((phone) {
+              final displayPhone = phone.length == 4
+                  ? "0712-280$phone" // Display mobile number as is
+                  : phone;
               return ListTile(
-                title: Text(phone),
+                title: Text(displayPhone),
                 leading: Icon(Icons.phone),
                 onTap: () => _makePhoneCall(phone),
               );
