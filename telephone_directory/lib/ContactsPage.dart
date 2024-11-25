@@ -554,9 +554,9 @@ class _ContactsPageState extends State<ContactsPage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             ...phoneNumbers.map((phone) {
-              final displayPhone = phone.length == 10
-                  ? phone // Display mobile number as is
-                  : "0712-280$phone";
+              final displayPhone = phone.length == 4
+                  ? "0712-280$phone" // Display mobile number as is
+                  : phone;
               return ListTile(
                 title: Text(displayPhone),
                 leading: Icon(Icons.phone),
