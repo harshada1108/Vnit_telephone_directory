@@ -29,8 +29,9 @@ class MyApp extends StatelessWidget {
 
 class DepartmentListPage extends StatelessWidget {
   final List<String> department;
+  final String title;
 
-  DepartmentListPage({required this.department});
+  DepartmentListPage({required this.department, required this.title});
 
   // Method to convert string to camel case
 
@@ -53,7 +54,7 @@ class DepartmentListPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Departments'),
+        title: Text(title),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -62,20 +63,22 @@ class DepartmentListPage extends StatelessWidget {
             crossAxisCount: 2, // Number of columns
             crossAxisSpacing: 10.0, // Horizontal space between cards
             mainAxisSpacing: 10.0, // Vertical space between cards
-            childAspectRatio: width / (height * 0.5), // Adjust the height ratio as needed
+            childAspectRatio:
+                width / (height * 0.5), // Adjust the height ratio as needed
           ),
           itemCount: department.length,
           itemBuilder: (context, index) {
             // Strip prefix and convert to camel case for display
-
 
             return InkWell(
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-
-                    builder: (context) => ContactPage(sectionTitle: department[index].toString(), title: formatDepartmentName(department[index].toString()), ),
+                    builder: (context) => ContactPage(
+                      sectionTitle: department[index].toString(),
+                      title: formatDepartmentName(department[index].toString()),
+                    ),
                   ),
                 );
               },
@@ -111,5 +114,3 @@ class DepartmentListPage extends StatelessWidget {
     );
   }
 }
-
-

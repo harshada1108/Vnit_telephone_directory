@@ -23,7 +23,6 @@ class _ContactPageState extends State<ContactPage> {
   List labContacts = [];
   List WorkshopContacts = [];
 
-
   @override
   void initState() {
     super.initState();
@@ -35,8 +34,8 @@ class _ContactPageState extends State<ContactPage> {
   Future<List> _loadModifiedContacts() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
-    List<String>? savedData = prefs.getStringList(
-        '${widget.sectionTitle}_modifiedContacts');
+    List<String>? savedData =
+        prefs.getStringList('${widget.sectionTitle}_modifiedContacts');
     print("saved data");
     print(savedData);
     return savedData != null
@@ -45,21 +44,21 @@ class _ContactPageState extends State<ContactPage> {
   }
 
   // Save a modified contact with the new phone number
-  Future<void> _saveModifiedContact(Map<String, dynamic>contact,
-      String key) async {
+  Future<void> _saveModifiedContact(
+      Map<String, dynamic> contact, String key) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Load the existing modified contacts list (if any)
-    List<String>? modifiedContacts = prefs.getStringList(
-        '${widget.sectionTitle}_modifiedContacts');
+    List<String>? modifiedContacts =
+        prefs.getStringList('${widget.sectionTitle}_modifiedContacts');
 
     if (modifiedContacts == null) {
       modifiedContacts = [];
     }
 
     // Find the index of the existing contact with the same name
-    int existingIndex = modifiedContacts.indexWhere((c) =>
-    json.decode(c)[key] == contact[key]);
+    int existingIndex =
+        modifiedContacts.indexWhere((c) => json.decode(c)[key] == contact[key]);
 
     if (existingIndex != -1) {
       // If contact exists, replace it with the updated contact
@@ -74,11 +73,10 @@ class _ContactPageState extends State<ContactPage> {
         '${widget.sectionTitle}_modifiedContacts', modifiedContacts);
   }
 
-
   Future<List> _loadSavedContacts() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String>? savedData = prefs.getStringList(
-        '${widget.sectionTitle}_contacts');
+    List<String>? savedData =
+        prefs.getStringList('${widget.sectionTitle}_contacts');
     return savedData != null
         ? savedData.map((contact) => json.decode(contact)).toList()
         : [];
@@ -88,9 +86,9 @@ class _ContactPageState extends State<ContactPage> {
     final String response = await rootBundle.loadString('assets/output2.json');
     final List data = json.decode(response) as List;
 
-    final section = data.firstWhere((section) =>
-    section['section'] == widget.sectionTitle, orElse: () => null);
-
+    final section = data.firstWhere(
+        (section) => section['section'] == widget.sectionTitle,
+        orElse: () => null);
 
     // Load contacts from SharedPreferences
     final savedContacts = await _loadSavedContacts();
@@ -98,30 +96,26 @@ class _ContactPageState extends State<ContactPage> {
     final modifiedContacts = await _loadModifiedContacts();
     print("section .......");
     print(section['entries'].length);
-    var seclength =section['entries'].length;
+    var seclength = section['entries'].length;
     for (var contact in savedContacts) {
       var isc = false;
       var matchingContact = null;
 
       for (var modContact in modifiedContacts) {
         if (contact['NAME'] != null) {
-          if (contact['NAME'] ==
-              modContact['NAME']) {
+          if (contact['NAME'] == modContact['NAME']) {
             matchingContact = modContact;
             isc = true;
             break; // Break the loop if a match is found
           }
         }
 
-
-
         // If a matching contact is found, update the original contact with modified values
         if (isc) {
           print(contact);
           print("updated contact");
           print(matchingContact);
-          contact['NAME'] =
-          matchingContact['NAME'];
+          contact['NAME'] = matchingContact['NAME'];
           contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
           contact['EMAIL ID'] = matchingContact['EMAIL ID'];
         }
@@ -142,9 +136,7 @@ class _ContactPageState extends State<ContactPage> {
           var isc = false;
           var matchingContact = null;
           for (var modContact in modifiedContacts) {
-
-
-             if (contact['NAME'] != null) {
+            if (contact['NAME'] != null) {
               if (contact['NAME'] == modContact['NAME']) {
                 matchingContact = modContact;
                 isc = true;
@@ -153,18 +145,16 @@ class _ContactPageState extends State<ContactPage> {
             }
           }
 
-
           // If a matching contact is found, update the original contact with modified values
           if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
             contact['NAME OF FACULTY / STAFF'] =
-            matchingContact['NAME OF FACULTY / STAFF'];
+                matchingContact['NAME OF FACULTY / STAFF'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
-
 
           // If no matching contact found, return the original contact
         }
@@ -173,24 +163,20 @@ class _ContactPageState extends State<ContactPage> {
           var matchingContact = null;
           for (var modContact in modifiedContacts) {
             if (contact['LAB NAME'] != null) {
-              if (contact['LAB NAME'] ==
-                  modContact['LAB NAME']) {
+              if (contact['LAB NAME'] == modContact['LAB NAME']) {
                 matchingContact = modContact;
                 isc = true;
                 break; // Break the loop if a match is found
               }
             }
-
           }
-
 
           // If a matching contact is found, update the original contact with modified values
           if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
-            contact['LAB NAME'] =
-            matchingContact['LAB NAME'];
+            contact['LAB NAME'] = matchingContact['LAB NAME'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
@@ -198,14 +184,11 @@ class _ContactPageState extends State<ContactPage> {
           // If no matching contact found, return the original contact
         }
 
-
         setState(() {
           contacts = [...facultycontacts, ...labcontacts, ...savedContacts];
           filteredContacts = contacts;
         });
-      }
-
-      else if (seclength == 3) {
+      } else if (seclength == 3) {
         islabpresent = true;
         isworkshoppresent = true;
         final facultycontacts = section['entries'][0];
@@ -218,30 +201,25 @@ class _ContactPageState extends State<ContactPage> {
           var isc = false;
           var matchingContact = null;
           for (var modContact in modifiedContacts) {
-
-             if (contact['NAME'] != null) {
+            if (contact['NAME'] != null) {
               if (contact['NAME'] == modContact['NAME']) {
                 matchingContact = modContact;
                 isc = true;
                 break; // Break the loop if a match is found
               }
             }
-
           }
-
 
           // If a matching contact is found, update the original contact with modified values
 
-           if (isc) {
+          if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
-            contact['NAME'] =
-            matchingContact['NAME'];
+            contact['NAME'] = matchingContact['NAME'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
-
 
           // If no matching contact found, return the original contact
         }
@@ -250,24 +228,20 @@ class _ContactPageState extends State<ContactPage> {
           var matchingContact = null;
           for (var modContact in modifiedContacts) {
             if (contact['LAB NAME'] != null) {
-              if (contact['LAB NAME'] ==
-                  modContact['LAB NAME']) {
+              if (contact['LAB NAME'] == modContact['LAB NAME']) {
                 matchingContact = modContact;
                 isc = true;
                 break; // Break the loop if a match is found
               }
             }
-
           }
-
 
           // If a matching contact is found, update the original contact with modified values
           if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
-            contact['LAB NAME'] =
-            matchingContact['LAB NAME'];
+            contact['LAB NAME'] = matchingContact['LAB NAME'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
@@ -278,15 +252,13 @@ class _ContactPageState extends State<ContactPage> {
           var isc = false;
           var matchingContact = null;
           for (var modContact in modifiedContacts) {
-
             if (contact['NAME'] != null) {
               if (contact['NAME'] == modContact['NAME']) {
                 matchingContact = modContact;
                 isc = true;
                 break; // Break the loop if a match is found
               }
-            }
-            else if (contact['NAME '] != null) {
+            } else if (contact['NAME '] != null) {
               if (contact['NAME '] == modContact['NAME ']) {
                 matchingContact = modContact;
                 isc = true;
@@ -295,15 +267,13 @@ class _ContactPageState extends State<ContactPage> {
             }
           }
 
-
           // If a matching contact is found, update the original contact with modified values
 
           if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
-            contact['NAME'] =
-            matchingContact['NAME'];
+            contact['NAME'] = matchingContact['NAME'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
@@ -319,9 +289,7 @@ class _ContactPageState extends State<ContactPage> {
           ];
           filteredContacts = contacts;
         });
-      }
-
-      else {
+      } else {
         final facultycontacts = section['entries'][0];
 
         for (var contact in facultycontacts) {
@@ -335,15 +303,13 @@ class _ContactPageState extends State<ContactPage> {
                 isc = true;
                 break; // Break the loop if a match is found
               }
-            }
-            else if (contact['NAME'] != null) {
+            } else if (contact['NAME'] != null) {
               if (contact['NAME'] == modContact['NAME']) {
                 matchingContact = modContact;
                 isc = true;
                 break; // Break the loop if a match is found
               }
-            }
-            else if (contact['NAME '] != null) {
+            } else if (contact['NAME '] != null) {
               if (contact['NAME '] == modContact['NAME ']) {
                 matchingContact = modContact;
                 isc = true;
@@ -352,14 +318,12 @@ class _ContactPageState extends State<ContactPage> {
             }
           }
 
-
           // If a matching contact is found, update the original contact with modified values
           if (isc) {
             print(contact);
             print("updated contact");
             print(matchingContact);
-            contact['NAME'] =
-            matchingContact['NAME'];
+            contact['NAME'] = matchingContact['NAME'];
             contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
             contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
@@ -371,8 +335,6 @@ class _ContactPageState extends State<ContactPage> {
           filteredContacts = contacts;
         });
       }
-
-
     }
   }
 
@@ -382,7 +344,7 @@ class _ContactPageState extends State<ContactPage> {
       filteredContacts = contacts.where((contact) {
         String name = contact['NAME'] ??
             contact['NAME OF FACULTY'] ??
-             contact['LAB NAME'] ;
+            contact['LAB NAME'];
         return name.toLowerCase().contains(query);
       }).toList();
     });
@@ -391,7 +353,7 @@ class _ContactPageState extends State<ContactPage> {
   Future<void> _saveContactToPreferences(Map contact) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     List<String>? savedContacts =
-    prefs.getStringList('${widget.sectionTitle}_contacts');
+        prefs.getStringList('${widget.sectionTitle}_contacts');
     if (savedContacts == null) savedContacts = [];
     savedContacts.add(json.encode(contact));
     await prefs.setStringList('${widget.sectionTitle}_contacts', savedContacts);
@@ -402,76 +364,76 @@ class _ContactPageState extends State<ContactPage> {
     TextEditingController phoneController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add Phone Number"),
-            content: TextField(
-              controller: phoneController,
-              decoration: InputDecoration(hintText: "Enter phone number"),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String newPhone = phoneController.text.trim();
-                  print("Okk uptill here");
-                  print(phonekey);
-                  if (newPhone.isNotEmpty) {
-                    // Find the contact that this number should be added to
-                    Map<String, dynamic>? contactToUpdate = contacts
-                        .firstWhere((contact) {
-                      return (contact[key] == phonekey);
-                    }, orElse: () => null);
-                    if (contactToUpdate != null) {
-                      // Contact found, append the new phone number
+      builder: (context) => AlertDialog(
+        title: Text("Add Phone Number"),
+        content: TextField(
+          controller: phoneController,
+          decoration: InputDecoration(hintText: "Enter phone number"),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String newPhone = phoneController.text.trim();
+              print("Okk uptill here");
+              print(phonekey);
+              if (newPhone.isNotEmpty) {
+                // Find the contact that this number should be added to
+                Map<String, dynamic>? contactToUpdate =
+                    contacts.firstWhere((contact) {
+                  return (contact[key] == phonekey);
+                }, orElse: () => null);
+                if (contactToUpdate != null) {
+                  // Contact found, append the new phone number
 
-                      List<
-                          String> phoneNumbers = (contactToUpdate['EXTENSION NO.'] as String)
+                  List<String> phoneNumbers =
+                      (contactToUpdate['EXTENSION NO.'] as String)
                           .split(',')
                           .map((e) => e.trim())
                           .toList();
 
-                      // Avoid duplicate entries of the phone number
-                      if (!phoneNumbers.contains(newPhone)) {
-                        phoneNumbers.add(newPhone);
-                      }
-
-                      // Update contact with the new phone number list
-                      contactToUpdate['EXTENSION NO.'] =
-                          phoneNumbers.join(', ');
-
-                      // Save the modified contact to SharedPreferences
-                      await _saveModifiedContact(contactToUpdate, key);
-
-                      setState(() {
-                        contacts = List.from(contacts); // Refresh the list
-                        filteredContacts = contacts;
-                      });
-                    } else {
-                      // If no matching contact, create a new one
-                      Map<String, dynamic> newContact = {
-                        'NAME': "Added Contact",
-                        'EXTENSION NO.': newPhone,
-                      };
-                      await _saveContactToPreferences(newContact);
-                      setState(() {
-                        contacts.add(newContact);
-                        filteredContacts = contacts;
-                      });
-                    }
-                    Navigator.of(context).pop();
+                  // Avoid duplicate entries of the phone number
+                  if (!phoneNumbers.contains(newPhone)) {
+                    phoneNumbers.add(newPhone);
                   }
-                },
-                child: Text("Add"),
-              ),
-            ],
+
+                  // Update contact with the new phone number list
+                  contactToUpdate['EXTENSION NO.'] = phoneNumbers.join(', ');
+
+                  // Save the modified contact to SharedPreferences
+                  await _saveModifiedContact(contactToUpdate, key);
+
+                  setState(() {
+                    contacts = List.from(contacts); // Refresh the list
+                    filteredContacts = contacts;
+                  });
+                } else {
+                  // If no matching contact, create a new one
+                  Map<String, dynamic> newContact = {
+                    'NAME': "Added Contact",
+                    'EXTENSION NO.': newPhone,
+                  };
+                  await _saveContactToPreferences(newContact);
+                  setState(() {
+                    contacts.add(newContact);
+                    filteredContacts = contacts;
+                  });
+                }
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
   Future<void> _makePhoneCall(String phone) async {
     final Uri url = Uri(
       scheme: 'tel',
-      path: "0712-280$phone", // Use the formatted phone number
+      path: phone.length == 10
+          ? "+91$phone"
+          : "0712-280$phone", // Use the formatted phone number
     );
     if (await canLaunchUrl(url)) {
       await launchUrl(url);
@@ -480,34 +442,35 @@ class _ContactPageState extends State<ContactPage> {
     }
   }
 
-  Future<void> _showPhoneDialog(List<dynamic> phoneNumbers, String phonekey,
-      String key) async {
+  Future<void> _showPhoneDialog(
+      List<dynamic> phoneNumbers, String phonekey, String key) async {
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Phone Numbers"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                ...phoneNumbers.map((phone) {
-                  return ListTile(
-                    title: Text(phone),
-                    leading: Icon(Icons.phone),
-                    onTap: () => _makePhoneCall(phone),
-                  );
-                }).toList(),
-                ListTile(
-                  title: Text("Add Phone Number"),
-                  leading: Icon(Icons.add),
-                  onTap: () => _addPhoneNumber(phonekey, key),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Phone Numbers"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ...phoneNumbers.map((phone) {
+              final displayPhone = phone.length == 4
+                  ? "0712-280$phone" // Display mobile number as is
+                  : phone;
+              return ListTile(
+                title: Text(displayPhone),
+                leading: Icon(Icons.phone),
+                onTap: () => _makePhoneCall(phone),
+              );
+            }).toList(),
+            ListTile(
+              title: Text("Add Phone Number"),
+              leading: Icon(Icons.add),
+              onTap: () => _addPhoneNumber(phonekey, key),
             ),
-          ),
+          ],
+        ),
+      ),
     );
   }
-
 
   void _addNewContact() {
     TextEditingController nameController = TextEditingController();
@@ -515,51 +478,50 @@ class _ContactPageState extends State<ContactPage> {
     TextEditingController emailController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add New Contact"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                TextField(
-                  controller: nameController,
-                  decoration: InputDecoration(hintText: "Name"),
-                ),
-                TextField(
-                  controller: phoneController,
-                  decoration: InputDecoration(hintText: "Phone Number"),
-                ),
-                TextField(
-                  controller: emailController,
-                  decoration: InputDecoration(hintText: "Email"),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Add New Contact"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: nameController,
+              decoration: InputDecoration(hintText: "Name"),
             ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String name = nameController.text.trim();
-                  String phone = phoneController.text.trim();
-                  String email = emailController.text.trim();
+            TextField(
+              controller: phoneController,
+              decoration: InputDecoration(hintText: "Phone Number"),
+            ),
+            TextField(
+              controller: emailController,
+              decoration: InputDecoration(hintText: "Email"),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String name = nameController.text.trim();
+              String phone = phoneController.text.trim();
+              String email = emailController.text.trim();
 
-                  if (name.isNotEmpty || phone.isNotEmpty || email.isNotEmpty) {
-                    Map<String, dynamic> newContact = {
-                      'NAME': name,
-                      'EXTENSION NO.': phone,
-                      'EMAIL ID': email,
-                    };
-                    await _saveContactToPreferences(newContact);
-                    setState(() {
-                      contacts.add(newContact);
-                      filteredContacts = contacts;
-                    });
-                    Navigator.of(context).pop();
-                  }
-                },
-                child: Text("Add"),
-              ),
-            ],
+              if (name.isNotEmpty || phone.isNotEmpty || email.isNotEmpty) {
+                Map<String, dynamic> newContact = {
+                  'NAME': name,
+                  'EXTENSION NO.': phone,
+                  'EMAIL ID': email,
+                };
+                await _saveContactToPreferences(newContact);
+                setState(() {
+                  contacts.add(newContact);
+                  filteredContacts = contacts;
+                });
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
@@ -568,101 +530,96 @@ class _ContactPageState extends State<ContactPage> {
     TextEditingController phoneController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add an Email"),
-            content: TextField(
-              controller: phoneController,
-              decoration: InputDecoration(hintText: "Enter email address"),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String newPhone = phoneController.text.trim();
-                  print("Okk uptill here");
-                  print(phonekey);
-                  if (newPhone.isNotEmpty) {
-                    // Find the contact that this number should be added to
-                    Map<String, dynamic>? contactToUpdate = contacts
-                        .firstWhere((contact) {
-                      return (contact[key] == phonekey);
-                    }, orElse: () => null);
-                    if (contactToUpdate != null) {
-                      // Contact found, append the new phone number
+      builder: (context) => AlertDialog(
+        title: Text("Add an Email"),
+        content: TextField(
+          controller: phoneController,
+          decoration: InputDecoration(hintText: "Enter email address"),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String newPhone = phoneController.text.trim();
+              print("Okk uptill here");
+              print(phonekey);
+              if (newPhone.isNotEmpty) {
+                // Find the contact that this number should be added to
+                Map<String, dynamic>? contactToUpdate =
+                    contacts.firstWhere((contact) {
+                  return (contact[key] == phonekey);
+                }, orElse: () => null);
+                if (contactToUpdate != null) {
+                  // Contact found, append the new phone number
 
-                      List<
-                          String> phoneNumbers = (contactToUpdate['EMAIL ID'] as String)
+                  List<String> phoneNumbers =
+                      (contactToUpdate['EMAIL ID'] as String)
                           .split(',')
                           .map((e) => e.trim())
                           .toList();
 
-                      // Avoid duplicate entries of the phone number
-                      if (!phoneNumbers.contains(newPhone)) {
-                        phoneNumbers.add(newPhone);
-                      }
-
-                      // Update contact with the new phone number list
-                      contactToUpdate['EMAIL ID'] = phoneNumbers.join(', ');
-
-                      // Save the modified contact to SharedPreferences
-                      await _saveModifiedContact(contactToUpdate, key);
-
-                      setState(() {
-                        contacts = List.from(contacts); // Refresh the list
-                        filteredContacts = contacts;
-                      });
-                    } else {
-                      // If no matching contact, create a new one
-                      Map<String, dynamic> newContact = {
-                        'NAME': "Added Contact",
-                        'EXTENSION NO.': newPhone,
-                      };
-                      await _saveContactToPreferences(newContact);
-                      setState(() {
-                        contacts.add(newContact);
-                        filteredContacts = contacts;
-                      });
-                    }
-                    Navigator.of(context).pop();
+                  // Avoid duplicate entries of the phone number
+                  if (!phoneNumbers.contains(newPhone)) {
+                    phoneNumbers.add(newPhone);
                   }
-                },
-                child: Text("Add"),
-              ),
-            ],
+
+                  // Update contact with the new phone number list
+                  contactToUpdate['EMAIL ID'] = phoneNumbers.join(', ');
+
+                  // Save the modified contact to SharedPreferences
+                  await _saveModifiedContact(contactToUpdate, key);
+
+                  setState(() {
+                    contacts = List.from(contacts); // Refresh the list
+                    filteredContacts = contacts;
+                  });
+                } else {
+                  // If no matching contact, create a new one
+                  Map<String, dynamic> newContact = {
+                    'NAME': "Added Contact",
+                    'EXTENSION NO.': newPhone,
+                  };
+                  await _saveContactToPreferences(newContact);
+                  setState(() {
+                    contacts.add(newContact);
+                    filteredContacts = contacts;
+                  });
+                }
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
-  Future<void> _showMailDialog(List<dynamic> emails, String mailkey,
-      String key) async {
+  Future<void> _showMailDialog(
+      List<dynamic> emails, String mailkey, String key) async {
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Emails"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                ...emails.where((email) => email.isNotEmpty).map((email) {
-                  return ListTile(
-                    title: Text(email),
-                    leading: Icon(Icons.email_outlined),
-                    onTap: () async => await launch("mailto:$email"),
-                  );
-                }).toList(),
-
-
-                ListTile(
-                  title: Text("Add an Email"),
-                  leading: Icon(Icons.add),
-                  onTap: () => _addEmail(mailkey, key),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Emails"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ...emails.where((email) => email.isNotEmpty).map((email) {
+              return ListTile(
+                title: Text(email),
+                leading: Icon(Icons.email_outlined),
+                onTap: () async => await launch("mailto:$email"),
+              );
+            }).toList(),
+            ListTile(
+              title: Text("Add an Email"),
+              leading: Icon(Icons.add),
+              onTap: () => _addEmail(mailkey, key),
             ),
-          ),
+          ],
+        ),
+      ),
     );
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -693,10 +650,12 @@ class _ContactPageState extends State<ContactPage> {
       body: ListView(
         children: [
           ...filteredContacts.map((contact) {
-            final name = contact['NAME'] ??"";
+            final name = contact['NAME'] ?? "";
 
-            final emails = (contact['EMAIL ID'] ?? '').split(',').map((e) =>
-                e.trim()).toList();
+            final emails = (contact['EMAIL ID'] ?? '')
+                .split(',')
+                .map((e) => e.trim())
+                .toList();
             final phoneNumbers = (contact['EXTENSION NO.'] ?? '')
                 .split(',')
                 .map((e) => e.trim())
@@ -707,16 +666,16 @@ class _ContactPageState extends State<ContactPage> {
             contact.forEach((key, value) {
               if (key.contains('NAME')) {
                 keyfound = key;
-
               }
             });
 
-            if (contact.containsKey('LAB NAME') || contact.containsKey('NAME OF FACULTY') ) {
+            if (contact.containsKey('LAB NAME') ||
+                contact.containsKey('NAME OF FACULTY')) {
               return SizedBox.shrink();
             } else {
               return Container(
-                margin: const EdgeInsets.symmetric(
-                    vertical: 8.0, horizontal: 16.0),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                 decoration: BoxDecoration(
                   color: Color(0xDDE9EEFF), // Background color similar to crème
                   borderRadius: BorderRadius.only(
@@ -763,17 +722,15 @@ class _ContactPageState extends State<ContactPage> {
               );
             }
           }).toList(),
-
           if (islabpresent)
             Padding(
-              padding: const EdgeInsets.symmetric(
-                  vertical: 8.0, horizontal: 16.0),
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
               child: Text(
                 "Laboratories",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-
           if (islabpresent)
             ...filteredContacts.map((lab) {
               final labName = lab['LAB NAME'] ?? lab['MEETING ROOM'] ?? "";
@@ -783,8 +740,8 @@ class _ContactPageState extends State<ContactPage> {
               }
               var key = 'LAB NAME';
               return Container(
-                margin: const EdgeInsets.symmetric(
-                    vertical: 8.0, horizontal: 16.0),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFFFE1C4), // Background color similar to crème
                   borderRadius: BorderRadius.only(
@@ -819,22 +776,22 @@ class _ContactPageState extends State<ContactPage> {
                 ),
               );
             }).toList(),
-
           if (isworkshoppresent)
             Padding(
-              padding: const EdgeInsets.symmetric(
-                  vertical: 8.0, horizontal: 16.0),
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
               child: Text(
                 "Workshop",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-
           if (isworkshoppresent)
             ...filteredContacts.map((contact) {
               final name = contact['NAME OF FACULTY'] ?? "";
-              final emails = (contact['EMAIL ID'] ?? '').split(',').map((e) =>
-                  e.trim()).toList();
+              final emails = (contact['EMAIL ID'] ?? '')
+                  .split(',')
+                  .map((e) => e.trim())
+                  .toList();
               final phoneNumbers = (contact['EXTENSION NO.'] ?? '')
                   .split(',')
                   .map((e) => e.trim())
@@ -848,7 +805,8 @@ class _ContactPageState extends State<ContactPage> {
                 }
               });
 
-              if (contact.containsKey('LAB NAME') ||  contact.containsKey('NAME') ) {
+              if (contact.containsKey('LAB NAME') ||
+                  contact.containsKey('NAME')) {
                 return SizedBox.shrink();
               } else {
                 return Container(

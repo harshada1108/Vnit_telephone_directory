@@ -1,11 +1,8 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:telephone_directory/About.dart';
 import 'package:telephone_directory/ContactsPage.dart';
 import 'package:telephone_directory/main.dart';
-
-
+import 'SearchPage.dart';
 
 class LandingPage extends StatelessWidget {
   final List<String> branches = [
@@ -34,6 +31,11 @@ class LandingPage extends StatelessWidget {
     "DEPARTMENT / SECTION : HEAD OF THE DEPARTMENTS",
   ];
 
+  final List<String> students = [
+    "DEPARTMENT / SECTION : STUDENT COUNCIL",
+    "DEPARTMENT / SECTION : STUDENT CLUBS",
+  ];
+
   final List<String> services = [
     "DEPARTMENT / SECTION :ACADEMIC SECTION",
     "DEPARTMENT / SECTION :ACCOUNTS SECTION",
@@ -55,9 +57,6 @@ class LandingPage extends StatelessWidget {
     "DEPARTMENT / SECTION : GUEST HOUSE",
   ];
 
-
-
-
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
@@ -65,107 +64,160 @@ class LandingPage extends StatelessWidget {
     final cardHeight = height * 0.07;
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text(''),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+      ),
       body: Center(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              Padding(
-                padding:  EdgeInsets.only(top: height*0.02),
-                child: ClipOval(
-                  child: Image.asset(
-                    'assets/logo.png',
-                    width: height * 0.16,
-                    height: height * 0.16,
-                    fit: BoxFit.cover,
-                  ),
-                ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Container(
+              width: width * 0.8,
+              padding: EdgeInsets.fromLTRB(2, 2, 0, 5),
+              decoration: BoxDecoration(
+                color: Color.fromARGB(255, 228, 224, 225),
+                borderRadius: BorderRadius.circular(12),
               ),
-              Text(
-                'Visvesvaraya National Institute of\nTechnology, Nagpur',
-                style: TextStyle(
-                  fontSize: height * 0.02,
-                  fontWeight: FontWeight.bold,
-                ),
-                textAlign: TextAlign.center,
-              ),
-              Container(
-                width: width * 0.8,
-                padding: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Color(0xFFD3E4EE),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Center(
-                  child: Text(
-                    'Telephone Directory',
-                    style: TextStyle(
-                      fontSize: height * 0.02,
-                      fontWeight: FontWeight.bold,
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SearchPage(),
                     ),
+                  );
+                },
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Expanded(
+                        flex: 1,
+                        child: ClipOval(
+                          child: Image.asset(
+                            'assets/logo.png',
+                            width: height * 0.06,
+                            height: height * 0.06,
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        flex: 3,
+                        child: Text(
+                          'Telephone Directory',
+                          style: TextStyle(
+                            fontSize: height * 0.02,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                      Expanded(
+                        flex: 1,
+                        child: Icon(
+                          Icons.search,
+                          size: height * 0.04,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
-              Column(
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                _buildCategoryCard(context,
+                    label: "Administration", cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DepartmentListPage(
+                            department: departments, title: "Administration")),
+                  );
+                }),
+                _buildCategoryCard(context,
+                    label: "Departments", cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DepartmentListPage(
+                            department: branches, title: "Departments")),
+                  );
+                }),
+                _buildCategoryCard(context,
+                    label: "Sections/Centers",
+                    cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DepartmentListPage(
+                            department: services, title: "Sections/Centers")),
+                  );
+                }),
+                _buildCategoryCard(context,
+                    label: "Student Activities",
+                    cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DepartmentListPage(
+                            department: students, title: "Student Activities")),
+                  );
+                }),
+                _buildCategoryCard(context,
+                    label: "VNIT Centralized Services",
+                    cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ContactsPage(
+                          sectionTitle: 'Centralized Services (VNIT CAMPUS)'),
+                    ),
+                  );
+                }),
+                _buildCategoryCard(context,
+                    label: "About App", cardHeight: cardHeight, onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AboutPage(),
+                    ),
+                  );
+                }),
+              ],
+            ),
+            Center(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  _buildCategoryCard(context, label: "Administration", cardHeight: cardHeight, onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => DepartmentListPage(department: departments)),
-                    );
-                  }),
-                  _buildCategoryCard(context, label: "Departments", cardHeight: cardHeight, onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => DepartmentListPage(department: branches)),
-                    );
-                  }),
-                  _buildCategoryCard(context, label: "Sections/Centers", cardHeight: cardHeight, onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => DepartmentListPage(department: services)),
-                    );
-                  }),
-                  _buildCategoryCard(context, label: "VNIT Centralized Services", cardHeight: cardHeight, onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ContactsPage(sectionTitle: 'CENTRALIZED SERVICES (VNIT CAMPUS)'),
-                      ),
-                    );
-                  }),
-                  _buildCategoryCard(context, label: "About App", cardHeight: cardHeight, onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => AboutPage(),
-                      ),
-                    );
-                  }),
+                  Text(
+                    "Developed by ",
+                    style: TextStyle(
+                        color: Colors.black38, fontSize: height * 0.014),
+                  ),
+                  Image.asset(
+                    'assets/ids333-removebg-preview.png', // Replace with your asset path
+                    width: height * 0.25,
+                    fit: BoxFit.contain,
+                  ),
                 ],
               ),
-              Center(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text("Developed by " ,style: TextStyle(color :Colors.black38 ,fontSize: height*0.014),),
-
-                    Image.asset(
-                      'assets/ids333-removebg-preview.png', // Replace with your asset path
-                      width: height * 0.25,
-                      fit: BoxFit.contain,
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
   }
 
-  Widget _buildCategoryCard(BuildContext context, {required String label, required double cardHeight, required VoidCallback onTap}) {
+  Widget _buildCategoryCard(BuildContext context,
+      {required String label,
+      required double cardHeight,
+      required VoidCallback onTap}) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 4.0),
       child: InkWell(

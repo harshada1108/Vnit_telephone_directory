@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'ContactPage.dart';
+
 class DepartmentListPage extends StatelessWidget {
   final List<String> department;
 
@@ -36,20 +37,22 @@ class DepartmentListPage extends StatelessWidget {
             crossAxisCount: 2, // Number of columns
             crossAxisSpacing: 10.0, // Horizontal space between cards
             mainAxisSpacing: 10.0, // Vertical space between cards
-            childAspectRatio: width / (height * 0.5), // Adjust the height ratio as needed
+            childAspectRatio:
+                width / (height * 0.5), // Adjust the height ratio as needed
           ),
           itemCount: department.length,
           itemBuilder: (context, index) {
             // Strip prefix and convert to camel case for display
-
 
             return InkWell(
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-
-                    builder: (context) => ContactPage(sectionTitle: department[index].toString(), title: formatDepartmentName(department[index].toString()), ),
+                    builder: (context) => ContactPage(
+                      sectionTitle: department[index].toString(),
+                      title: formatDepartmentName(department[index].toString()),
+                    ),
                   ),
                 );
               },
@@ -85,5 +88,3 @@ class DepartmentListPage extends StatelessWidget {
     );
   }
 }
-
-

@@ -1,9 +1,7 @@
 [
-
   {
     "section": "DEPARTMENT / SECTION : ADMINISTRATION",
-    "entries":
-    [
+    "entries": [
       {
         "S.N.": "1",
         "NAME ": "CHAIRMAN",
@@ -119,13 +117,11 @@
         "EMAIL ID": ""
       }
     ]
-
   },
 
   {
     "section": "DEPARTMENT / SECTION : DIRECTOR OFFICE",
-    "entries":
-    [
+    "entries": [
       {
         "S.N.": "1",
         "NAME": "RAKHUNDE RUPALI M.",
@@ -223,11 +219,9 @@
     ]
   },
 
-
   {
     "section": "DEPARTMENT / SECTION : HEAD OF THE DEPARTMENTS",
     "entries": [
-
       {
         "S.N.": "1",
         "NAME": "APPLIED MECHANICS",
@@ -312,7 +306,6 @@
         "EXTENSION NO.": "1325",
         "EMAIL ID": "head@phy.vnit.ac.in"
       }
-
     ]
   },
 
@@ -537,7 +530,7 @@
   },
   {
     "section": "DEPARTMENT / SECTION/ BRANCH : ARCHITECTURE AND PLANNING",
-    "entries":[
+    "entries": [
       [
         {
           "S.N.": "1",
@@ -754,172 +747,170 @@
           "EXTENSION NO.": "1658"
         }
       ]
-
     ]
-
-
   },
 
   {
     "section": "DEPARTMENT / SECTION/BRANCH : CHEMICAL ENGINEERING",
-    "entries":[ [
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1564",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1565",
-        "EMAIL ID": "head@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "SONAWANE S. S.",
-        "EXTENSION NO.": "1562",
-        "EMAIL ID": "sssonawane@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "WASEWAR K. L.",
-        "EXTENSION NO.": "1561",
-        "EMAIL ID": "klwasewar@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "MANDAVGANE S. A.",
-        "EXTENSION NO.": "1563",
-        "EMAIL ID": "sam@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "VARMA M. N.",
-        "EXTENSION NO.": "1570",
-        "EMAIL ID": "maheshnvarma@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "CHAURASIYA A. S.",
-        "EXTENSION NO.": "1784",
-        "EMAIL ID": "aschaurasia@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "SHENDE D. Z.",
-        "EXTENSION NO.": "1567",
-        "EMAIL ID": "dzshende@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "RATHOD A. P.",
-        "EXTENSION NO.": "1568",
-        "EMAIL ID": "aprathod@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "DHAMOLE P. B.",
-        "EXTENSION NO.": "1788",
-        "EMAIL ID": "pdhamole@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "METHEKAR R. N.",
-        "EXTENSION NO.": "1789",
-        "EMAIL ID": "ravimethekar@ che.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "VIJAYAKUMAR R. P.",
-        "EXTENSION NO.": "1782",
-        "EMAIL ID": "vijayakumarrp@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "C. RAVIKUMAR",
-        "EXTENSION NO.": "1785",
-        "EMAIL ID": "ravikumarc@ che.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "GAIKWAD A. P.",
-        "EXTENSION NO.": "1783",
-        "EMAIL ID": "apgaikwad@ che.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "KANNAN ASHWIN",
-        "EXTENSION NO.": "1790",
-        "EMAIL ID": "ashwink@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "WANJARI P. P.",
-        "EXTENSION NO.": "1781",
-        "EMAIL ID": "ppwanjari@ che.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "TAJNE SONALI P. (HIWARKAR)",
-        "EXTENSION NO.": "1569",
-        "EMAIL ID": "sphiwarkar@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "KODAPE S. M.",
-        "EXTENSION NO.": "1571",
-        "EMAIL ID": "smkodape@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "DAS ARJIT",
-        "EXTENSION NO.": "1894",
-        "EMAIL ID": "arjitdas@che.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "MESHRAM PRABODH S.",
-        "EXTENSION NO.": "1649",
-        "EMAIL ID": "prabodh@vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "PRADHANE ASHISH P.",
-        "EXTENSION NO.": "1800",
-        "EMAIL ID": "ashishpradhane@vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "DHABARDE RAJHANS N.",
-        "EXTENSION NO.": "1577",
-        "EMAIL ID": "rajhansdhabarde@vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "THAKURE DHARMENDRA M.",
-        "EXTENSION NO.": "1646",
-        "EMAIL ID": "dharmendrathakur@vnit.ac.in"
-      },
-      {
-        "S.N.": "24",
-        "NAME": "SHROTI GIRISH KUMAR",
-        "EXTENSION NO.": "1580",
-        "EMAIL ID": "gshroti@vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "TELANG ROHIT S.",
-        "EXTENSION NO.": "1564",
-        "EMAIL ID": "rohittelang@vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "URKUDE JAGDISH V.",
-        "EXTENSION NO.": "1564",
-        "EMAIL ID": "jagdishurkude@vnit.ac.in"
-      }
-    ],
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1564",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1565",
+          "EMAIL ID": "head@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "SONAWANE S. S.",
+          "EXTENSION NO.": "1562",
+          "EMAIL ID": "sssonawane@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "WASEWAR K. L.",
+          "EXTENSION NO.": "1561",
+          "EMAIL ID": "klwasewar@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "MANDAVGANE S. A.",
+          "EXTENSION NO.": "1563",
+          "EMAIL ID": "sam@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "VARMA M. N.",
+          "EXTENSION NO.": "1570",
+          "EMAIL ID": "maheshnvarma@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "CHAURASIYA A. S.",
+          "EXTENSION NO.": "1784",
+          "EMAIL ID": "aschaurasia@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "SHENDE D. Z.",
+          "EXTENSION NO.": "1567",
+          "EMAIL ID": "dzshende@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "RATHOD A. P.",
+          "EXTENSION NO.": "1568",
+          "EMAIL ID": "aprathod@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "DHAMOLE P. B.",
+          "EXTENSION NO.": "1788",
+          "EMAIL ID": "pdhamole@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "METHEKAR R. N.",
+          "EXTENSION NO.": "1789",
+          "EMAIL ID": "ravimethekar@ che.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "VIJAYAKUMAR R. P.",
+          "EXTENSION NO.": "1782",
+          "EMAIL ID": "vijayakumarrp@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "C. RAVIKUMAR",
+          "EXTENSION NO.": "1785",
+          "EMAIL ID": "ravikumarc@ che.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "GAIKWAD A. P.",
+          "EXTENSION NO.": "1783",
+          "EMAIL ID": "apgaikwad@ che.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "KANNAN ASHWIN",
+          "EXTENSION NO.": "1790",
+          "EMAIL ID": "ashwink@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "WANJARI P. P.",
+          "EXTENSION NO.": "1781",
+          "EMAIL ID": "ppwanjari@ che.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "TAJNE SONALI P. (HIWARKAR)",
+          "EXTENSION NO.": "1569",
+          "EMAIL ID": "sphiwarkar@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "KODAPE S. M.",
+          "EXTENSION NO.": "1571",
+          "EMAIL ID": "smkodape@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "DAS ARJIT",
+          "EXTENSION NO.": "1894",
+          "EMAIL ID": "arjitdas@che.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "MESHRAM PRABODH S.",
+          "EXTENSION NO.": "1649",
+          "EMAIL ID": "prabodh@vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "PRADHANE ASHISH P.",
+          "EXTENSION NO.": "1800",
+          "EMAIL ID": "ashishpradhane@vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "DHABARDE RAJHANS N.",
+          "EXTENSION NO.": "1577",
+          "EMAIL ID": "rajhansdhabarde@vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "THAKURE DHARMENDRA M.",
+          "EXTENSION NO.": "1646",
+          "EMAIL ID": "dharmendrathakur@vnit.ac.in"
+        },
+        {
+          "S.N.": "24",
+          "NAME": "SHROTI GIRISH KUMAR",
+          "EXTENSION NO.": "1580",
+          "EMAIL ID": "gshroti@vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "TELANG ROHIT S.",
+          "EXTENSION NO.": "1564",
+          "EMAIL ID": "rohittelang@vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "URKUDE JAGDISH V.",
+          "EXTENSION NO.": "1564",
+          "EMAIL ID": "jagdishurkude@vnit.ac.in"
+        }
+      ],
       [
         {
           "S.N.": " 1",
@@ -1071,145 +1062,147 @@
           "LAB NAME": "Research Lab 5",
           "EXTENSION NO.": "1900"
         }
-      ]]
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION /BRANCH :CHEMISTRY",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1260",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1357",
-        "EMAIL ID": "head@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "UMARE S. S.",
-        "EXTENSION NO.": "1316",
-        "EMAIL ID": "ssumare@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "EKHE J. D.",
-        "EXTENSION NO.": "1602",
-        "EMAIL ID": "jdekhe@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "ANUPAMA KUMAR",
-        "EXTENSION NO.": "1771",
-        "EMAIL ID": "anupamakumar@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "GHOSH SUJIT KUMAR ",
-        "EXTENSION NO.": "1775",
-        "EMAIL ID": "skghosh@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "DAS CHAYAN",
-        "EXTENSION NO.": "1601",
-        "EMAIL ID": "chayandas@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "MOTGHARE RAMANI",
-        "EXTENSION NO.": "1603",
-        "EMAIL ID": "rvmotghare@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "WANKHADE A. V.",
-        "EXTENSION NO.": "1609",
-        "EMAIL ID": "avwankhade@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "PRATAP UMESH R. ",
-        "EXTENSION NO.": "1773",
-        "EMAIL ID": "umeshprtap@gmail.com "
-      },
-      {
-        "S.N.": "11",
-        "NAME": "ZODAPE SANGESH",
-        "EXTENSION NO.": "1774",
-        "EMAIL ID": "szodape@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "S. LAXMI GAYATRI",
-        "EXTENSION NO.": "1778",
-        "EMAIL ID": "laxmigayatri1@gmail.com"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "NAYAK S. K.",
-        "EXTENSION NO.": "1610",
-        "EMAIL ID": "sknayak@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "HALDER SANDIPAN",
-        "EXTENSION NO.": "1883",
-        "EMAIL ID": "sandipanhalder@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "BANERJEE ABHISHEK",
-        "EXTENSION NO.": "1884",
-        "EMAIL ID": "abhishekbanerjee@chm.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "BHENDE SANJAY M.",
-        "EXTENSION NO.": "1605",
-        "EMAIL ID": "sanjaybhende@vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "JUNGHARE SANJAY N.",
-        "EXTENSION NO.": "1608",
-        "EMAIL ID": "sanjayjunghare@vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "SAUNDARKAR SANDHYA N.",
-        "EXTENSION NO.": "1608",
-        "EMAIL ID": "sandhyasaundarkar@vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "RAHANGANDLE ULHAS C.",
-        "EXTENSION NO.": "1604",
-        "EMAIL ID": "ulhasrahangdale@vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "CHAVAN SAURABH P. ",
-        "EXTENSION NO.": "1608",
-        "EMAIL ID": "saurabhchavan@vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "UIKEY POONAM L.",
-        "EXTENSION NO.": "1260",
-        "EMAIL ID": "poonamuikey@vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "SAHARE RAJU S.",
-        "EXTENSION NO.": "1260",
-        "EMAIL ID": "rajusahare@vnit.ac.in"
-      }
-    ],
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1260",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1357",
+          "EMAIL ID": "head@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "UMARE S. S.",
+          "EXTENSION NO.": "1316",
+          "EMAIL ID": "ssumare@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "EKHE J. D.",
+          "EXTENSION NO.": "1602",
+          "EMAIL ID": "jdekhe@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "ANUPAMA KUMAR",
+          "EXTENSION NO.": "1771",
+          "EMAIL ID": "anupamakumar@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "GHOSH SUJIT KUMAR ",
+          "EXTENSION NO.": "1775",
+          "EMAIL ID": "skghosh@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "DAS CHAYAN",
+          "EXTENSION NO.": "1601",
+          "EMAIL ID": "chayandas@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "MOTGHARE RAMANI",
+          "EXTENSION NO.": "1603",
+          "EMAIL ID": "rvmotghare@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "WANKHADE A. V.",
+          "EXTENSION NO.": "1609",
+          "EMAIL ID": "avwankhade@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "PRATAP UMESH R. ",
+          "EXTENSION NO.": "1773",
+          "EMAIL ID": "umeshprtap@gmail.com "
+        },
+        {
+          "S.N.": "11",
+          "NAME": "ZODAPE SANGESH",
+          "EXTENSION NO.": "1774",
+          "EMAIL ID": "szodape@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "S. LAXMI GAYATRI",
+          "EXTENSION NO.": "1778",
+          "EMAIL ID": "laxmigayatri1@gmail.com"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "NAYAK S. K.",
+          "EXTENSION NO.": "1610",
+          "EMAIL ID": "sknayak@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "HALDER SANDIPAN",
+          "EXTENSION NO.": "1883",
+          "EMAIL ID": "sandipanhalder@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "BANERJEE ABHISHEK",
+          "EXTENSION NO.": "1884",
+          "EMAIL ID": "abhishekbanerjee@chm.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "BHENDE SANJAY M.",
+          "EXTENSION NO.": "1605",
+          "EMAIL ID": "sanjaybhende@vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "JUNGHARE SANJAY N.",
+          "EXTENSION NO.": "1608",
+          "EMAIL ID": "sanjayjunghare@vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "SAUNDARKAR SANDHYA N.",
+          "EXTENSION NO.": "1608",
+          "EMAIL ID": "sandhyasaundarkar@vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "RAHANGANDLE ULHAS C.",
+          "EXTENSION NO.": "1604",
+          "EMAIL ID": "ulhasrahangdale@vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "CHAVAN SAURABH P. ",
+          "EXTENSION NO.": "1608",
+          "EMAIL ID": "saurabhchavan@vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "UIKEY POONAM L.",
+          "EXTENSION NO.": "1260",
+          "EMAIL ID": "poonamuikey@vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "SAHARE RAJU S.",
+          "EXTENSION NO.": "1260",
+          "EMAIL ID": "rajusahare@vnit.ac.in"
+        }
+      ],
       [
         {
           "S.N.": "1",
@@ -1301,1423 +1294,1438 @@
   },
   {
     "section": "DEPARTMENT / SECTION/ BRANCH : CIVIL ENGINEERING",
-    "entries":[ [
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1261",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1371",
-        "EMAIL ID": "head@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "KATPATAL Y. B.",
-        "EXTENSION NO.": "1083",
-        "EMAIL ID": "ybkatpatal@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "GUPTA RAJESH",
-        "EXTENSION NO.": "1250",
-        "EMAIL ID": "rajeshgupta@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "TEMBHURKAR A.R.",
-        "EXTENSION NO.": "1081",
-        "EMAIL ID": "artembhurkar@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "GHARE A.D.",
-        "EXTENSION NO.": "1525",
-        "EMAIL ID": "adghare@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "LATAYE D.H.",
-        "EXTENSION NO.": "1086",
-        "EMAIL ID": "dhlataye@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "LANDGE V. S.",
-        "EXTENSION NO.": "1374",
-        "EMAIL ID": "vslandge@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "RALEGAONKAR R.V.",
-        "EXTENSION NO.": "1090",
-        "EMAIL ID": "rvralegaonkar@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "LATKAR M. V.",
-        "EXTENSION NO.": "1087",
-        "EMAIL ID": "mvlatkar@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "MANDAL ANIRBAN ",
-        "EXTENSION NO.": "1527",
-        "EMAIL ID": "anirbanmandal@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "VASUDEO A.D.",
-        "EXTENSION NO.": "1254",
-        "EMAIL ID": "advasudeo@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "MIRAJKAR ASHWINI B.",
-        "EXTENSION NO.": "1804",
-        "EMAIL ID": "abmirajkar@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "MADURWAR MANGESH",
-        "EXTENSION NO.": "1806",
-        "EMAIL ID": "mvmadurwar@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "PATEL ANJAN",
-        "EXTENSION NO.": "1531",
-        "EMAIL ID": "anjanpatel@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "WANJARI S.P.",
-        "EXTENSION NO.": "1287",
-        "EMAIL ID": "spwanjari@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "DONGRE SHILPA R.",
-        "EXTENSION NO.": "1082",
-        "EMAIL ID": "shilpadongre@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "ADHIKARY SHRABONY",
-        "EXTENSION NO.": "1206",
-        "EMAIL ID": "shrabonyeq@gmail.com"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "TAWALARE A. G.",
-        "EXTENSION NO.": "1528",
-        "EMAIL ID": "abhaytawalare@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "PADADE A. H.",
-        "EXTENSION NO.": "2253",
-        "EMAIL ID": "amit_padade@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "SRINIVASAN V.",
-        "EXTENSION NO.": "2254",
-        "EMAIL ID": "srinivasanv@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "BALASUNDARAM KARTHIK",
-        "EXTENSION NO.": "2249",
-        "EMAIL ID": "karthik@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "REDDY SITARAMI DAKA",
-        "EXTENSION NO.": "2257",
-        "EMAIL ID": "dsramreddy@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "24",
-        "NAME": "JAIN UDIT",
-        "EXTENSION NO.": "1808, 2259",
-        "EMAIL ID": "uditjain@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "DAKWALE VAIDEHI",
-        "EXTENSION NO.": "2256",
-        "EMAIL ID": "vaidehidakwale@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "SAHA ARPITA ",
-        "EXTENSION NO.": "2258",
-        "EMAIL ID": "arpitasaha@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "27",
-        "NAME": "BHAVE SWATI",
-        "EXTENSION NO.": "2295",
-        "EMAIL ID": "swatibhave@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "28",
-        "NAME": "LADE ABHIJIT D.",
-        "EXTENSION NO.": "2318",
-        "EMAIL ID": "abhijitlade@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "29",
-        "NAME": "THAPPETA SURESH KUMAR",
-        "EXTENSION NO.": "2317",
-        "EMAIL ID": "sureshthappeta@civ.vnit.ac.in"
-      },
-      {
-        "S.N.": "30",
-        "NAME": "JARONDE PRASHANT D.",
-        "EXTENSION NO.": "1084",
-        "EMAIL ID": "prashant@vnit.ac.in"
-      },
-      {
-        "S.N.": "31",
-        "NAME": "LAHABAR SHRIKANT M.",
-        "EXTENSION NO.": "1271",
-        "EMAIL ID": "shrikantlahabar@vnit.ac.in"
-      },
-      {
-        "S.N.": "32",
-        "NAME": "BIMAL CHANDRA SINHA",
-        "EXTENSION NO.": "2287",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "33",
-        "NAME": "MASHANKAR SARANG P.",
-        "EXTENSION NO.": "1088",
-        "EMAIL ID": "sarangmashankar@vnit.ac.in"
-      },
-      {
-        "S.N.": "34",
-        "NAME": "GAUTAM DEEPAK M.",
-        "EXTENSION NO.": "1270",
-        "EMAIL ID": "deepakgautam@vnit.ac.in"
-      },
-      {
-        "S.N.": "35",
-        "NAME": "LAVUDIYA KARTHIKA",
-        "EXTENSION NO.": "1261",
-        "EMAIL ID": "lavudiyakarthika@vnit.ac.in"
-      },
-      {
-        "S.N.": "36",
-        "NAME": "BHARADWAJ SHIVANAND P.",
-        "EXTENSION NO.": "1261",
-        "EMAIL ID": "shivanandbharadwaj@vnit.ac.in"
-      }
-    ], [
-      {
-        "S.N.": "1",
-        "LAB NAME": "ENVIRONMENTAL CHEMISTRY LAB",
-        "EXTENSION NO.": "1267"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "RESEARCH ASSISTANT ROOM",
-        "EXTENSION NO.": "1230"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "CONCRETE TECHNOLOGY LAB",
-        "EXTENSION NO.": "1227"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "GEOTECHNICAL ENGINEERING LAB",
-        "EXTENSION NO.": "1089"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "ENVIRONMENTAL MICROBIOLOGY LAB",
-        "EXTENSION NO.": "1226"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "NAAQM",
-        "EXTENSION NO.": "1268"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "SURVEYING LAB",
-        "EXTENSION NO.": "1380"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "TRANSPORTATION ENGINEERING LAB",
-        "EXTENSION NO.": "1088"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "TRANSPORTATION LAB / PMGSY LAB",
-        "EXTENSION NO.": "1533"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "SEMINAR HALL",
-        "EXTENSION NO.": "1534"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "RESEARCH LAB",
-        "EXTENSION NO.": "1532"
-      },
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1261",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1371",
+          "EMAIL ID": "head@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "KATPATAL Y. B.",
+          "EXTENSION NO.": "1083",
+          "EMAIL ID": "ybkatpatal@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "GUPTA RAJESH",
+          "EXTENSION NO.": "1250",
+          "EMAIL ID": "rajeshgupta@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "TEMBHURKAR A.R.",
+          "EXTENSION NO.": "1081",
+          "EMAIL ID": "artembhurkar@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "GHARE A.D.",
+          "EXTENSION NO.": "1525",
+          "EMAIL ID": "adghare@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "LATAYE D.H.",
+          "EXTENSION NO.": "1086",
+          "EMAIL ID": "dhlataye@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "LANDGE V. S.",
+          "EXTENSION NO.": "1374",
+          "EMAIL ID": "vslandge@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "RALEGAONKAR R.V.",
+          "EXTENSION NO.": "1090",
+          "EMAIL ID": "rvralegaonkar@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "LATKAR M. V.",
+          "EXTENSION NO.": "1087",
+          "EMAIL ID": "mvlatkar@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "MANDAL ANIRBAN ",
+          "EXTENSION NO.": "1527",
+          "EMAIL ID": "anirbanmandal@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "VASUDEO A.D.",
+          "EXTENSION NO.": "1254",
+          "EMAIL ID": "advasudeo@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "MIRAJKAR ASHWINI B.",
+          "EXTENSION NO.": "1804",
+          "EMAIL ID": "abmirajkar@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "MADURWAR MANGESH",
+          "EXTENSION NO.": "1806",
+          "EMAIL ID": "mvmadurwar@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "PATEL ANJAN",
+          "EXTENSION NO.": "1531",
+          "EMAIL ID": "anjanpatel@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "WANJARI S.P.",
+          "EXTENSION NO.": "1287",
+          "EMAIL ID": "spwanjari@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "DONGRE SHILPA R.",
+          "EXTENSION NO.": "1082",
+          "EMAIL ID": "shilpadongre@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "ADHIKARY SHRABONY",
+          "EXTENSION NO.": "1206",
+          "EMAIL ID": "shrabonyeq@gmail.com"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "TAWALARE A. G.",
+          "EXTENSION NO.": "1528",
+          "EMAIL ID": "abhaytawalare@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "PADADE A. H.",
+          "EXTENSION NO.": "2253",
+          "EMAIL ID": "amit_padade@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "SRINIVASAN V.",
+          "EXTENSION NO.": "2254",
+          "EMAIL ID": "srinivasanv@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "BALASUNDARAM KARTHIK",
+          "EXTENSION NO.": "2249",
+          "EMAIL ID": "karthik@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "REDDY SITARAMI DAKA",
+          "EXTENSION NO.": "2257",
+          "EMAIL ID": "dsramreddy@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "24",
+          "NAME": "JAIN UDIT",
+          "EXTENSION NO.": "1808, 2259",
+          "EMAIL ID": "uditjain@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "DAKWALE VAIDEHI",
+          "EXTENSION NO.": "2256",
+          "EMAIL ID": "vaidehidakwale@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "SAHA ARPITA ",
+          "EXTENSION NO.": "2258",
+          "EMAIL ID": "arpitasaha@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "27",
+          "NAME": "BHAVE SWATI",
+          "EXTENSION NO.": "2295",
+          "EMAIL ID": "swatibhave@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "28",
+          "NAME": "LADE ABHIJIT D.",
+          "EXTENSION NO.": "2318",
+          "EMAIL ID": "abhijitlade@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "29",
+          "NAME": "THAPPETA SURESH KUMAR",
+          "EXTENSION NO.": "2317",
+          "EMAIL ID": "sureshthappeta@civ.vnit.ac.in"
+        },
+        {
+          "S.N.": "30",
+          "NAME": "JARONDE PRASHANT D.",
+          "EXTENSION NO.": "1084",
+          "EMAIL ID": "prashant@vnit.ac.in"
+        },
+        {
+          "S.N.": "31",
+          "NAME": "LAHABAR SHRIKANT M.",
+          "EXTENSION NO.": "1271",
+          "EMAIL ID": "shrikantlahabar@vnit.ac.in"
+        },
+        {
+          "S.N.": "32",
+          "NAME": "BIMAL CHANDRA SINHA",
+          "EXTENSION NO.": "2287",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "33",
+          "NAME": "MASHANKAR SARANG P.",
+          "EXTENSION NO.": "1088",
+          "EMAIL ID": "sarangmashankar@vnit.ac.in"
+        },
+        {
+          "S.N.": "34",
+          "NAME": "GAUTAM DEEPAK M.",
+          "EXTENSION NO.": "1270",
+          "EMAIL ID": "deepakgautam@vnit.ac.in"
+        },
+        {
+          "S.N.": "35",
+          "NAME": "LAVUDIYA KARTHIKA",
+          "EXTENSION NO.": "1261",
+          "EMAIL ID": "lavudiyakarthika@vnit.ac.in"
+        },
+        {
+          "S.N.": "36",
+          "NAME": "BHARADWAJ SHIVANAND P.",
+          "EXTENSION NO.": "1261",
+          "EMAIL ID": "shivanandbharadwaj@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "ENVIRONMENTAL CHEMISTRY LAB",
+          "EXTENSION NO.": "1267"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "RESEARCH ASSISTANT ROOM",
+          "EXTENSION NO.": "1230"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "CONCRETE TECHNOLOGY LAB",
+          "EXTENSION NO.": "1227"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "GEOTECHNICAL ENGINEERING LAB",
+          "EXTENSION NO.": "1089"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "ENVIRONMENTAL MICROBIOLOGY LAB",
+          "EXTENSION NO.": "1226"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "NAAQM",
+          "EXTENSION NO.": "1268"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "SURVEYING LAB",
+          "EXTENSION NO.": "1380"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "TRANSPORTATION ENGINEERING LAB",
+          "EXTENSION NO.": "1088"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "TRANSPORTATION LAB / PMGSY LAB",
+          "EXTENSION NO.": "1533"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "SEMINAR HALL",
+          "EXTENSION NO.": "1534"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "RESEARCH LAB",
+          "EXTENSION NO.": "1532"
+        },
 
-      {
-        "S.N.": "12",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM (WRE) ",
-        "EXTENSION NO.": "1801, 1526"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "REMOTE SENSING & GIS LAB",
-        "EXTENSION NO.": "1271"
-      },
-      {
-        "S.N.": "14",
-        "LAB NAME": "ENVIRONMENTAL ENGINEERING LAB",
-        "EXTENSION NO.": "1085"
-      },
-      {
-        "S.N.": "15",
-        "LAB NAME": "COMPUTER LAB",
-        "EXTENSION NO.": "1084"
-      },
-      {
-        "S.N.": "16",
-        "LAB NAME": "RESEARCH ROOM (WRE)",
-        "EXTENSION NO.": "1529"
-      },
-      {
-        "S.N.": "17",
-        "LAB NAME": "SOIL DYNAMIC EXPERIMENTAL & COMPUTATIONAL LAB",
-        "EXTENSION NO.": "1803"
-      },
-      {
-        "S.N.": "18",
-        "LAB NAME": "FORENSIC GEO TECHNICS LAB",
-        "EXTENSION NO.": "1807"
-      },
-      {
-        "S.N.": "19",
-        "LAB NAME": "ADVANCED GEOTECHNICAL ENGINEERING",
-        "EXTENSION NO.": "2283"
-      },
-      {
-        "S.N.": "20",
-        "LAB NAME": "HYDRAULIC ENGINEERING ",
-        "EXTENSION NO.": "2287"
-      },
-      {
-        "S.N.": "21",
-        "LAB NAME": "COMPUTER LAB",
-        "EXTENSION NO.": "2229"
-      }
-    ]]
+        {
+          "S.N.": "12",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM (WRE) ",
+          "EXTENSION NO.": "1801, 1526"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "REMOTE SENSING & GIS LAB",
+          "EXTENSION NO.": "1271"
+        },
+        {
+          "S.N.": "14",
+          "LAB NAME": "ENVIRONMENTAL ENGINEERING LAB",
+          "EXTENSION NO.": "1085"
+        },
+        {
+          "S.N.": "15",
+          "LAB NAME": "COMPUTER LAB",
+          "EXTENSION NO.": "1084"
+        },
+        {
+          "S.N.": "16",
+          "LAB NAME": "RESEARCH ROOM (WRE)",
+          "EXTENSION NO.": "1529"
+        },
+        {
+          "S.N.": "17",
+          "LAB NAME": "SOIL DYNAMIC EXPERIMENTAL & COMPUTATIONAL LAB",
+          "EXTENSION NO.": "1803"
+        },
+        {
+          "S.N.": "18",
+          "LAB NAME": "FORENSIC GEO TECHNICS LAB",
+          "EXTENSION NO.": "1807"
+        },
+        {
+          "S.N.": "19",
+          "LAB NAME": "ADVANCED GEOTECHNICAL ENGINEERING",
+          "EXTENSION NO.": "2283"
+        },
+        {
+          "S.N.": "20",
+          "LAB NAME": "HYDRAULIC ENGINEERING ",
+          "EXTENSION NO.": "2287"
+        },
+        {
+          "S.N.": "21",
+          "LAB NAME": "COMPUTER LAB",
+          "EXTENSION NO.": "2229"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/ BRANCH: COMPUTER SCIENCE & ENGINEERING",
-    "entries":[[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1296, 1272",
-        "EMAIL ID": "office@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1322",
-        "EMAIL ID": "head@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "SATHE S. R. ",
-        "EXTENSION NO.": "1294",
-        "EMAIL ID": "srsathe@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "DESHPANDE P.S. ",
-        "EXTENSION NO.": "1026",
-        "EMAIL ID": "psdeshpande@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "DESHPANDE U.A. ",
-        "EXTENSION NO.": "1027",
-        "EMAIL ID": "uadeshpande@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "KAKDE O.G.",
-        "EXTENSION NO.": "1029",
-        "EMAIL ID": "ogkakde@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "KESKER R.B.  ",
-        "EXTENSION NO.": "1558",
-        "EMAIL ID": "rbkeskar@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "KURHEKAR M.P. ",
-        "EXTENSION NO.": "1597",
-        "EMAIL ID": "manishkurhekar@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "MOKHADE A.S. ",
-        "EXTENSION NO.": "1048",
-        "EMAIL ID": "asmokhade@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "DHABU MEERA ",
-        "EXTENSION NO.": "1030",
-        "EMAIL ID": "meeradhabu@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "SHARMA POONAM ",
-        "EXTENSION NO.": "1596",
-        "EMAIL ID": "poonamsharma@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "RAUT SHITAL",
-        "EXTENSION NO.": "1559",
-        "EMAIL ID": "saraut@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "PRAVEEN KUMAR VARMA",
-        "EXTENSION NO.": "1792",
-        "EMAIL ID": "praveenkumar@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "TIWARI ASHISH ",
-        "EXTENSION NO.": "1050",
-        "EMAIL ID": "at@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "SHRIMANKAR DIPTI ",
-        "EXTENSION NO.": "1023",
-        "EMAIL ID": "dshrimankar@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "RADKE MANSI  ",
-        "EXTENSION NO.": "1791",
-        "EMAIL ID": "mansi.radke@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "SYAD TAQI ALI",
-        "EXTENSION NO.": "1794",
-        "EMAIL ID": "sta@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "AGARWAL ANSHUL",
-        "EXTENSION NO.": "1798",
-        "EMAIL ID": "anshulagarwal@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "JAISWAL SWATI",
-        "EXTENSION NO.": "1797",
-        "EMAIL ID": "swatijaiswal@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "HEMKUMAR D.",
-        "EXTENSION NO.": "2326",
-        "EMAIL ID": "hemkumar@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "GAURAV MISHRA",
-        "EXTENSION NO.": "2328",
-        "EMAIL ID": "gauravmishra@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "YADUNATH PATHAK",
-        "EXTENSION NO.": "2323",
-        "EMAIL ID": "yadunathpathak@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "SWAPAN MAITI",
-        "EXTENSION NO.": "2325",
-        "EMAIL ID": "swapanmaiti@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "24",
-        "NAME": "NIDHI LAL",
-        "EXTENSION NO.": "2329",
-        "EMAIL ID": "nidhilal@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "P.V.N. PRASHANTHA",
-        "EXTENSION NO.": "2324",
-        "EMAIL ID": "prashanthpvn@cse.vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "POLKE BHARTI M.",
-        "EXTENSION NO.": "1296",
-        "EMAIL ID": "polkebharati@vnit.ac.in"
-      },
-      {
-        "S.N.": "27",
-        "NAME": "NEERAJ SOBAN SINGH BISAT",
-        "EXTENSION NO.": "2284",
-        "EMAIL ID": "neerajbisht@vnit.ac.in"
-      },
-      {
-        "S.N.": "28",
-        "NAME": "KHAJONE GAURAV A.",
-        "EXTENSION NO.": "1296",
-        "EMAIL ID": "gauravkhajone@vnit.ac.in"
-      },
-      {
-        "S.N.": "29",
-        "NAME": "THAKARE GOPAL P.",
-        "EXTENSION NO.": "1796",
-        "EMAIL ID": "gopalthakare@vnit.ac.in"
-      },
-      {
-        "S.N.": "30",
-        "NAME": "DAGOR MUKESH P.",
-        "EXTENSION NO.": "1272",
-        "EMAIL ID": "mukeshdagor@vnit.ac.in"
-      },
-      {
-        "S.N.": "31",
-        "NAME": "HARDAS AISHWARYA A.",
-        "EXTENSION NO.": "1296",
-        "EMAIL ID": "aishwaryahardas@vnit.ac.in"
-      }
-    ],[
-      {
-        "S.N.": "1",
-        "LAB NAME": "MEETING ROOM        ",
-        "EXTENSION NO.": "1296"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "DATA STRUCTURE & PROGRAM DESIGN LAB (UG-I LAB )",
-        "EXTENSION NO.": "1599"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "HIGH PERFORMANCE COMPUTING LAB ",
-        "EXTENSION NO.": "1793"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "PATTERN RECOGNITION LAB \n(PG-II LAB )\n",
-        "EXTENSION NO.": "1042"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "DISTRIBUTED SYSTEMS LAB\n(PG-I LAB )",
-        "EXTENSION NO.": "1047"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "COMPUTER NETWORK LAB",
-        "EXTENSION NO.": "1796"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "CLOUD COMPUTING LAB",
-        "EXTENSION NO.": "1795"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "DBMS & COMPILER LAB \n(UG-II LAB ) ",
-        "EXTENSION NO.": "1600"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM 1",
-        "EXTENSION NO.": "1340"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM 2",
-        "EXTENSION NO.": "1854"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "COMPUTER LAB \n(HALL 31A - ACD BLOCK)",
-        "EXTENSION NO.": "2284"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "PHD SCHOLAR ROOM (ACD BLOCK)",
-        "EXTENSION NO.": "2285"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "SMART CLASS ROOM",
-        "EXTENSION NO.": "1799"
-      },
-      {
-        "S.N.": "14",
-        "LAB NAME": "HALL 31 B (ACD BLOCK)",
-        "EXTENSION NO.": "2344"
-      },
-      {
-        "S.N.": "15",
-        "LAB NAME": "HALL 33 (ACD BLOCK)",
-        "EXTENSION NO.": "2345"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1296, 1272",
+          "EMAIL ID": "office@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1322",
+          "EMAIL ID": "head@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "SATHE S. R. ",
+          "EXTENSION NO.": "1294",
+          "EMAIL ID": "srsathe@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "DESHPANDE P.S. ",
+          "EXTENSION NO.": "1026",
+          "EMAIL ID": "psdeshpande@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "DESHPANDE U.A. ",
+          "EXTENSION NO.": "1027",
+          "EMAIL ID": "uadeshpande@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "KAKDE O.G.",
+          "EXTENSION NO.": "1029",
+          "EMAIL ID": "ogkakde@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "KESKER R.B.  ",
+          "EXTENSION NO.": "1558",
+          "EMAIL ID": "rbkeskar@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "KURHEKAR M.P. ",
+          "EXTENSION NO.": "1597",
+          "EMAIL ID": "manishkurhekar@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "MOKHADE A.S. ",
+          "EXTENSION NO.": "1048",
+          "EMAIL ID": "asmokhade@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "DHABU MEERA ",
+          "EXTENSION NO.": "1030",
+          "EMAIL ID": "meeradhabu@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "SHARMA POONAM ",
+          "EXTENSION NO.": "1596",
+          "EMAIL ID": "poonamsharma@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "RAUT SHITAL",
+          "EXTENSION NO.": "1559",
+          "EMAIL ID": "saraut@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "PRAVEEN KUMAR VARMA",
+          "EXTENSION NO.": "1792",
+          "EMAIL ID": "praveenkumar@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "TIWARI ASHISH ",
+          "EXTENSION NO.": "1050",
+          "EMAIL ID": "at@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "SHRIMANKAR DIPTI ",
+          "EXTENSION NO.": "1023",
+          "EMAIL ID": "dshrimankar@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "RADKE MANSI  ",
+          "EXTENSION NO.": "1791",
+          "EMAIL ID": "mansi.radke@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "SYAD TAQI ALI",
+          "EXTENSION NO.": "1794",
+          "EMAIL ID": "sta@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "AGARWAL ANSHUL",
+          "EXTENSION NO.": "1798",
+          "EMAIL ID": "anshulagarwal@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "JAISWAL SWATI",
+          "EXTENSION NO.": "1797",
+          "EMAIL ID": "swatijaiswal@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "HEMKUMAR D.",
+          "EXTENSION NO.": "2326",
+          "EMAIL ID": "hemkumar@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "GAURAV MISHRA",
+          "EXTENSION NO.": "2328",
+          "EMAIL ID": "gauravmishra@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "YADUNATH PATHAK",
+          "EXTENSION NO.": "2323",
+          "EMAIL ID": "yadunathpathak@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "SWAPAN MAITI",
+          "EXTENSION NO.": "2325",
+          "EMAIL ID": "swapanmaiti@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "24",
+          "NAME": "NIDHI LAL",
+          "EXTENSION NO.": "2329",
+          "EMAIL ID": "nidhilal@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "P.V.N. PRASHANTHA",
+          "EXTENSION NO.": "2324",
+          "EMAIL ID": "prashanthpvn@cse.vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "POLKE BHARTI M.",
+          "EXTENSION NO.": "1296",
+          "EMAIL ID": "polkebharati@vnit.ac.in"
+        },
+        {
+          "S.N.": "27",
+          "NAME": "NEERAJ SOBAN SINGH BISAT",
+          "EXTENSION NO.": "2284",
+          "EMAIL ID": "neerajbisht@vnit.ac.in"
+        },
+        {
+          "S.N.": "28",
+          "NAME": "KHAJONE GAURAV A.",
+          "EXTENSION NO.": "1296",
+          "EMAIL ID": "gauravkhajone@vnit.ac.in"
+        },
+        {
+          "S.N.": "29",
+          "NAME": "THAKARE GOPAL P.",
+          "EXTENSION NO.": "1796",
+          "EMAIL ID": "gopalthakare@vnit.ac.in"
+        },
+        {
+          "S.N.": "30",
+          "NAME": "DAGOR MUKESH P.",
+          "EXTENSION NO.": "1272",
+          "EMAIL ID": "mukeshdagor@vnit.ac.in"
+        },
+        {
+          "S.N.": "31",
+          "NAME": "HARDAS AISHWARYA A.",
+          "EXTENSION NO.": "1296",
+          "EMAIL ID": "aishwaryahardas@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "MEETING ROOM        ",
+          "EXTENSION NO.": "1296"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "DATA STRUCTURE & PROGRAM DESIGN LAB (UG-I LAB )",
+          "EXTENSION NO.": "1599"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "HIGH PERFORMANCE COMPUTING LAB ",
+          "EXTENSION NO.": "1793"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "PATTERN RECOGNITION LAB \n(PG-II LAB )\n",
+          "EXTENSION NO.": "1042"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "DISTRIBUTED SYSTEMS LAB\n(PG-I LAB )",
+          "EXTENSION NO.": "1047"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "COMPUTER NETWORK LAB",
+          "EXTENSION NO.": "1796"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "CLOUD COMPUTING LAB",
+          "EXTENSION NO.": "1795"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "DBMS & COMPILER LAB \n(UG-II LAB ) ",
+          "EXTENSION NO.": "1600"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM 1",
+          "EXTENSION NO.": "1340"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM 2",
+          "EXTENSION NO.": "1854"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "COMPUTER LAB \n(HALL 31A - ACD BLOCK)",
+          "EXTENSION NO.": "2284"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "PHD SCHOLAR ROOM (ACD BLOCK)",
+          "EXTENSION NO.": "2285"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "SMART CLASS ROOM",
+          "EXTENSION NO.": "1799"
+        },
+        {
+          "S.N.": "14",
+          "LAB NAME": "HALL 31 B (ACD BLOCK)",
+          "EXTENSION NO.": "2344"
+        },
+        {
+          "S.N.": "15",
+          "LAB NAME": "HALL 33 (ACD BLOCK)",
+          "EXTENSION NO.": "2345"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/BRANCH: ELECTRICAL ENGINEERING",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1208",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1349",
-        "EMAIL ID": "head@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "KHEDKAR M. K.",
-        "EXTENSION NO.": "1348",
-        "EMAIL ID": "mohankhedkar@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "SURYAWANSHI H. M.\n(ON DEPUTATION)",
-        "EXTENSION NO.": "1121",
-        "EMAIL ID": "hms_1963@rediffmail.com"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "BORGHATE V. B.",
-        "EXTENSION NO.": "1305",
-        "EMAIL ID": "vbborghate@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "UMRE B. S.",
-        "EXTENSION NO.": "1122",
-        "EMAIL ID": "bsumre@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "CHAUDHARI MADHURI",
-        "EXTENSION NO.": "1138",
-        "EMAIL ID": "machaudhari@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "BALLAL MAKARAND",
-        "EXTENSION NO.": "1147",
-        "EMAIL ID": "msballal@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "KULKARNI PRAKASH S.",
-        "EXTENSION NO.": "1126",
-        "EMAIL ID": "pskulkarni@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "RAMTEKE MANOJKUMAR R.",
-        "EXTENSION NO.": "1124",
-        "EMAIL ID": "mrramteke@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "BHAT SUNIL S.",
-        "EXTENSION NO.": "1128",
-        "EMAIL ID": "ssbhat@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "KALE VIJAY S.",
-        "EXTENSION NO.": "1137",
-        "EMAIL ID": "vskale@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "PATNE NITA R.",
-        "EXTENSION NO.": "1140",
-        "EMAIL ID": "nrpatne@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "LOKHANDE MAKARAND M.",
-        "EXTENSION NO.": "1148",
-        "EMAIL ID": "mml@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "KESHRI RITESH KUMAR",
-        "EXTENSION NO.": "1129",
-        "EMAIL ID": "riteshkesri@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "CHATURVEDI PRADYUMN ",
-        "EXTENSION NO.": "1339",
-        "EMAIL ID": "pradyumn.c@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "SATPUTALAY RAJASHRI J.",
-        "EXTENSION NO.": "1135",
-        "EMAIL ID": "rjsatputaley@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "DHABALE ASHWIN",
-        "EXTENSION NO.": "1841",
-        "EMAIL ID": "ad@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "RAJPATHAK BHOOSHAN A.",
-        "EXTENSION NO.": "1123",
-        "EMAIL ID": "bhooshanar@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "MITRA ARGHYA",
-        "EXTENSION NO.": "1209",
-        "EMAIL ID": "mitraarghya@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "KRISHNAMA RAJU SURAPARAJU",
-        "EXTENSION NO.": "2228",
-        "EMAIL ID": "krishnamarajusuraparaju@eee.vnit.ac"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "RAMSHA KARAMPURI",
-        "EXTENSION NO.": "1146",
-        "EMAIL ID": "ramshakarampuri@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "JAY PRAKASH SINGH",
-        "EXTENSION NO.": "2304",
-        "EMAIL ID": "jayprakashsingh@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "24",
-        "NAME": "MOHD. ALAM",
-        "EXTENSION NO.": "2337",
-        "EMAIL ID": "mohdalam@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "DAS SOUMYABRATA",
-        "EXTENSION NO.": "1309",
-        "EMAIL ID": "soumyabratadas@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "BHUKIYA JAWAHARLAL",
-        "EXTENSION NO.": "2336",
-        "EMAIL ID": "jawahar2049@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "27",
-        "NAME": "TAH AVISHA ",
-        "EXTENSION NO.": "2338",
-        "EMAIL ID": "avishatah@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "28",
-        "NAME": "NARENDRABABU A.",
-        "EXTENSION NO.": "2335",
-        "EMAIL ID": "anbabu@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "29",
-        "NAME": "SINGH PADMINI",
-        "EXTENSION NO.": "1133",
-        "EMAIL ID": "padminisingh@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "30",
-        "NAME": "SINGH JAYPRAKASH",
-        "EXTENSION NO.": "2304",
-        "EMAIL ID": "jayprakashsingh@eee.vnit.ac.in"
-      },
-      {
-        "S.N.": "31",
-        "NAME": "MOHITE SHIVAJI B.",
-        "EXTENSION NO.": "1144",
-        "EMAIL ID": "shivajimohite@vnit.ac.in"
-      },
-      {
-        "S.N.": "32",
-        "NAME": "THAKRE KHAGESH B.",
-        "EXTENSION NO.": "1843",
-        "EMAIL ID": "kbthakre@vnit.ac.in"
-      },
-      {
-        "S.N.": "33",
-        "NAME": "GUSHINGE BADRIVISHAL D.",
-        "EXTENSION NO.": "1208",
-        "EMAIL ID": "badrivishalgushinge@vnit.ac.in"
-      },
-      {
-        "S.N.": "34",
-        "NAME": "BINAY KUMAR KAR",
-        "EXTENSION NO.": "1130",
-        "EMAIL ID": "binayakar@vnit.ac.in"
-      },
-      {
-        "S.N.": "35",
-        "NAME": "BHOYAR CHANDRAKANT K.",
-        "EXTENSION NO.": "1136",
-        "EMAIL ID": "chandrakantbhoyar@vnit.ac.in"
-      },
-      {
-        "S.N.": "36",
-        "NAME": "MANAPURE KRISHNA M.",
-        "EXTENSION NO.": "1141",
-        "EMAIL ID": "krishnamanapure@vnit.ac.in"
-      },
-      {
-        "S.N.": "37",
-        "NAME": "DHORE CHETANKUMAR D.",
-        "EXTENSION NO.": "1130",
-        "EMAIL ID": "chetankumardhore@vnit.ac.in"
-      },
-      {
-        "S.N.": "38",
-        "NAME": "SAHAKATE SANJAY D.",
-        "EXTENSION NO.": "1208",
-        "EMAIL ID": "sanjaysahakate@vnit.ac.in"
-      },
-      {
-        "S.N.": "39",
-        "NAME": "RANGARI KAMLESH K.",
-        "EXTENSION NO.": "1208",
-        "EMAIL ID": "kamleshrangari@vnit.ac.in"
-      }
-    ],[
-      {
-        "S.N.": "1",
-        "LAB NAME": "SEMINAR HALL",
-        "EXTENSION NO.": "1211"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "DEC ROOM",
-        "EXTENSION NO.": "1213"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "PROTECTION LAB",
-        "EXTENSION NO.": "1141"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "CONTROL SYSTEM LAB",
-        "EXTENSION NO.": "1131"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "ELECTRICAL MACHINE LAB",
-        "EXTENSION NO.": "1144"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "POWER ELECTRONICS LAB",
-        "EXTENSION NO.": "1143"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "ELECTRICAL WORKSHOP",
-        "EXTENSION NO.": "1127"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "INSTRUMENTATION LAB",
-        "EXTENSION NO.": "1139"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "NON-CONVENTIONAL ENERGY LAB",
-        "EXTENSION NO.": "1125"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "RESEARCH LAB",
-        "EXTENSION NO.": "1249"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "PG PC LAB",
-        "EXTENSION NO.": "1209"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "BASIC ELECTRICAL LAB",
-        "EXTENSION NO.": "1130"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "UG PC Lab",
-        "EXTENSION NO.": "1136"
-      },
-      {
-        "S.N.": "14",
-        "LAB NAME": "High Voltage Lab",
-        "EXTENSION NO.": "1145"
-      },
-      {
-        "S.N.": "15",
-        "LAB NAME": "Drive Lab",
-        "EXTENSION NO.": "1142"
-      },
-      {
-        "S.N.": "16",
-        "LAB NAME": "M. Tech. PED Lab (Processor)",
-        "EXTENSION NO.": "1150"
-      },
-      {
-        "S.N.": "17",
-        "LAB NAME": "Seminar Room",
-        "EXTENSION NO.": "1211"
-      },
-      {
-        "S.N.": "18",
-        "LAB NAME": "Store Room",
-        "EXTENSION NO.": "1844"
-      },
-      {
-        "S.N.": "19",
-        "LAB NAME": "T. A. Room",
-        "EXTENSION NO.": "1149"
-      },
-      {
-        "S.N.": "20",
-        "LAB NAME": "Mobility Lab",
-        "EXTENSION NO.": "1840"
-      },
-      {
-        "S.N.": "21",
-        "LAB NAME": "Hobby Work Shop",
-        "EXTENSION NO.": "1845"
-      },
-      {
-        "S.N.": "22",
-        "LAB NAME": "Power Quality Lab",
-        "EXTENSION NO.": "1842"
-      },
-      {
-        "S.N.": "23",
-        "LAB NAME": "Industrial Automation Lab",
-        "EXTENSION NO.": "1843"
-      },
-      {
-        "S.N.": "24",
-        "LAB NAME": "e-Mobility Lab – Center for advance Mobility",
-        "EXTENSION NO.": "2362"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1208",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1349",
+          "EMAIL ID": "head@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "KHEDKAR M. K.",
+          "EXTENSION NO.": "1348",
+          "EMAIL ID": "mohankhedkar@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "SURYAWANSHI H. M.\n(ON DEPUTATION)",
+          "EXTENSION NO.": "1121",
+          "EMAIL ID": "hms_1963@rediffmail.com"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "BORGHATE V. B.",
+          "EXTENSION NO.": "1305",
+          "EMAIL ID": "vbborghate@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "UMRE B. S.",
+          "EXTENSION NO.": "1122",
+          "EMAIL ID": "bsumre@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "CHAUDHARI MADHURI",
+          "EXTENSION NO.": "1138",
+          "EMAIL ID": "machaudhari@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "BALLAL MAKARAND",
+          "EXTENSION NO.": "1147",
+          "EMAIL ID": "msballal@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "KULKARNI PRAKASH S.",
+          "EXTENSION NO.": "1126",
+          "EMAIL ID": "pskulkarni@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "RAMTEKE MANOJKUMAR R.",
+          "EXTENSION NO.": "1124",
+          "EMAIL ID": "mrramteke@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "BHAT SUNIL S.",
+          "EXTENSION NO.": "1128",
+          "EMAIL ID": "ssbhat@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "KALE VIJAY S.",
+          "EXTENSION NO.": "1137",
+          "EMAIL ID": "vskale@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "PATNE NITA R.",
+          "EXTENSION NO.": "1140",
+          "EMAIL ID": "nrpatne@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "LOKHANDE MAKARAND M.",
+          "EXTENSION NO.": "1148",
+          "EMAIL ID": "mml@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "KESHRI RITESH KUMAR",
+          "EXTENSION NO.": "1129",
+          "EMAIL ID": "riteshkesri@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "CHATURVEDI PRADYUMN ",
+          "EXTENSION NO.": "1339",
+          "EMAIL ID": "pradyumn.c@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "SATPUTALAY RAJASHRI J.",
+          "EXTENSION NO.": "1135",
+          "EMAIL ID": "rjsatputaley@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "DHABALE ASHWIN",
+          "EXTENSION NO.": "1841",
+          "EMAIL ID": "ad@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "RAJPATHAK BHOOSHAN A.",
+          "EXTENSION NO.": "1123",
+          "EMAIL ID": "bhooshanar@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "MITRA ARGHYA",
+          "EXTENSION NO.": "1209",
+          "EMAIL ID": "mitraarghya@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "KRISHNAMA RAJU SURAPARAJU",
+          "EXTENSION NO.": "2228",
+          "EMAIL ID": "krishnamarajusuraparaju@eee.vnit.ac"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "RAMSHA KARAMPURI",
+          "EXTENSION NO.": "1146",
+          "EMAIL ID": "ramshakarampuri@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "JAY PRAKASH SINGH",
+          "EXTENSION NO.": "2304",
+          "EMAIL ID": "jayprakashsingh@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "24",
+          "NAME": "MOHD. ALAM",
+          "EXTENSION NO.": "2337",
+          "EMAIL ID": "mohdalam@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "DAS SOUMYABRATA",
+          "EXTENSION NO.": "1309",
+          "EMAIL ID": "soumyabratadas@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "BHUKIYA JAWAHARLAL",
+          "EXTENSION NO.": "2336",
+          "EMAIL ID": "jawahar2049@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "27",
+          "NAME": "TAH AVISHA ",
+          "EXTENSION NO.": "2338",
+          "EMAIL ID": "avishatah@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "28",
+          "NAME": "NARENDRABABU A.",
+          "EXTENSION NO.": "2335",
+          "EMAIL ID": "anbabu@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "29",
+          "NAME": "SINGH PADMINI",
+          "EXTENSION NO.": "1133",
+          "EMAIL ID": "padminisingh@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "30",
+          "NAME": "SINGH JAYPRAKASH",
+          "EXTENSION NO.": "2304",
+          "EMAIL ID": "jayprakashsingh@eee.vnit.ac.in"
+        },
+        {
+          "S.N.": "31",
+          "NAME": "MOHITE SHIVAJI B.",
+          "EXTENSION NO.": "1144",
+          "EMAIL ID": "shivajimohite@vnit.ac.in"
+        },
+        {
+          "S.N.": "32",
+          "NAME": "THAKRE KHAGESH B.",
+          "EXTENSION NO.": "1843",
+          "EMAIL ID": "kbthakre@vnit.ac.in"
+        },
+        {
+          "S.N.": "33",
+          "NAME": "GUSHINGE BADRIVISHAL D.",
+          "EXTENSION NO.": "1208",
+          "EMAIL ID": "badrivishalgushinge@vnit.ac.in"
+        },
+        {
+          "S.N.": "34",
+          "NAME": "BINAY KUMAR KAR",
+          "EXTENSION NO.": "1130",
+          "EMAIL ID": "binayakar@vnit.ac.in"
+        },
+        {
+          "S.N.": "35",
+          "NAME": "BHOYAR CHANDRAKANT K.",
+          "EXTENSION NO.": "1136",
+          "EMAIL ID": "chandrakantbhoyar@vnit.ac.in"
+        },
+        {
+          "S.N.": "36",
+          "NAME": "MANAPURE KRISHNA M.",
+          "EXTENSION NO.": "1141",
+          "EMAIL ID": "krishnamanapure@vnit.ac.in"
+        },
+        {
+          "S.N.": "37",
+          "NAME": "DHORE CHETANKUMAR D.",
+          "EXTENSION NO.": "1130",
+          "EMAIL ID": "chetankumardhore@vnit.ac.in"
+        },
+        {
+          "S.N.": "38",
+          "NAME": "SAHAKATE SANJAY D.",
+          "EXTENSION NO.": "1208",
+          "EMAIL ID": "sanjaysahakate@vnit.ac.in"
+        },
+        {
+          "S.N.": "39",
+          "NAME": "RANGARI KAMLESH K.",
+          "EXTENSION NO.": "1208",
+          "EMAIL ID": "kamleshrangari@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "SEMINAR HALL",
+          "EXTENSION NO.": "1211"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "DEC ROOM",
+          "EXTENSION NO.": "1213"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "PROTECTION LAB",
+          "EXTENSION NO.": "1141"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "CONTROL SYSTEM LAB",
+          "EXTENSION NO.": "1131"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "ELECTRICAL MACHINE LAB",
+          "EXTENSION NO.": "1144"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "POWER ELECTRONICS LAB",
+          "EXTENSION NO.": "1143"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "ELECTRICAL WORKSHOP",
+          "EXTENSION NO.": "1127"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "INSTRUMENTATION LAB",
+          "EXTENSION NO.": "1139"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "NON-CONVENTIONAL ENERGY LAB",
+          "EXTENSION NO.": "1125"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "RESEARCH LAB",
+          "EXTENSION NO.": "1249"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "PG PC LAB",
+          "EXTENSION NO.": "1209"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "BASIC ELECTRICAL LAB",
+          "EXTENSION NO.": "1130"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "UG PC Lab",
+          "EXTENSION NO.": "1136"
+        },
+        {
+          "S.N.": "14",
+          "LAB NAME": "High Voltage Lab",
+          "EXTENSION NO.": "1145"
+        },
+        {
+          "S.N.": "15",
+          "LAB NAME": "Drive Lab",
+          "EXTENSION NO.": "1142"
+        },
+        {
+          "S.N.": "16",
+          "LAB NAME": "M. Tech. PED Lab (Processor)",
+          "EXTENSION NO.": "1150"
+        },
+        {
+          "S.N.": "17",
+          "LAB NAME": "Seminar Room",
+          "EXTENSION NO.": "1211"
+        },
+        {
+          "S.N.": "18",
+          "LAB NAME": "Store Room",
+          "EXTENSION NO.": "1844"
+        },
+        {
+          "S.N.": "19",
+          "LAB NAME": "T. A. Room",
+          "EXTENSION NO.": "1149"
+        },
+        {
+          "S.N.": "20",
+          "LAB NAME": "Mobility Lab",
+          "EXTENSION NO.": "1840"
+        },
+        {
+          "S.N.": "21",
+          "LAB NAME": "Hobby Work Shop",
+          "EXTENSION NO.": "1845"
+        },
+        {
+          "S.N.": "22",
+          "LAB NAME": "Power Quality Lab",
+          "EXTENSION NO.": "1842"
+        },
+        {
+          "S.N.": "23",
+          "LAB NAME": "Industrial Automation Lab",
+          "EXTENSION NO.": "1843"
+        },
+        {
+          "S.N.": "24",
+          "LAB NAME": "e-Mobility Lab – Center for advance Mobility",
+          "EXTENSION NO.": "2362"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION /BRANCH: ELECTRONICS & COMMUNICATION ENGINEERING",
-    "entries":[ [
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1557",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1345",
-        "EMAIL ID": "head@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "GANDHI A. S. ",
-        "EXTENSION NO.": "1217",
-        "EMAIL ID": "asgandhi@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "BHURCHANDI K. M. ",
-        "EXTENSION NO.": "1593",
-        "EMAIL ID": "bhurchandikm@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "KOTHARI ASHWIN G. ",
-        "EXTENSION NO.": "1049",
-        "EMAIL ID": "ashwinkothari@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "SATPUTE VISHAL R. ",
-        "EXTENSION NO.": "1038",
-        "EMAIL ID": "vrsatpute@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "GHARE PRADNYA H. ",
-        "EXTENSION NO.": "1022",
-        "EMAIL ID": "phghare@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "SURENDER KANNAIYAN",
-        "EXTENSION NO.": "1025",
-        "EMAIL ID": "ksurender@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "SENGUPTA JOYDEEP",
-        "EXTENSION NO.": "1021",
-        "EMAIL ID": "jsengupta@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "SINHA SAUGATA",
-        "EXTENSION NO.": "1857",
-        "EMAIL ID": "saugata.sinha@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "SHARMA PRABHAT KUMAR",
-        "EXTENSION NO.": "1851",
-        "EMAIL ID": "prabhatsharma@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "GUPTA DEEP",
-        "EXTENSION NO.": "1855",
-        "EMAIL ID": "deepgupta@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "NEERAJ RAO",
-        "EXTENSION NO.": "1858",
-        "EMAIL ID": "neerajrao@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "BHURANE ANKIT A. ",
-        "EXTENSION NO.": "1918",
-        "EMAIL ID": "ankitbhurane@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "BHAVSAR PUNITKUMAR ",
-        "EXTENSION NO.": "1594",
-        "EMAIL ID": "punitbhavsar@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "SINGH ANAMIKA ",
-        "EXTENSION NO.": "1914",
-        "EMAIL ID": "anamikasingh@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "PRAVEEN PAWAR",
-        "EXTENSION NO.": "1912",
-        "EMAIL ID": "praveenpawar@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "AGARWAL AMIT",
-        "EXTENSION NO.": "1919",
-        "EMAIL ID": "amit.agarwal@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "ARVIND KUMAR",
-        "EXTENSION NO.": "1853",
-        "EMAIL ID": "arvindkumar@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "KAMBLE VIPIN",
-        "EXTENSION NO.": "1913",
-        "EMAIL ID": "vipinkamble@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "RAGHUWANSHI VIVEK",
-        "EXTENSION NO.": "1915",
-        "EMAIL ID": "vivek.raghuwanshi@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "WARTHI RAJESH",
-        "EXTENSION NO.": "1034",
-        "EMAIL ID": "rajeshwarthi@vnit.ac.in"
-      },
-      {
-        "S.N.": "24",
-        "NAME": "SINGH SUDHIR KUMAR",
-        "EXTENSION NO.": "1555",
-        "EMAIL ID": "sksingh@ece.vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "GURNULE AMOL S.",
-        "EXTENSION NO.": "2274",
-        "EMAIL ID": "amolgurnule@vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "NAIKWADE SEEMA R. ",
-        "EXTENSION NO.": "1031",
-        "EMAIL ID": "seemanaikwade@vnit.ac.in"
-      },
-      {
-        "S.N.": "27",
-        "NAME": "THAKRE REETU V.",
-        "EXTENSION NO.": "1044",
-        "EMAIL ID": "reetuthakre@vnit.ac.in"
-      },
-      {
-        "S.N.": "28",
-        "NAME": "KHANDE JAYEMDRA M.",
-        "EXTENSION NO.": "1036",
-        "EMAIL ID": "jayendrakhande@vnit.ac.in"
-      },
-      {
-        "S.N.": "29",
-        "NAME": "KHAPRE PRATIK V.",
-        "EXTENSION NO.": "2273",
-        "EMAIL ID": "pratikkhapre@vnit.ac.in"
-      },
-      {
-        "S.N.": "30",
-        "NAME": "RAUL AVINASH P.",
-        "EXTENSION NO.": "1557",
-        "EMAIL ID": "avinash@vnit.ac.in"
-      },
-      {
-        "S.N.": "31",
-        "NAME": "DULE BABA S.",
-        "EXTENSION NO.": "1557",
-        "EMAIL ID": "babadule@vnit.ac.in"
-      },
-      {
-        "S.N.": "32",
-        "NAME": "MANWATKAR RAHUL S.",
-        "EXTENSION NO.": "1557",
-        "EMAIL ID": "rahulmanwatkar@vnit.ac.in"
-      }
-    ], [
-      {
-        "S.N.": "1",
-        "LAB NAME": "SEMINAR ROOM",
-        "EXTENSION NO.": "1556"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "ADVANCED COMMUNICATION RESEARCH LAB",
-        "EXTENSION NO.": "1044"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "ADVANCED EMBEDDED RESEARCH LAB (EMI/EMC)",
-        "EXTENSION NO.": "1035"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "ANALOG CIRCUIT DESIGN LAB",
-        "EXTENSION NO.": "1555"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "DIGITAL / ANALOG COMMUNICATION LAB",
-        "EXTENSION NO.": "1036"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "DIGITAL CIRCUIT & MICROPROCESSOR LAB",
-        "EXTENSION NO.": "1031"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "DIGITAL SIGNAL PROCESSING LAB",
-        "EXTENSION NO.": "1046"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "EDC DIC LAB 1",
-        "EXTENSION NO.": "1032"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "ELECTRONIC DEVICE & WORKSHOP LAB",
-        "EXTENSION NO.": "1034"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "EMBEDDED SYSTEM LAB",
-        "EXTENSION NO.": "1033"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "IMAGE PROCESSING & COMPUTER VISION LAB",
-        "EXTENSION NO.": "1560"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "NETWORK COMMUNICATION LAB",
-        "EXTENSION NO.": "1041"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "OPTICAL COMMUNICATION LAB",
-        "EXTENSION NO.": "1859"
-      },
-      {
-        "S.N.": "14",
-        "LAB NAME": "COE RESEARCH LAB",
-        "EXTENSION NO.": "1911"
-      },
-      {
-        "S.N.": "15",
-        "LAB NAME": "DEPARTMENTAL LIBRARY",
-        "EXTENSION NO.": "1916"
-      },
-      {
-        "S.N.": "16",
-        "LAB NAME": "BRNS RESEARCH LAB",
-        "EXTENSION NO.": "1592"
-      },
-      {
-        "S.N.": "17",
-        "LAB NAME": "PROJECT LAB",
-        "EXTENSION NO.": "1860"
-      },
-      {
-        "S.N.": "18",
-        "LAB NAME": "COMMUNICATION SYSTEM LAB I",
-        "EXTENSION NO.": "2274"
-      },
-      {
-        "S.N.": "19",
-        "LAB NAME": "COMMUNICATION SYSTEM LAB II",
-        "EXTENSION NO.": "2276"
-      },
-      {
-        "S.N.": "20",
-        "LAB NAME": "WIRELESS SENSOR NETWORK LAB",
-        "EXTENSION NO.": "2275"
-      },
-      {
-        "S.N.": "21",
-        "LAB NAME": "CONTROL & INSTRUMENT LAB",
-        "EXTENSION NO.": "2273"
-      },
-      {
-        "S.N.": "22",
-        "LAB NAME": "BIOMEDICAL ENGINEERING LAB",
-        "EXTENSION NO.": "1800"
-      },
-      {
-        "S.N.": "23",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM",
-        "EXTENSION NO.": "2272"
-      },
-      {
-        "S.N.": "24",
-        "LAB NAME": "PG CO-ORDINATOR ROOM",
-        "EXTENSION NO.": "2277"
-      },
-      {
-        "S.N.": "25",
-        "LAB NAME": "DIGITAL CLASS ROOM LH1",
-        "EXTENSION NO.": "1917"
-      },
-      {
-        "S.N.": "26",
-        "LAB NAME": "FACULTY ROOM 1 (NEW ACADEMIC BUILDING)",
-        "EXTENSION NO.": "2262"
-      },
-      {
-        "S.N.": "27",
-        "LAB NAME": "FACULTY ROOM 2 (NEW ACADEMIC BUILDING)",
-        "EXTENSION NO.": "2267"
-      },
-      {
-        "S.N.": "28",
-        "LAB NAME": "FACULTY ROOM 3 (NEW ACADEMIC BUILDING)",
-        "EXTENSION NO.": "2268"
-      },
-      {
-        "S.N.": "29",
-        "LAB NAME": "FACULTY ROOM 4 (NEW ACADEMIC BUILDING)",
-        "EXTENSION NO.": "2269"
-      },
-      {
-        "S.N.": "30",
-        "LAB NAME": "FACULTY ROOM 5 (NEW ACADEMIC BUILDING)",
-        "EXTENSION NO.": "2270"
-      },
-      {
-        "S.N.": "31",
-        "LAB NAME": "AI CENTER (HALL NO. 64 A)",
-        "EXTENSION NO.": "2312"
-      },
-      {
-        "S.N.": "32",
-        "LAB NAME": "AI CENTER (HALL NO. 64 B)",
-        "EXTENSION NO.": "2313"
-      },
-      {
-        "S.N.": "33",
-        "LAB NAME": "COE MEETING ROOM",
-        "EXTENSION NO.": "1856"
-      },
-      {
-        "S.N.": "34",
-        "LAB NAME": "COMMON ROOM",
-        "EXTENSION NO.": "1852"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1557",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1345",
+          "EMAIL ID": "head@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "GANDHI A. S. ",
+          "EXTENSION NO.": "1217",
+          "EMAIL ID": "asgandhi@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "BHURCHANDI K. M. ",
+          "EXTENSION NO.": "1593",
+          "EMAIL ID": "bhurchandikm@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "KOTHARI ASHWIN G. ",
+          "EXTENSION NO.": "1049",
+          "EMAIL ID": "ashwinkothari@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "SATPUTE VISHAL R. ",
+          "EXTENSION NO.": "1038",
+          "EMAIL ID": "vrsatpute@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "GHARE PRADNYA H. ",
+          "EXTENSION NO.": "1022",
+          "EMAIL ID": "phghare@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "SURENDER KANNAIYAN",
+          "EXTENSION NO.": "1025",
+          "EMAIL ID": "ksurender@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "SENGUPTA JOYDEEP",
+          "EXTENSION NO.": "1021",
+          "EMAIL ID": "jsengupta@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "SINHA SAUGATA",
+          "EXTENSION NO.": "1857",
+          "EMAIL ID": "saugata.sinha@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "SHARMA PRABHAT KUMAR",
+          "EXTENSION NO.": "1851",
+          "EMAIL ID": "prabhatsharma@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "GUPTA DEEP",
+          "EXTENSION NO.": "1855",
+          "EMAIL ID": "deepgupta@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "NEERAJ RAO",
+          "EXTENSION NO.": "1858",
+          "EMAIL ID": "neerajrao@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "BHURANE ANKIT A. ",
+          "EXTENSION NO.": "1918",
+          "EMAIL ID": "ankitbhurane@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "BHAVSAR PUNITKUMAR ",
+          "EXTENSION NO.": "1594",
+          "EMAIL ID": "punitbhavsar@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "SINGH ANAMIKA ",
+          "EXTENSION NO.": "1914",
+          "EMAIL ID": "anamikasingh@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "PRAVEEN PAWAR",
+          "EXTENSION NO.": "1912",
+          "EMAIL ID": "praveenpawar@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "AGARWAL AMIT",
+          "EXTENSION NO.": "1919",
+          "EMAIL ID": "amit.agarwal@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "ARVIND KUMAR",
+          "EXTENSION NO.": "1853",
+          "EMAIL ID": "arvindkumar@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "KAMBLE VIPIN",
+          "EXTENSION NO.": "1913",
+          "EMAIL ID": "vipinkamble@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "RAGHUWANSHI VIVEK",
+          "EXTENSION NO.": "1915",
+          "EMAIL ID": "vivek.raghuwanshi@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "WARTHI RAJESH",
+          "EXTENSION NO.": "1034",
+          "EMAIL ID": "rajeshwarthi@vnit.ac.in"
+        },
+        {
+          "S.N.": "24",
+          "NAME": "SINGH SUDHIR KUMAR",
+          "EXTENSION NO.": "1555",
+          "EMAIL ID": "sksingh@ece.vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "GURNULE AMOL S.",
+          "EXTENSION NO.": "2274",
+          "EMAIL ID": "amolgurnule@vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "NAIKWADE SEEMA R. ",
+          "EXTENSION NO.": "1031",
+          "EMAIL ID": "seemanaikwade@vnit.ac.in"
+        },
+        {
+          "S.N.": "27",
+          "NAME": "THAKRE REETU V.",
+          "EXTENSION NO.": "1044",
+          "EMAIL ID": "reetuthakre@vnit.ac.in"
+        },
+        {
+          "S.N.": "28",
+          "NAME": "KHANDE JAYEMDRA M.",
+          "EXTENSION NO.": "1036",
+          "EMAIL ID": "jayendrakhande@vnit.ac.in"
+        },
+        {
+          "S.N.": "29",
+          "NAME": "KHAPRE PRATIK V.",
+          "EXTENSION NO.": "2273",
+          "EMAIL ID": "pratikkhapre@vnit.ac.in"
+        },
+        {
+          "S.N.": "30",
+          "NAME": "RAUL AVINASH P.",
+          "EXTENSION NO.": "1557",
+          "EMAIL ID": "avinash@vnit.ac.in"
+        },
+        {
+          "S.N.": "31",
+          "NAME": "DULE BABA S.",
+          "EXTENSION NO.": "1557",
+          "EMAIL ID": "babadule@vnit.ac.in"
+        },
+        {
+          "S.N.": "32",
+          "NAME": "MANWATKAR RAHUL S.",
+          "EXTENSION NO.": "1557",
+          "EMAIL ID": "rahulmanwatkar@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "SEMINAR ROOM",
+          "EXTENSION NO.": "1556"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "ADVANCED COMMUNICATION RESEARCH LAB",
+          "EXTENSION NO.": "1044"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "ADVANCED EMBEDDED RESEARCH LAB (EMI/EMC)",
+          "EXTENSION NO.": "1035"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "ANALOG CIRCUIT DESIGN LAB",
+          "EXTENSION NO.": "1555"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "DIGITAL / ANALOG COMMUNICATION LAB",
+          "EXTENSION NO.": "1036"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "DIGITAL CIRCUIT & MICROPROCESSOR LAB",
+          "EXTENSION NO.": "1031"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "DIGITAL SIGNAL PROCESSING LAB",
+          "EXTENSION NO.": "1046"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "EDC DIC LAB 1",
+          "EXTENSION NO.": "1032"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "ELECTRONIC DEVICE & WORKSHOP LAB",
+          "EXTENSION NO.": "1034"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "EMBEDDED SYSTEM LAB",
+          "EXTENSION NO.": "1033"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "IMAGE PROCESSING & COMPUTER VISION LAB",
+          "EXTENSION NO.": "1560"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "NETWORK COMMUNICATION LAB",
+          "EXTENSION NO.": "1041"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "OPTICAL COMMUNICATION LAB",
+          "EXTENSION NO.": "1859"
+        },
+        {
+          "S.N.": "14",
+          "LAB NAME": "COE RESEARCH LAB",
+          "EXTENSION NO.": "1911"
+        },
+        {
+          "S.N.": "15",
+          "LAB NAME": "DEPARTMENTAL LIBRARY",
+          "EXTENSION NO.": "1916"
+        },
+        {
+          "S.N.": "16",
+          "LAB NAME": "BRNS RESEARCH LAB",
+          "EXTENSION NO.": "1592"
+        },
+        {
+          "S.N.": "17",
+          "LAB NAME": "PROJECT LAB",
+          "EXTENSION NO.": "1860"
+        },
+        {
+          "S.N.": "18",
+          "LAB NAME": "COMMUNICATION SYSTEM LAB I",
+          "EXTENSION NO.": "2274"
+        },
+        {
+          "S.N.": "19",
+          "LAB NAME": "COMMUNICATION SYSTEM LAB II",
+          "EXTENSION NO.": "2276"
+        },
+        {
+          "S.N.": "20",
+          "LAB NAME": "WIRELESS SENSOR NETWORK LAB",
+          "EXTENSION NO.": "2275"
+        },
+        {
+          "S.N.": "21",
+          "LAB NAME": "CONTROL & INSTRUMENT LAB",
+          "EXTENSION NO.": "2273"
+        },
+        {
+          "S.N.": "22",
+          "LAB NAME": "BIOMEDICAL ENGINEERING LAB",
+          "EXTENSION NO.": "1800"
+        },
+        {
+          "S.N.": "23",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM",
+          "EXTENSION NO.": "2272"
+        },
+        {
+          "S.N.": "24",
+          "LAB NAME": "PG CO-ORDINATOR ROOM",
+          "EXTENSION NO.": "2277"
+        },
+        {
+          "S.N.": "25",
+          "LAB NAME": "DIGITAL CLASS ROOM LH1",
+          "EXTENSION NO.": "1917"
+        },
+        {
+          "S.N.": "26",
+          "LAB NAME": "FACULTY ROOM 1 (NEW ACADEMIC BUILDING)",
+          "EXTENSION NO.": "2262"
+        },
+        {
+          "S.N.": "27",
+          "LAB NAME": "FACULTY ROOM 2 (NEW ACADEMIC BUILDING)",
+          "EXTENSION NO.": "2267"
+        },
+        {
+          "S.N.": "28",
+          "LAB NAME": "FACULTY ROOM 3 (NEW ACADEMIC BUILDING)",
+          "EXTENSION NO.": "2268"
+        },
+        {
+          "S.N.": "29",
+          "LAB NAME": "FACULTY ROOM 4 (NEW ACADEMIC BUILDING)",
+          "EXTENSION NO.": "2269"
+        },
+        {
+          "S.N.": "30",
+          "LAB NAME": "FACULTY ROOM 5 (NEW ACADEMIC BUILDING)",
+          "EXTENSION NO.": "2270"
+        },
+        {
+          "S.N.": "31",
+          "LAB NAME": "AI CENTER (HALL NO. 64 A)",
+          "EXTENSION NO.": "2312"
+        },
+        {
+          "S.N.": "32",
+          "LAB NAME": "AI CENTER (HALL NO. 64 B)",
+          "EXTENSION NO.": "2313"
+        },
+        {
+          "S.N.": "33",
+          "LAB NAME": "COE MEETING ROOM",
+          "EXTENSION NO.": "1856"
+        },
+        {
+          "S.N.": "34",
+          "LAB NAME": "COMMON ROOM",
+          "EXTENSION NO.": "1852"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/ BRANCH: CENTER FOR VLSI & NANO TECHNOLOGY",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1045",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "PATRIKAR RAJENDRA M. ",
-        "EXTENSION NO.": "1336",
-        "EMAIL ID": "rmpatrikar@cvn.vnit.ac.in, "
-      },
-      {
-        "S.N.": "3",
-        "NAME": "DESHMUKH RAGHAVENDRA B.",
-        "EXTENSION NO.": "1293",
-        "EMAIL ID": "rbdeshmukh@cvn.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "DHOK SANJAY B. ",
-        "EXTENSION NO.": "1028",
-        "EMAIL ID": "sbdhok@cvn.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "PATIL GANESH C.",
-        "EXTENSION NO.": "1591",
-        "EMAIL ID": "ganeshcpatil@cvn.vnit.ac.in,"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "PULIJALA VASU",
-        "EXTENSION NO.": "1552",
-        "EMAIL ID": "p.vasu@cvn.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "NIKHIL DEEP GUPTA",
-        "EXTENSION NO.": "2263",
-        "EMAIL ID": "nikhildeepgupta@cvn.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "THAWKAR VIVEK P.",
-        "EXTENSION NO.": "1045",
-        "EMAIL ID": "vivekthawkar@vnit.ac.in"
-      }
-    ],[
-      {
-        "S.N.": "1",
-        "LAB NAME": "VLSI LAB 1",
-        "EXTENSION NO.": "1045"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "VLSI LAB 2 ",
-        "EXTENSION NO.": "1043"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "NANO LAB ",
-        "EXTENSION NO.": "1554"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "UTILITY ROOM ",
-        "EXTENSION NO.": "1551"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "CLEAN ROOM COMPLEX ",
-        "EXTENSION NO.": "1297"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "EDA LAB ",
-        "EXTENSION NO.": "1553"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "MEMS LAB ",
-        "EXTENSION NO.": "1037"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "FAB LAB ",
-        "EXTENSION NO.": "1298"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "CIVN OFFICE",
-        "EXTENSION NO.": "1299"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1045",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "PATRIKAR RAJENDRA M. ",
+          "EXTENSION NO.": "1336",
+          "EMAIL ID": "rmpatrikar@cvn.vnit.ac.in, "
+        },
+        {
+          "S.N.": "3",
+          "NAME": "DESHMUKH RAGHAVENDRA B.",
+          "EXTENSION NO.": "1293",
+          "EMAIL ID": "rbdeshmukh@cvn.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "DHOK SANJAY B. ",
+          "EXTENSION NO.": "1028",
+          "EMAIL ID": "sbdhok@cvn.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "PATIL GANESH C.",
+          "EXTENSION NO.": "1591",
+          "EMAIL ID": "ganeshcpatil@cvn.vnit.ac.in,"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "PULIJALA VASU",
+          "EXTENSION NO.": "1552",
+          "EMAIL ID": "p.vasu@cvn.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "NIKHIL DEEP GUPTA",
+          "EXTENSION NO.": "2263",
+          "EMAIL ID": "nikhildeepgupta@cvn.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "THAWKAR VIVEK P.",
+          "EXTENSION NO.": "1045",
+          "EMAIL ID": "vivekthawkar@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "VLSI LAB 1",
+          "EXTENSION NO.": "1045"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "VLSI LAB 2 ",
+          "EXTENSION NO.": "1043"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "NANO LAB ",
+          "EXTENSION NO.": "1554"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "UTILITY ROOM ",
+          "EXTENSION NO.": "1551"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "CLEAN ROOM COMPLEX ",
+          "EXTENSION NO.": "1297"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "EDA LAB ",
+          "EXTENSION NO.": "1553"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "MEMS LAB ",
+          "EXTENSION NO.": "1037"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "FAB LAB ",
+          "EXTENSION NO.": "1298"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "CIVN OFFICE",
+          "EXTENSION NO.": "1299"
+        }
+      ]
+    ]
   },
 
   {
@@ -2793,536 +2801,540 @@
   },
   {
     "section": "DEPARTMENT / SECTION /BRANCH: MATHEMATICS",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1405",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1356",
-        "EMAIL ID": "head@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "SINGH GYANPRAKASH P. ",
-        "EXTENSION NO.": "1403",
-        "EMAIL ID": "gpsingh@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "CHAKRAVARTHY PRAMOD P. ",
-        "EXTENSION NO.": "1404",
-        "EMAIL ID": "pramodpodila@yahoo.com"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "M. DEVAKAR ",
-        "EXTENSION NO.": "1407",
-        "EMAIL ID": "m_devakar@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "MAHALE PALLAVI ",
-        "EXTENSION NO.": "1406",
-        "EMAIL ID": "pmahale@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "G. NAGA RAJU ",
-        "EXTENSION NO.": "1257",
-        "EMAIL ID": "gnagaraju@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "PRADIP KUMAR ROUL",
-        "EXTENSION NO.": "1408",
-        "EMAIL ID": "drpkroul@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "PATEL DEEPESH KUMAR",
-        "EXTENSION NO.": "1412",
-        "EMAIL ID": "deepesh456@gmail.com"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "JYOTI SINGH",
-        "EXTENSION NO.": "1413",
-        "EMAIL ID": "jyotisingh@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "SOURAV PRADHAN",
-        "EXTENSION NO.": "1448",
-        "EMAIL ID": "spradhan@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "VISHNU PRATAP SINGH",
-        "EXTENSION NO.": "1447",
-        "EMAIL ID": "vpsingh@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "VIJENDER NALLAPU",
-        "EXTENSION NO.": "1411",
-        "EMAIL ID": "vijendernallapu@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "PURNIMA SATAPATHY",
-        "EXTENSION NO.": "1910",
-        "EMAIL ID": " purnima@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "BHATTACHARYA SOURAV ",
-        "EXTENSION NO.": "1450",
-        "EMAIL ID": "souravbhattacharya@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "NEELIMA BHENGRA",
-        "EXTENSION NO.": "1909",
-        "EMAIL ID": "neelimabhengra@mth.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "MOHAN KUMAR MALLICK",
-        "EXTENSION NO.": "2339",
-        "EMAIL ID": "mohanmallick@mth.vnit.ac.in"
-      }
-    ], [
-      {
-        "S.N.": "1",
-        "LAB NAME": "COMPUTER LAB",
-        "EXTENSION NO.": "1409"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM 1",
-        "EXTENSION NO.": "1446"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "RESEARCH SCHOLAR ROOM 2",
-        "EXTENSION NO.": "1450"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "Office Associate",
-        "EXTENSION NO.": "1410"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "Faculty Room",
-        "EXTENSION NO.": "1449"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1405",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1356",
+          "EMAIL ID": "head@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "SINGH GYANPRAKASH P. ",
+          "EXTENSION NO.": "1403",
+          "EMAIL ID": "gpsingh@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "CHAKRAVARTHY PRAMOD P. ",
+          "EXTENSION NO.": "1404",
+          "EMAIL ID": "pramodpodila@yahoo.com"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "M. DEVAKAR ",
+          "EXTENSION NO.": "1407",
+          "EMAIL ID": "m_devakar@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "MAHALE PALLAVI ",
+          "EXTENSION NO.": "1406",
+          "EMAIL ID": "pmahale@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "G. NAGA RAJU ",
+          "EXTENSION NO.": "1257",
+          "EMAIL ID": "gnagaraju@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "PRADIP KUMAR ROUL",
+          "EXTENSION NO.": "1408",
+          "EMAIL ID": "drpkroul@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "PATEL DEEPESH KUMAR",
+          "EXTENSION NO.": "1412",
+          "EMAIL ID": "deepesh456@gmail.com"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "JYOTI SINGH",
+          "EXTENSION NO.": "1413",
+          "EMAIL ID": "jyotisingh@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "SOURAV PRADHAN",
+          "EXTENSION NO.": "1448",
+          "EMAIL ID": "spradhan@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "VISHNU PRATAP SINGH",
+          "EXTENSION NO.": "1447",
+          "EMAIL ID": "vpsingh@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "VIJENDER NALLAPU",
+          "EXTENSION NO.": "1411",
+          "EMAIL ID": "vijendernallapu@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "PURNIMA SATAPATHY",
+          "EXTENSION NO.": "1910",
+          "EMAIL ID": " purnima@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "BHATTACHARYA SOURAV ",
+          "EXTENSION NO.": "1450",
+          "EMAIL ID": "souravbhattacharya@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "NEELIMA BHENGRA",
+          "EXTENSION NO.": "1909",
+          "EMAIL ID": "neelimabhengra@mth.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "MOHAN KUMAR MALLICK",
+          "EXTENSION NO.": "2339",
+          "EMAIL ID": "mohanmallick@mth.vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "COMPUTER LAB",
+          "EXTENSION NO.": "1409"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM 1",
+          "EXTENSION NO.": "1446"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "RESEARCH SCHOLAR ROOM 2",
+          "EXTENSION NO.": "1450"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "Office Associate",
+          "EXTENSION NO.": "1410"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "Faculty Room",
+          "EXTENSION NO.": "1449"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/BRANCH: MECHANICAL ENGINEERING",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "OFFICE",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "office@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1379",
-        "EMAIL ID": "head@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "PADOLE PRAMOD M. ",
-        "EXTENSION NO.": "1307",
-        "EMAIL ID": "pmpadole@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "THOMBRE SHASHIKANT B. ",
-        "EXTENSION NO.": "1535",
-        "EMAIL ID": "sbthombre@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "KUTHE ABAYKUMAR M. ",
-        "EXTENSION NO.": "1441",
-        "EMAIL ID": "amkuthe@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "KALAMKAR VILAS R. ",
-        "EXTENSION NO.": "1166",
-        "EMAIL ID": "vilas_kalamkar@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "PURI YOGESH M. ",
-        "EXTENSION NO.": "1308",
-        "EMAIL ID": "ympuri@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "ZODPE DHANANJAY B. ",
-        "EXTENSION NO.": "1274",
-        "EMAIL ID": "dbzodpe@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "ANDHARE ATUL B.",
-        "EXTENSION NO.": "1163",
-        "EMAIL ID": "abandhare@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "SURYAWANSHI JIWAK G. ",
-        "EXTENSION NO.": "1154",
-        "EMAIL ID": "jgsuryawanshi@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "CHIDDARWAR SHITAL S.",
-        "EXTENSION NO.": "1167",
-        "EMAIL ID": "shitalsc@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "UDDANWADIKAR RASHMI V. ",
-        "EXTENSION NO.": "1156",
-        "EMAIL ID": "rvuddanwadikar@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "DHOBLE ASHWINKUMAR S. ",
-        "EXTENSION NO.": "1152",
-        "EMAIL ID": "asdhoble@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "JAWALE HEMANT P.",
-        "EXTENSION NO.": "1155",
-        "EMAIL ID": "hpjawale@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "KOTAMBKAR MANGESH S. ",
-        "EXTENSION NO.": "1153",
-        "EMAIL ID": "mskotambkar@mec.vnit.ac.in "
-      },
-      {
-        "S.N.": "16",
-        "NAME": "SINGH ARUN KUMAR",
-        "EXTENSION NO.": "2358",
-        "EMAIL ID": "akingh@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "GOHIL TRUSHAR",
-        "EXTENSION NO.": "1169",
-        "EMAIL ID": "trushrg@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "GUPTA T.V.K.",
-        "EXTENSION NO.": "1168",
-        "EMAIL ID": "tvkgupta@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "DUMPALA RAVIKUMAR",
-        "EXTENSION NO.": "1151",
-        "EMAIL ID": "ravikumardumpala@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "RAVIKUMAR PEETALA",
-        "EXTENSION NO.": "1873",
-        "EMAIL ID": "rkpeetala@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "KANE PRASAD V.",
-        "EXTENSION NO.": "1159",
-        "EMAIL ID": "Prasad_kane@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "22",
-        "NAME": "JOLHE DHANANJAY A.",
-        "EXTENSION NO.": "1164",
-        "EMAIL ID": "dajolhe@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "23",
-        "NAME": "NISTANE VINOD M. ",
-        "EXTENSION NO.": "1442",
-        "EMAIL ID": "vmnistane@mec.vnit.ac.in "
-      },
-      {
-        "S.N.": "24",
-        "NAME": "TIWARI GUARAV",
-        "EXTENSION NO.": "1277",
-        "EMAIL ID": "gauravtiwari@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "25",
-        "NAME": "SUKANTA ROGA",
-        "EXTENSION NO.": "2250",
-        "EMAIL ID": "rogasukanta@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "26",
-        "NAME": "THAKRE AVINASH A. ",
-        "EXTENSION NO.": "1236",
-        "EMAIL ID": "aathakre@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "27",
-        "NAME": "ASHTANKAR KISHOR M.",
-        "EXTENSION NO.": "1440",
-        "EMAIL ID": "kmashtankar@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "28",
-        "NAME": "SAWARKAR PRAVIN D.",
-        "EXTENSION NO.": "1158",
-        "EMAIL ID": "psawarkar@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "29",
-        "NAME": "LAUTRE NITIN KUMAR ",
-        "EXTENSION NO.": "1872",
-        "EMAIL ID": "nitin@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "30",
-        "NAME": "SONI RAJENDRA PRASAD",
-        "EXTENSION NO.": "2301",
-        "EMAIL ID": "rajendrasoni@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "31",
-        "NAME": "BAXY AJINKYA A.",
-        "EXTENSION NO.": "2316",
-        "EMAIL ID": "abaxy@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "32",
-        "NAME": "REDDY NANDYALA ANVESH",
-        "EXTENSION NO.": "2315",
-        "EMAIL ID": "anveshnreddy@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "33",
-        "NAME": "TARODIYA RAHUL",
-        "EXTENSION NO.": "1160",
-        "EMAIL ID": "rahultarodiya@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "34",
-        "NAME": "CHIDAM NARENDRA R.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "narendrachidam@vnit.ac.in"
-      },
-      {
-        "S.N.": "35",
-        "NAME": "CHOUDHARO SWAPNIL V.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "swapnilchoudhari@vnit.ac.in"
-      },
-      {
-        "S.N.": "36",
-        "NAME": "PATHAK RAVINDRA D.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "rdpathak@vnit.ac.in"
-      },
-      {
-        "S.N.": "37",
-        "NAME": "DAHIWALE HIREN T.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "hirendahiwale@vnit.ac.in"
-      },
-      {
-        "S.N.": "38",
-        "NAME": "BANTE CHAITANYA P.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "chaitanyabante@vnit.ac.in"
-      },
-      {
-        "S.N.": "39",
-        "NAME": "MESHRAM ASHISH B.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "ashishmeshram@vnit.ac.in"
-      },
-      {
-        "S.N.": "40",
-        "NAME": "WAGHMARE VINOD C.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "vinodwaghmare@vnit.ac.in"
-      },
-      {
-        "S.N.": "41",
-        "NAME": "MESHRAM PRASHANT R.",
-        "EXTENSION NO.": "1275",
-        "EMAIL ID": "prashantmeshram@vnit.ac.in"
-      }
-    ],
+    "entries": [
       [
-      {
-        "S.N.": "7",
-        "LAB NAME": "CAD LAB (CAD-CAM)",
-        "EXTENSION NO.": "1439"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "CAD LAB 1 (CAD-CAM)",
-        "EXTENSION NO.": "1444"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "CAD LAB 2 (CAD-CAM)",
-        "EXTENSION NO.": "1445"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "COMPUTER LAB 1 (CAD-CAM)",
-        "EXTENSION NO.": "1438"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "COMPUTER LAB 1 (CAD-CAM)",
-        "EXTENSION NO.": "1443"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "SERVER ROOM (CAD-CAM)",
-        "EXTENSION NO.": "1437"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "CFD LAB",
-        "EXTENSION NO.": "1165"
-      },
-      {
-        "S.N.": "14",
-        "LAB NAME": "VERTICAL MACHINE CENTER (CAD-CAM)",
-        "EXTENSION NO.": "1436"
-      },
-      {
-        "S.N.": "15",
-        "LAB NAME": "MATERIAL PROCESSING & TESTING LAB",
-        "EXTENSION NO.": "1874"
-      },
-      {
-        "S.N.": "16",
-        "LAB NAME": "Automobile Lab",
-        "EXTENSION NO.": "2363"
-      },
+        {
+          "S.N.": "1",
+          "NAME": "OFFICE",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "office@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1379",
+          "EMAIL ID": "head@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "PADOLE PRAMOD M. ",
+          "EXTENSION NO.": "1307",
+          "EMAIL ID": "pmpadole@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "THOMBRE SHASHIKANT B. ",
+          "EXTENSION NO.": "1535",
+          "EMAIL ID": "sbthombre@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "KUTHE ABAYKUMAR M. ",
+          "EXTENSION NO.": "1441",
+          "EMAIL ID": "amkuthe@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "KALAMKAR VILAS R. ",
+          "EXTENSION NO.": "1166",
+          "EMAIL ID": "vilas_kalamkar@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "PURI YOGESH M. ",
+          "EXTENSION NO.": "1308",
+          "EMAIL ID": "ympuri@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "ZODPE DHANANJAY B. ",
+          "EXTENSION NO.": "1274",
+          "EMAIL ID": "dbzodpe@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "ANDHARE ATUL B.",
+          "EXTENSION NO.": "1163",
+          "EMAIL ID": "abandhare@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "SURYAWANSHI JIWAK G. ",
+          "EXTENSION NO.": "1154",
+          "EMAIL ID": "jgsuryawanshi@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "CHIDDARWAR SHITAL S.",
+          "EXTENSION NO.": "1167",
+          "EMAIL ID": "shitalsc@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "UDDANWADIKAR RASHMI V. ",
+          "EXTENSION NO.": "1156",
+          "EMAIL ID": "rvuddanwadikar@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "DHOBLE ASHWINKUMAR S. ",
+          "EXTENSION NO.": "1152",
+          "EMAIL ID": "asdhoble@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "JAWALE HEMANT P.",
+          "EXTENSION NO.": "1155",
+          "EMAIL ID": "hpjawale@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "KOTAMBKAR MANGESH S. ",
+          "EXTENSION NO.": "1153",
+          "EMAIL ID": "mskotambkar@mec.vnit.ac.in "
+        },
+        {
+          "S.N.": "16",
+          "NAME": "SINGH ARUN KUMAR",
+          "EXTENSION NO.": "2358",
+          "EMAIL ID": "akingh@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "GOHIL TRUSHAR",
+          "EXTENSION NO.": "1169",
+          "EMAIL ID": "trushrg@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "GUPTA T.V.K.",
+          "EXTENSION NO.": "1168",
+          "EMAIL ID": "tvkgupta@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "DUMPALA RAVIKUMAR",
+          "EXTENSION NO.": "1151",
+          "EMAIL ID": "ravikumardumpala@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "RAVIKUMAR PEETALA",
+          "EXTENSION NO.": "1873",
+          "EMAIL ID": "rkpeetala@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "KANE PRASAD V.",
+          "EXTENSION NO.": "1159",
+          "EMAIL ID": "Prasad_kane@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "22",
+          "NAME": "JOLHE DHANANJAY A.",
+          "EXTENSION NO.": "1164",
+          "EMAIL ID": "dajolhe@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "23",
+          "NAME": "NISTANE VINOD M. ",
+          "EXTENSION NO.": "1442",
+          "EMAIL ID": "vmnistane@mec.vnit.ac.in "
+        },
+        {
+          "S.N.": "24",
+          "NAME": "TIWARI GUARAV",
+          "EXTENSION NO.": "1277",
+          "EMAIL ID": "gauravtiwari@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "25",
+          "NAME": "SUKANTA ROGA",
+          "EXTENSION NO.": "2250",
+          "EMAIL ID": "rogasukanta@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "26",
+          "NAME": "THAKRE AVINASH A. ",
+          "EXTENSION NO.": "1236",
+          "EMAIL ID": "aathakre@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "27",
+          "NAME": "ASHTANKAR KISHOR M.",
+          "EXTENSION NO.": "1440",
+          "EMAIL ID": "kmashtankar@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "28",
+          "NAME": "SAWARKAR PRAVIN D.",
+          "EXTENSION NO.": "1158",
+          "EMAIL ID": "psawarkar@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "29",
+          "NAME": "LAUTRE NITIN KUMAR ",
+          "EXTENSION NO.": "1872",
+          "EMAIL ID": "nitin@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "30",
+          "NAME": "SONI RAJENDRA PRASAD",
+          "EXTENSION NO.": "2301",
+          "EMAIL ID": "rajendrasoni@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "31",
+          "NAME": "BAXY AJINKYA A.",
+          "EXTENSION NO.": "2316",
+          "EMAIL ID": "abaxy@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "32",
+          "NAME": "REDDY NANDYALA ANVESH",
+          "EXTENSION NO.": "2315",
+          "EMAIL ID": "anveshnreddy@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "33",
+          "NAME": "TARODIYA RAHUL",
+          "EXTENSION NO.": "1160",
+          "EMAIL ID": "rahultarodiya@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "34",
+          "NAME": "CHIDAM NARENDRA R.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "narendrachidam@vnit.ac.in"
+        },
+        {
+          "S.N.": "35",
+          "NAME": "CHOUDHARO SWAPNIL V.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "swapnilchoudhari@vnit.ac.in"
+        },
+        {
+          "S.N.": "36",
+          "NAME": "PATHAK RAVINDRA D.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "rdpathak@vnit.ac.in"
+        },
+        {
+          "S.N.": "37",
+          "NAME": "DAHIWALE HIREN T.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "hirendahiwale@vnit.ac.in"
+        },
+        {
+          "S.N.": "38",
+          "NAME": "BANTE CHAITANYA P.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "chaitanyabante@vnit.ac.in"
+        },
+        {
+          "S.N.": "39",
+          "NAME": "MESHRAM ASHISH B.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "ashishmeshram@vnit.ac.in"
+        },
+        {
+          "S.N.": "40",
+          "NAME": "WAGHMARE VINOD C.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "vinodwaghmare@vnit.ac.in"
+        },
+        {
+          "S.N.": "41",
+          "NAME": "MESHRAM PRASHANT R.",
+          "EXTENSION NO.": "1275",
+          "EMAIL ID": "prashantmeshram@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "7",
+          "LAB NAME": "CAD LAB (CAD-CAM)",
+          "EXTENSION NO.": "1439"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "CAD LAB 1 (CAD-CAM)",
+          "EXTENSION NO.": "1444"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "CAD LAB 2 (CAD-CAM)",
+          "EXTENSION NO.": "1445"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "COMPUTER LAB 1 (CAD-CAM)",
+          "EXTENSION NO.": "1438"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "COMPUTER LAB 1 (CAD-CAM)",
+          "EXTENSION NO.": "1443"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "SERVER ROOM (CAD-CAM)",
+          "EXTENSION NO.": "1437"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "CFD LAB",
+          "EXTENSION NO.": "1165"
+        },
+        {
+          "S.N.": "14",
+          "LAB NAME": "VERTICAL MACHINE CENTER (CAD-CAM)",
+          "EXTENSION NO.": "1436"
+        },
+        {
+          "S.N.": "15",
+          "LAB NAME": "MATERIAL PROCESSING & TESTING LAB",
+          "EXTENSION NO.": "1874"
+        },
+        {
+          "S.N.": "16",
+          "LAB NAME": "Automobile Lab",
+          "EXTENSION NO.": "2363"
+        },
 
-      {
-        "S.N.": "17",
-        "LAB NAME": "FLUID MECHANICS LAB",
-        "EXTENSION NO.": "2264"
-      },
-      {
-        "S.N.": "18",
-        "LAB NAME": "SOLAR ENERGY LAB & RESEARCH CENTER",
-        "EXTENSION NO.": "1875"
-      },
-      {
-        "S.N.": "19",
-        "LAB NAME": "BITEE RESEARCH LAB",
-        "EXTENSION NO.": "1874"
-      },
-      {
-        "S.N.": "20 ",
-        "LAB NAME": "Fuel Cell Lab",
-        "EXTENSION NO.": "2364"
-      }
-    ],
+        {
+          "S.N.": "17",
+          "LAB NAME": "FLUID MECHANICS LAB",
+          "EXTENSION NO.": "2264"
+        },
+        {
+          "S.N.": "18",
+          "LAB NAME": "SOLAR ENERGY LAB & RESEARCH CENTER",
+          "EXTENSION NO.": "1875"
+        },
+        {
+          "S.N.": "19",
+          "LAB NAME": "BITEE RESEARCH LAB",
+          "EXTENSION NO.": "1874"
+        },
+        {
+          "S.N.": "20 ",
+          "LAB NAME": "Fuel Cell Lab",
+          "EXTENSION NO.": "2364"
+        }
+      ],
       [
-      {
-        "S.N.": "1",
-        "NAME OF FACULTY": "OFFICE",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME OF FACULTY": "GHUGE VINAYAK D.",
-        "EXTENSION NO.": "1346",
-        "EMAIL ID": "vinayakghuge@mec.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME OF FACULTY": "MOHD. NASEEM",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "mohammadnaseem@vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME OF FACULTY": "MESHRAM NITIN N.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "nitinmeshram@vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME OF FACULTY": "BORKAR NITIN C.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "nitinborkar@vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME OF FACULTY": "BAGDE CHANDRAMUNI L.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "chandramunibagde@vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME OF FACULTY": "TODASE GANESH B.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "ganeshtodase@vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME OF FACULTY": "SIRSAM OMKAR D.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "omkarsirsam@vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME OF FACULTY": "MARU RAM KISHAN ",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "ramkishanmaru@vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME OF FACULTY": "PAWAR PRAKASH D.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "prakashpawar@vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME OF FACULTY": "GAWLI ROHIT V.",
-        "EXTENSION NO.": "1540",
-        "EMAIL ID": "rohitgawali@vnit.ac.in"
-      }
-    ]]
+        {
+          "S.N.": "1",
+          "NAME OF FACULTY": "OFFICE",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME OF FACULTY": "GHUGE VINAYAK D.",
+          "EXTENSION NO.": "1346",
+          "EMAIL ID": "vinayakghuge@mec.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME OF FACULTY": "MOHD. NASEEM",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "mohammadnaseem@vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME OF FACULTY": "MESHRAM NITIN N.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "nitinmeshram@vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME OF FACULTY": "BORKAR NITIN C.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "nitinborkar@vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME OF FACULTY": "BAGDE CHANDRAMUNI L.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "chandramunibagde@vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME OF FACULTY": "TODASE GANESH B.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "ganeshtodase@vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME OF FACULTY": "SIRSAM OMKAR D.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "omkarsirsam@vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME OF FACULTY": "MARU RAM KISHAN ",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "ramkishanmaru@vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME OF FACULTY": "PAWAR PRAKASH D.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "prakashpawar@vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME OF FACULTY": "GAWLI ROHIT V.",
+          "EXTENSION NO.": "1540",
+          "EMAIL ID": "rohitgawali@vnit.ac.in"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION /BRANCH: METALLURGICAL & MATERIALS ENGINEERING",
     "entries": [
       [
-
         {
           "S.N.": "1",
           "NAME": "OFFICE",
@@ -3626,387 +3638,392 @@
           "LAB NAME": "ENGINEERING METALLURGY LAB",
           "EXTENSION NO.": "2334"
         }
-      ]]
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/BRANCH : MINING ENGINEERING",
-    "entries": [[
-
-      {
-        "S.N.": "1",
-        "NAME": "HOD OFFICE",
-        "EXTENSION NO.": "1286",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1350",
-        "EMAIL ID": "head@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "YERPUDE RAJENDRA R. ",
-        "EXTENSION NO.": "1423",
-        "EMAIL ID": "rryerpude@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "THOTE NIRANJAN R. ",
-        "EXTENSION NO.": "1259",
-        "EMAIL ID": "nrthote@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "AGARWAL AJAY KUMAR C.",
-        "EXTENSION NO.": "1421",
-        "EMAIL ID": "akagarwal@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "LOKHANDE RITESH D.",
-        "EXTENSION NO.": "1866",
-        "EMAIL ID": "riteshlokhande@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "PANCHAL SANDEEP M.",
-        "EXTENSION NO.": "1422",
-        "EMAIL ID": "sandeeppanchal@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "SIRDESAI NIKHIL N.",
-        "EXTENSION NO.": "2271",
-        "EMAIL ID": "nikhilsirdesai@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "KHER ANUPAM A.",
-        "EXTENSION NO.": "2293",
-        "EMAIL ID": "anupamkher@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "SUMANT  MOHANTO",
-        "EXTENSION NO.": "2314",
-        "EMAIL ID": "sumantmohanto@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "BHAGADE NACHIKET",
-        "EXTENSION NO.": "1215",
-        "EMAIL ID": "nachiketbhagade@mng.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "SAHASRABUDHE SARANG P.",
-        "EXTENSION NO.": "1424",
-        "EMAIL ID": "sarangsahasrabudhe@vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "SAIRAM TARNIKANTI",
-        "EXTENSION NO.": "1429",
-        "EMAIL ID": "sairamrao@vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "KUBDE PRAMOD",
-        "EXTENSION NO.": "2302",
-        "EMAIL ID": "pramodkubade@vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "KATOLE MANOJ D.",
-        "EXTENSION NO.": "1425",
-        "EMAIL ID": "manojkatole@vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "MISHRA RISHBH",
-        "EXTENSION NO.": "1206",
-        "EMAIL ID": "rishbhmishra@vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "TIWARI ARCHANA P.",
-        "EXTENSION NO.": "1286",
-        "EMAIL ID": "archnatiwari@vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "KALBANDE DEEPAK G.",
-        "EXTENSION NO.": "1286",
-        "EMAIL ID": "deepakkalbande@vnit.ac.in"
-      }
-    ],[
-      {
-        "S.N.": "1",
-        "LAB NAME": "DEC ROOM",
-        "EXTENSION NO.": "1387"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "ROCK MECHANIC LAB",
-        "EXTENSION NO.": "1425"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "MINE SURVEY LAB",
-        "EXTENSION NO.": "1424"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "MINING WORKSHOP",
-        "EXTENSION NO.": "1426"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "CUTTING POLISHING LAB",
-        "EXTENSION NO.": "1427"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "COMPUTER LAB",
-        "EXTENSION NO.": "1428"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "MINE ENVIRONMENTAL LAB",
-        "EXTENSION NO.": "1429"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "DEPARTMENTAL LIBRARY",
-        "EXTENSION NO.": "1430"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "MINE SYSTEM LAB",
-        "EXTENSION NO.": "2302"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "MINE MACHINERY LAB",
-        "EXTENSION NO.": "2303"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "SMART CLASS ROM",
-        "EXTENSION NO.": "1868"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "MEETING ROOM",
-        "EXTENSION NO.": "1867"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "MEETING ROOM (GROUND FLOOR)",
-        "EXTENSION NO.": "1869"
-      }
-    ]]
+    "entries": [
+      [
+        {
+          "S.N.": "1",
+          "NAME": "HOD OFFICE",
+          "EXTENSION NO.": "1286",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1350",
+          "EMAIL ID": "head@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "YERPUDE RAJENDRA R. ",
+          "EXTENSION NO.": "1423",
+          "EMAIL ID": "rryerpude@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "THOTE NIRANJAN R. ",
+          "EXTENSION NO.": "1259",
+          "EMAIL ID": "nrthote@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "AGARWAL AJAY KUMAR C.",
+          "EXTENSION NO.": "1421",
+          "EMAIL ID": "akagarwal@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "LOKHANDE RITESH D.",
+          "EXTENSION NO.": "1866",
+          "EMAIL ID": "riteshlokhande@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "PANCHAL SANDEEP M.",
+          "EXTENSION NO.": "1422",
+          "EMAIL ID": "sandeeppanchal@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "SIRDESAI NIKHIL N.",
+          "EXTENSION NO.": "2271",
+          "EMAIL ID": "nikhilsirdesai@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "KHER ANUPAM A.",
+          "EXTENSION NO.": "2293",
+          "EMAIL ID": "anupamkher@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "SUMANT  MOHANTO",
+          "EXTENSION NO.": "2314",
+          "EMAIL ID": "sumantmohanto@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "BHAGADE NACHIKET",
+          "EXTENSION NO.": "1215",
+          "EMAIL ID": "nachiketbhagade@mng.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "SAHASRABUDHE SARANG P.",
+          "EXTENSION NO.": "1424",
+          "EMAIL ID": "sarangsahasrabudhe@vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "SAIRAM TARNIKANTI",
+          "EXTENSION NO.": "1429",
+          "EMAIL ID": "sairamrao@vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "KUBDE PRAMOD",
+          "EXTENSION NO.": "2302",
+          "EMAIL ID": "pramodkubade@vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "KATOLE MANOJ D.",
+          "EXTENSION NO.": "1425",
+          "EMAIL ID": "manojkatole@vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "MISHRA RISHBH",
+          "EXTENSION NO.": "1206",
+          "EMAIL ID": "rishbhmishra@vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "TIWARI ARCHANA P.",
+          "EXTENSION NO.": "1286",
+          "EMAIL ID": "archnatiwari@vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "KALBANDE DEEPAK G.",
+          "EXTENSION NO.": "1286",
+          "EMAIL ID": "deepakkalbande@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "DEC ROOM",
+          "EXTENSION NO.": "1387"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "ROCK MECHANIC LAB",
+          "EXTENSION NO.": "1425"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "MINE SURVEY LAB",
+          "EXTENSION NO.": "1424"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "MINING WORKSHOP",
+          "EXTENSION NO.": "1426"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "CUTTING POLISHING LAB",
+          "EXTENSION NO.": "1427"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "COMPUTER LAB",
+          "EXTENSION NO.": "1428"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "MINE ENVIRONMENTAL LAB",
+          "EXTENSION NO.": "1429"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "DEPARTMENTAL LIBRARY",
+          "EXTENSION NO.": "1430"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "MINE SYSTEM LAB",
+          "EXTENSION NO.": "2302"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "MINE MACHINERY LAB",
+          "EXTENSION NO.": "2303"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "SMART CLASS ROM",
+          "EXTENSION NO.": "1868"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "MEETING ROOM",
+          "EXTENSION NO.": "1867"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "MEETING ROOM (GROUND FLOOR)",
+          "EXTENSION NO.": "1869"
+        }
+      ]
+    ]
   },
 
   {
     "section": "DEPARTMENT / SECTION/BRANCH : PHYSICS",
-    "entries": [[
-      {
-        "S.N.": "1",
-        "NAME": "HOD OFFICE",
-        "EXTENSION NO.": "1176",
-        "EMAIL ID": ""
-      },
-      {
-        "S.N.": "2",
-        "NAME": "HOD CHAMBER",
-        "EXTENSION NO.": "1325",
-        "EMAIL ID": "head@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "3",
-        "NAME": "GEDAM RUPESH S. ",
-        "EXTENSION NO.": "1172",
-        "EMAIL ID": "rsgedam@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "4",
-        "NAME": "SANKPAL BABASAHEB R. ",
-        "EXTENSION NO.": "1170",
-        "EMAIL ID": "brsankapal@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "5",
-        "NAME": "GALI HEMA CHANDRA ",
-        "EXTENSION NO.": "1179",
-        "EMAIL ID": "ghchandra@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "6",
-        "NAME": "DESHPANDE ANURADHA V.",
-        "EXTENSION NO.": "1173",
-        "EMAIL ID": "avdeshpande@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "7",
-        "NAME": "GIRIPUNJE SUSHMA M.",
-        "EXTENSION NO.": "1171",
-        "EMAIL ID": "smgiripunje@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "8",
-        "NAME": "PATRIKAR SUJATA R.",
-        "EXTENSION NO.": "1174",
-        "EMAIL ID": "sujatapatrikar@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "9",
-        "NAME": "RAMKARTHIK M. S.",
-        "EXTENSION NO.": "1835",
-        "EMAIL ID": "msramkarthik@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "10",
-        "NAME": "SINGH POORVA",
-        "EXTENSION NO.": "1836",
-        "EMAIL ID": "poorvasingh@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "11",
-        "NAME": "OROOSA SUBOHI",
-        "EXTENSION NO.": "2227",
-        "EMAIL ID": "oroosa@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "12",
-        "NAME": "BHOSALE UDAYSINH T. ",
-        "EXTENSION NO.": "2294",
-        "EMAIL ID": "udaysinhbhosale@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "13",
-        "NAME": "GHOSH SAYANDIP",
-        "EXTENSION NO.": "2343",
-        "EMAIL ID": "sayandipghosh@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "14",
-        "NAME": "DESHMUKH VIJAYA S.",
-        "EXTENSION NO.": "1839",
-        "EMAIL ID": "vijayadeshmukh@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "15",
-        "NAME": "DESOUZA NIRMALA",
-        "EXTENSION NO.": "1177",
-        "EMAIL ID": "nirmaladesouza@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "16",
-        "NAME": "VAIDYA APARNA N.",
-        "EXTENSION NO.": "1177",
-        "EMAIL ID": "aparnavaidya@phy.vnit.ac.in"
-      },
-      {
-        "S.N.": "17",
-        "NAME": "DIKWAR MAHENDRA M.",
-        "EXTENSION NO.": "1177",
-        "EMAIL ID": "mahendradikwar@vnit.ac.in"
-      },
-      {
-        "S.N.": "18",
-        "NAME": "SHEWANE MAYUR A.",
-        "EXTENSION NO.": "1839",
-        "EMAIL ID": "mayurshewane@vnit.ac.in"
-      },
-      {
-        "S.N.": "19",
-        "NAME": "UIKEY RAMESHWAR D.",
-        "EXTENSION NO.": "1176",
-        "EMAIL ID": "rameshwaruikey@vnit.ac.in"
-      },
-      {
-        "S.N.": "20",
-        "NAME": "GAUR GAURABAI B.",
-        "EXTENSION NO.": "1176",
-        "EMAIL ID": "gaurabaigaur@vnit.ac.in"
-      },
-      {
-        "S.N.": "21",
-        "NAME": "GEDAM SIDDAHANT S.",
-        "EXTENSION NO.": "1176",
-        "EMAIL ID": "siddhantgedam@vnit.ac.in"
-      }
-    ],
+    "entries": [
       [
-      {
-        "S.N.": "1",
-        "LAB NAME": "NANO MATERIAL & DEVICES LAB",
-        "EXTENSION NO.": "1831"
-      },
-      {
-        "S.N.": "2",
-        "LAB NAME": "THIN FILM LAB",
-        "EXTENSION NO.": "2305"
-      },
-      {
-        "S.N.": "3",
-        "LAB NAME": "POLYMERS & NANOMATERIALS RESEARCH LAB",
-        "EXTENSION NO.": "1834"
-      },
-      {
-        "S.N.": "4",
-        "LAB NAME": "ELECTRO CERAMIC LAB",
-        "EXTENSION NO.": "1251"
-      },
-      {
-        "S.N.": "5",
-        "LAB NAME": "ADVANCED MATERIAL LAB",
-        "EXTENSION NO.": "1178"
-      },
-      {
-        "S.N.": "6",
-        "LAB NAME": "UG LAB (B. TECH. 1ST YEAR)",
-        "EXTENSION NO.": "1177"
-      },
-      {
-        "S.N.": "7",
-        "LAB NAME": "PG LAB / MATERIAL SCIENCE LAB",
-        "EXTENSION NO.": "1838"
-      },
-      {
-        "S.N.": "8",
-        "LAB NAME": "QUANTUM COMPUTING LAB",
-        "EXTENSION NO.": "2286"
-      },
-      {
-        "S.N.": "9",
-        "LAB NAME": "SOLAR LAB",
-        "EXTENSION NO.": "1253"
-      },
-      {
-        "S.N.": "10",
-        "LAB NAME": "OXIDE ELECTRONICS LAB",
-        "EXTENSION NO.": "1833"
-      },
-      {
-        "S.N.": "11",
-        "LAB NAME": "RESEARCH LAB",
-        "EXTENSION NO.": "2348"
-      },
-      {
-        "S.N.": "12",
-        "LAB NAME": "ASSEMBLY HALL",
-        "EXTENSION NO.": "1175"
-      },
-      {
-        "S.N.": "13",
-        "LAB NAME": "FACULTY ROOM (TA)",
-        "EXTENSION NO.": "1837"
-      }
-    ]]
+        {
+          "S.N.": "1",
+          "NAME": "HOD OFFICE",
+          "EXTENSION NO.": "1176",
+          "EMAIL ID": ""
+        },
+        {
+          "S.N.": "2",
+          "NAME": "HOD CHAMBER",
+          "EXTENSION NO.": "1325",
+          "EMAIL ID": "head@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "3",
+          "NAME": "GEDAM RUPESH S. ",
+          "EXTENSION NO.": "1172",
+          "EMAIL ID": "rsgedam@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "4",
+          "NAME": "SANKPAL BABASAHEB R. ",
+          "EXTENSION NO.": "1170",
+          "EMAIL ID": "brsankapal@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "5",
+          "NAME": "GALI HEMA CHANDRA ",
+          "EXTENSION NO.": "1179",
+          "EMAIL ID": "ghchandra@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "6",
+          "NAME": "DESHPANDE ANURADHA V.",
+          "EXTENSION NO.": "1173",
+          "EMAIL ID": "avdeshpande@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "7",
+          "NAME": "GIRIPUNJE SUSHMA M.",
+          "EXTENSION NO.": "1171",
+          "EMAIL ID": "smgiripunje@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "8",
+          "NAME": "PATRIKAR SUJATA R.",
+          "EXTENSION NO.": "1174",
+          "EMAIL ID": "sujatapatrikar@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "9",
+          "NAME": "RAMKARTHIK M. S.",
+          "EXTENSION NO.": "1835",
+          "EMAIL ID": "msramkarthik@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "10",
+          "NAME": "SINGH POORVA",
+          "EXTENSION NO.": "1836",
+          "EMAIL ID": "poorvasingh@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "11",
+          "NAME": "OROOSA SUBOHI",
+          "EXTENSION NO.": "2227",
+          "EMAIL ID": "oroosa@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "12",
+          "NAME": "BHOSALE UDAYSINH T. ",
+          "EXTENSION NO.": "2294",
+          "EMAIL ID": "udaysinhbhosale@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "13",
+          "NAME": "GHOSH SAYANDIP",
+          "EXTENSION NO.": "2343",
+          "EMAIL ID": "sayandipghosh@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "14",
+          "NAME": "DESHMUKH VIJAYA S.",
+          "EXTENSION NO.": "1839",
+          "EMAIL ID": "vijayadeshmukh@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "15",
+          "NAME": "DESOUZA NIRMALA",
+          "EXTENSION NO.": "1177",
+          "EMAIL ID": "nirmaladesouza@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "16",
+          "NAME": "VAIDYA APARNA N.",
+          "EXTENSION NO.": "1177",
+          "EMAIL ID": "aparnavaidya@phy.vnit.ac.in"
+        },
+        {
+          "S.N.": "17",
+          "NAME": "DIKWAR MAHENDRA M.",
+          "EXTENSION NO.": "1177",
+          "EMAIL ID": "mahendradikwar@vnit.ac.in"
+        },
+        {
+          "S.N.": "18",
+          "NAME": "SHEWANE MAYUR A.",
+          "EXTENSION NO.": "1839",
+          "EMAIL ID": "mayurshewane@vnit.ac.in"
+        },
+        {
+          "S.N.": "19",
+          "NAME": "UIKEY RAMESHWAR D.",
+          "EXTENSION NO.": "1176",
+          "EMAIL ID": "rameshwaruikey@vnit.ac.in"
+        },
+        {
+          "S.N.": "20",
+          "NAME": "GAUR GAURABAI B.",
+          "EXTENSION NO.": "1176",
+          "EMAIL ID": "gaurabaigaur@vnit.ac.in"
+        },
+        {
+          "S.N.": "21",
+          "NAME": "GEDAM SIDDAHANT S.",
+          "EXTENSION NO.": "1176",
+          "EMAIL ID": "siddhantgedam@vnit.ac.in"
+        }
+      ],
+      [
+        {
+          "S.N.": "1",
+          "LAB NAME": "NANO MATERIAL & DEVICES LAB",
+          "EXTENSION NO.": "1831"
+        },
+        {
+          "S.N.": "2",
+          "LAB NAME": "THIN FILM LAB",
+          "EXTENSION NO.": "2305"
+        },
+        {
+          "S.N.": "3",
+          "LAB NAME": "POLYMERS & NANOMATERIALS RESEARCH LAB",
+          "EXTENSION NO.": "1834"
+        },
+        {
+          "S.N.": "4",
+          "LAB NAME": "ELECTRO CERAMIC LAB",
+          "EXTENSION NO.": "1251"
+        },
+        {
+          "S.N.": "5",
+          "LAB NAME": "ADVANCED MATERIAL LAB",
+          "EXTENSION NO.": "1178"
+        },
+        {
+          "S.N.": "6",
+          "LAB NAME": "UG LAB (B. TECH. 1ST YEAR)",
+          "EXTENSION NO.": "1177"
+        },
+        {
+          "S.N.": "7",
+          "LAB NAME": "PG LAB / MATERIAL SCIENCE LAB",
+          "EXTENSION NO.": "1838"
+        },
+        {
+          "S.N.": "8",
+          "LAB NAME": "QUANTUM COMPUTING LAB",
+          "EXTENSION NO.": "2286"
+        },
+        {
+          "S.N.": "9",
+          "LAB NAME": "SOLAR LAB",
+          "EXTENSION NO.": "1253"
+        },
+        {
+          "S.N.": "10",
+          "LAB NAME": "OXIDE ELECTRONICS LAB",
+          "EXTENSION NO.": "1833"
+        },
+        {
+          "S.N.": "11",
+          "LAB NAME": "RESEARCH LAB",
+          "EXTENSION NO.": "2348"
+        },
+        {
+          "S.N.": "12",
+          "LAB NAME": "ASSEMBLY HALL",
+          "EXTENSION NO.": "1175"
+        },
+        {
+          "S.N.": "13",
+          "LAB NAME": "FACULTY ROOM (TA)",
+          "EXTENSION NO.": "1837"
+        }
+      ]
+    ]
   },
 
   {
@@ -5446,7 +5463,6 @@
         "EMAIL ID": ""
       },
       {
-
         "NAME": "NEW GUEST HOUSE - ROOM NO. 206",
         "EXTENSION NO.": "2465",
         "EMAIL ID": ""
@@ -5469,9 +5485,8 @@
     ]
   },
   {
-    "section": "CENTRALIZED SERVICES (VNIT CAMPUS)",
+    "section": "Centralized Services (VNIT CAMPUS)",
     "entries": [
-
       {
         "S.N.": "1",
         "NAME": "TELEPHONE MAINTENANCE",
@@ -5585,6 +5600,3 @@
     ]
   }
 ]
-
-
-

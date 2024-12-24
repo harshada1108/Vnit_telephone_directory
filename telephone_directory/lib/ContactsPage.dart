@@ -22,7 +22,6 @@ class _ContactsPageState extends State<ContactsPage> {
   List labContacts = [];
   List WorkshopContacts = [];
 
-
   @override
   void initState() {
     super.initState();
@@ -34,8 +33,8 @@ class _ContactsPageState extends State<ContactsPage> {
   Future<List> _loadModifiedContacts() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
-    List<String>? savedData = prefs.getStringList(
-        '${widget.sectionTitle}_modifiedContacts');
+    List<String>? savedData =
+        prefs.getStringList('${widget.sectionTitle}_modifiedContacts');
     print("saved data");
     print(savedData);
     return savedData != null
@@ -44,21 +43,21 @@ class _ContactsPageState extends State<ContactsPage> {
   }
 
   // Save a modified contact with the new phone number
-  Future<void> _saveModifiedContact(Map<String, dynamic>contact,
-      String key) async {
+  Future<void> _saveModifiedContact(
+      Map<String, dynamic> contact, String key) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Load the existing modified contacts list (if any)
-    List<String>? modifiedContacts = prefs.getStringList(
-        '${widget.sectionTitle}_modifiedContacts');
+    List<String>? modifiedContacts =
+        prefs.getStringList('${widget.sectionTitle}_modifiedContacts');
 
     if (modifiedContacts == null) {
       modifiedContacts = [];
     }
 
     // Find the index of the existing contact with the same name
-    int existingIndex = modifiedContacts.indexWhere((c) =>
-    json.decode(c)[key] == contact[key]);
+    int existingIndex =
+        modifiedContacts.indexWhere((c) => json.decode(c)[key] == contact[key]);
 
     if (existingIndex != -1) {
       // If contact exists, replace it with the updated contact
@@ -73,11 +72,10 @@ class _ContactsPageState extends State<ContactsPage> {
         '${widget.sectionTitle}_modifiedContacts', modifiedContacts);
   }
 
-
   Future<List> _loadSavedContacts() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String>? savedData = prefs.getStringList(
-        '${widget.sectionTitle}_contacts');
+    List<String>? savedData =
+        prefs.getStringList('${widget.sectionTitle}_contacts');
     return savedData != null
         ? savedData.map((contact) => json.decode(contact)).toList()
         : [];
@@ -87,15 +85,14 @@ class _ContactsPageState extends State<ContactsPage> {
     final String response = await rootBundle.loadString('assets/output.json');
     final List data = json.decode(response) as List;
 
-    final section = data.firstWhere((section) =>
-    section['section'] == widget.sectionTitle, orElse: () => null);
-
+    final section = data.firstWhere(
+        (section) => section['section'] == widget.sectionTitle,
+        orElse: () => null);
 
     // Load contacts from SharedPreferences
     final savedContacts = await _loadSavedContacts();
 
     final modifiedContacts = await _loadModifiedContacts();
-
 
     for (var contact in savedContacts) {
       var isc = 0;
@@ -109,15 +106,13 @@ class _ContactsPageState extends State<ContactsPage> {
             isc = 1;
             break; // Break the loop if a match is found
           }
-        }
-        else if (contact['NAME'] != null) {
+        } else if (contact['NAME'] != null) {
           if (contact['NAME'] == modContact['NAME']) {
             matchingContact = modContact;
             isc = 2;
             break; // Break the loop if a match is found
           }
-        }
-        else if (contact['NAME '] != null) {
+        } else if (contact['NAME '] != null) {
           if (contact['NAME '] == modContact['NAME ']) {
             matchingContact = modContact;
             isc = 3;
@@ -125,32 +120,27 @@ class _ContactsPageState extends State<ContactsPage> {
           }
         }
 
-
         // If a matching contact is found, update the original contact with modified values
         if (isc == 1) {
           print(contact);
           print("updated contact");
           print(matchingContact);
           contact['NAME OF FACULTY / STAFF'] =
-          matchingContact['NAME OF FACULTY / STAFF'];
+              matchingContact['NAME OF FACULTY / STAFF'];
           contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
           contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-        }
-        else if (isc == 2) {
+        } else if (isc == 2) {
           print(contact);
           print("updated contact");
           print(matchingContact);
-          contact['NAME'] =
-          matchingContact['NAME'];
+          contact['NAME'] = matchingContact['NAME'];
           contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
           contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-        }
-        else if (isc == 3) {
+        } else if (isc == 3) {
           print(contact);
           print("updated contact");
           print(matchingContact);
-          contact['NAME '] =
-          matchingContact['NAME '];
+          contact['NAME '] = matchingContact['NAME '];
           contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
           contact['EMAIL ID'] = matchingContact['EMAIL ID'];
         }
@@ -158,332 +148,294 @@ class _ContactsPageState extends State<ContactsPage> {
         // If no matching contact found, return the original contact
       }
     }
-      print("Printing length ");
-      print(section['entries'].length);
-      if (section != null) {
-        if (section['entries'].length == 2) {
-          islabpresent = true;
-          final facultycontacts = section['entries'][0];
-          final labcontacts = section['entries'][1];
-          labContacts = labcontacts;
-          for (var contact in facultycontacts) {
-            var isc = 0;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['NAME OF FACULTY / STAFF'] != null) {
-                if (contact['NAME OF FACULTY / STAFF'] ==
-                    modContact['NAME OF FACULTY / STAFF']) {
-                  matchingContact = modContact;
-                  isc = 1;
-                  break; // Break the loop if a match is found
-                }
+    print("Printing length ");
+    print(section['entries'].length);
+    if (section != null) {
+      if (section['entries'].length == 2) {
+        islabpresent = true;
+        final facultycontacts = section['entries'][0];
+        final labcontacts = section['entries'][1];
+        labContacts = labcontacts;
+        for (var contact in facultycontacts) {
+          var isc = 0;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['NAME OF FACULTY / STAFF'] != null) {
+              if (contact['NAME OF FACULTY / STAFF'] ==
+                  modContact['NAME OF FACULTY / STAFF']) {
+                matchingContact = modContact;
+                isc = 1;
+                break; // Break the loop if a match is found
               }
-              else if (contact['NAME'] != null) {
-                if (contact['NAME'] == modContact['NAME']) {
-                  matchingContact = modContact;
-                  isc = 2;
-                  break; // Break the loop if a match is found
-                }
+            } else if (contact['NAME'] != null) {
+              if (contact['NAME'] == modContact['NAME']) {
+                matchingContact = modContact;
+                isc = 2;
+                break; // Break the loop if a match is found
               }
-              else if (contact['NAME '] != null) {
-                if (contact['NAME '] == modContact['NAME ']) {
-                  matchingContact = modContact;
-                  isc = 3;
-                  break; // Break the loop if a match is found
-                }
+            } else if (contact['NAME '] != null) {
+              if (contact['NAME '] == modContact['NAME ']) {
+                matchingContact = modContact;
+                isc = 3;
+                break; // Break the loop if a match is found
               }
             }
-
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc ==1) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME OF FACULTY / STAFF'] =
-              matchingContact['NAME OF FACULTY / STAFF'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            else if (isc ==2) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME'] =
-              matchingContact['NAME'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            else if (isc ==3) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME '] =
-              matchingContact['NAME '];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
-          }
-          for (var contact in labcontacts) {
-            var isc = false;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['LAB NAME'] != null) {
-                if (contact['LAB NAME'] ==
-                    modContact['LAB NAME']) {
-                  matchingContact = modContact;
-                  isc = true;
-                  break; // Break the loop if a match is found
-                }
-              }
-
-            }
-
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['LAB NAME'] =
-              matchingContact['LAB NAME'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
           }
 
+          // If a matching contact is found, update the original contact with modified values
+          if (isc == 1) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME OF FACULTY / STAFF'] =
+                matchingContact['NAME OF FACULTY / STAFF'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          } else if (isc == 2) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME'] = matchingContact['NAME'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          } else if (isc == 3) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME '] = matchingContact['NAME '];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
 
-          setState(() {
-            contacts = [...facultycontacts, ...labcontacts, ...savedContacts];
-            filteredContacts = contacts;
-          });
+          // If no matching contact found, return the original contact
+        }
+        for (var contact in labcontacts) {
+          var isc = false;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['LAB NAME'] != null) {
+              if (contact['LAB NAME'] == modContact['LAB NAME']) {
+                matchingContact = modContact;
+                isc = true;
+                break; // Break the loop if a match is found
+              }
+            }
+          }
+
+          // If a matching contact is found, update the original contact with modified values
+          if (isc) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['LAB NAME'] = matchingContact['LAB NAME'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
+
+          // If no matching contact found, return the original contact
         }
 
-        else if (section['entries'].length == 3) {
-          islabpresent = true;
-          isworkshoppresent = true;
-          final facultycontacts = section['entries'][0];
-          final labcontacts = section['entries'][1];
-          final workshopcontacts = section['entries'][2];
-          WorkshopContacts = workshopcontacts;
-          labContacts = labcontacts;
+        setState(() {
+          contacts = [...facultycontacts, ...labcontacts, ...savedContacts];
+          filteredContacts = contacts;
+        });
+      } else if (section['entries'].length == 3) {
+        islabpresent = true;
+        isworkshoppresent = true;
+        final facultycontacts = section['entries'][0];
+        final labcontacts = section['entries'][1];
+        final workshopcontacts = section['entries'][2];
+        WorkshopContacts = workshopcontacts;
+        labContacts = labcontacts;
 
-          for (var contact in facultycontacts) {
-            var isc = 0;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['NAME OF FACULTY / STAFF'] != null) {
-                if (contact['NAME OF FACULTY / STAFF'] ==
-                    modContact['NAME OF FACULTY / STAFF']) {
-                  matchingContact = modContact;
-                  isc = 1;
-                  break; // Break the loop if a match is found
-                }
+        for (var contact in facultycontacts) {
+          var isc = 0;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['NAME OF FACULTY / STAFF'] != null) {
+              if (contact['NAME OF FACULTY / STAFF'] ==
+                  modContact['NAME OF FACULTY / STAFF']) {
+                matchingContact = modContact;
+                isc = 1;
+                break; // Break the loop if a match is found
               }
-              else if (contact['NAME'] != null) {
-                if (contact['NAME'] == modContact['NAME']) {
-                  matchingContact = modContact;
-                  isc = 2;
-                  break; // Break the loop if a match is found
-                }
+            } else if (contact['NAME'] != null) {
+              if (contact['NAME'] == modContact['NAME']) {
+                matchingContact = modContact;
+                isc = 2;
+                break; // Break the loop if a match is found
               }
-              else if (contact['NAME '] != null) {
-                if (contact['NAME '] == modContact['NAME ']) {
-                  matchingContact = modContact;
-                  isc = 3;
-                  break; // Break the loop if a match is found
-                }
+            } else if (contact['NAME '] != null) {
+              if (contact['NAME '] == modContact['NAME ']) {
+                matchingContact = modContact;
+                isc = 3;
+                break; // Break the loop if a match is found
               }
             }
-
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc == 1) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME OF FACULTY / STAFF'] =
-              matchingContact['NAME OF FACULTY / STAFF'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            else if (isc == 2) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME'] =
-              matchingContact['NAME'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            else if (isc == 3) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME '] =
-              matchingContact['NAME '];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
           }
-          for (var contact in labcontacts) {
-            var isc = false;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['LAB NAME'] != null) {
-                if (contact['LAB NAME'] ==
-                    modContact['LAB NAME']) {
-                  matchingContact = modContact;
-                  isc = true;
-                  break; // Break the loop if a match is found
-                }
-              }
 
-            }
-
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['LAB NAME'] =
-              matchingContact['LAB NAME'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
+          // If a matching contact is found, update the original contact with modified values
+          if (isc == 1) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME OF FACULTY / STAFF'] =
+                matchingContact['NAME OF FACULTY / STAFF'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          } else if (isc == 2) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME'] = matchingContact['NAME'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          } else if (isc == 3) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME '] = matchingContact['NAME '];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
           }
-          for (var contact in workshopcontacts) {
-            var isc = 0;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['NAME OF FACULTY'] != null) {
-                if (contact['NAME OF FACULTY'] ==
-                    modContact['NAME OF FACULTY']) {
-                  matchingContact = modContact;
-                  isc = 1;
-                  break; // Break the loop if a match is found
-                }
-              }
-              else if (contact['NAME'] != null) {
-                if (contact['NAME'] == modContact['NAME']) {
-                  matchingContact = modContact;
-                  isc = 2;
-                  break; // Break the loop if a match is found
-                }
-              }
-              else if (contact['NAME '] != null) {
-                if (contact['NAME '] == modContact['NAME ']) {
-                  matchingContact = modContact;
-                  isc = 3;
-                  break; // Break the loop if a match is found
-                }
-              }
-            }
 
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc == 1) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME OF FACULTY / STAFF'] =
-              matchingContact['NAME OF FACULTY / STAFF'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            if (isc == 2) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME'] =
-              matchingContact['NAME'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-            if (isc == 3) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME '] =
-              matchingContact['NAME '];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
-          }
-          setState(() {
-            contacts = [
-              ...facultycontacts,
-              ...labcontacts,
-              ...workshopcontacts,
-              ...savedContacts
-            ];
-            filteredContacts = contacts;
-          });
+          // If no matching contact found, return the original contact
         }
-
-        else {
-          final facultycontacts = section['entries'];
-
-          for (var contact in facultycontacts) {
-            var isc = false;
-            var matchingContact = null;
-            for (var modContact in modifiedContacts) {
-              if (contact['NAME OF FACULTY / STAFF'] != null) {
-                if (contact['NAME OF FACULTY / STAFF'] ==
-                    modContact['NAME OF FACULTY / STAFF']) {
-                  matchingContact = modContact;
-                  isc = true;
-                  break; // Break the loop if a match is found
-                }
-              }
-              else if (contact['NAME'] != null) {
-                if (contact['NAME'] == modContact['NAME']) {
-                  matchingContact = modContact;
-                  isc = true;
-                  break; // Break the loop if a match is found
-                }
-              }
-              else if (contact['NAME '] != null) {
-                if (contact['NAME '] == modContact['NAME ']) {
-                  matchingContact = modContact;
-                  isc = true;
-                  break; // Break the loop if a match is found
-                }
+        for (var contact in labcontacts) {
+          var isc = false;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['LAB NAME'] != null) {
+              if (contact['LAB NAME'] == modContact['LAB NAME']) {
+                matchingContact = modContact;
+                isc = true;
+                break; // Break the loop if a match is found
               }
             }
-
-
-            // If a matching contact is found, update the original contact with modified values
-            if (isc) {
-              print(contact);
-              print("updated contact");
-              print(matchingContact);
-              contact['NAME OF FACULTY / STAFF'] =
-              matchingContact['NAME OF FACULTY / STAFF'];
-              contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
-              contact['EMAIL ID'] = matchingContact['EMAIL ID'];
-            }
-
-            // If no matching contact found, return the original contact
           }
-          setState(() {
-            contacts = [...facultycontacts, ...savedContacts];
-            filteredContacts = contacts;
-          });
+
+          // If a matching contact is found, update the original contact with modified values
+          if (isc) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['LAB NAME'] = matchingContact['LAB NAME'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
+
+          // If no matching contact found, return the original contact
         }
+        for (var contact in workshopcontacts) {
+          var isc = 0;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['NAME OF FACULTY'] != null) {
+              if (contact['NAME OF FACULTY'] == modContact['NAME OF FACULTY']) {
+                matchingContact = modContact;
+                isc = 1;
+                break; // Break the loop if a match is found
+              }
+            } else if (contact['NAME'] != null) {
+              if (contact['NAME'] == modContact['NAME']) {
+                matchingContact = modContact;
+                isc = 2;
+                break; // Break the loop if a match is found
+              }
+            } else if (contact['NAME '] != null) {
+              if (contact['NAME '] == modContact['NAME ']) {
+                matchingContact = modContact;
+                isc = 3;
+                break; // Break the loop if a match is found
+              }
+            }
+          }
 
+          // If a matching contact is found, update the original contact with modified values
+          if (isc == 1) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME OF FACULTY / STAFF'] =
+                matchingContact['NAME OF FACULTY / STAFF'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
+          if (isc == 2) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME'] = matchingContact['NAME'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
+          if (isc == 3) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME '] = matchingContact['NAME '];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
 
+          // If no matching contact found, return the original contact
+        }
+        setState(() {
+          contacts = [
+            ...facultycontacts,
+            ...labcontacts,
+            ...workshopcontacts,
+            ...savedContacts
+          ];
+          filteredContacts = contacts;
+        });
+      } else {
+        final facultycontacts = section['entries'];
+
+        for (var contact in facultycontacts) {
+          var isc = false;
+          var matchingContact = null;
+          for (var modContact in modifiedContacts) {
+            if (contact['NAME OF FACULTY / STAFF'] != null) {
+              if (contact['NAME OF FACULTY / STAFF'] ==
+                  modContact['NAME OF FACULTY / STAFF']) {
+                matchingContact = modContact;
+                isc = true;
+                break; // Break the loop if a match is found
+              }
+            } else if (contact['NAME'] != null) {
+              if (contact['NAME'] == modContact['NAME']) {
+                matchingContact = modContact;
+                isc = true;
+                break; // Break the loop if a match is found
+              }
+            } else if (contact['NAME '] != null) {
+              if (contact['NAME '] == modContact['NAME ']) {
+                matchingContact = modContact;
+                isc = true;
+                break; // Break the loop if a match is found
+              }
+            }
+          }
+
+          // If a matching contact is found, update the original contact with modified values
+          if (isc) {
+            print(contact);
+            print("updated contact");
+            print(matchingContact);
+            contact['NAME OF FACULTY / STAFF'] =
+                matchingContact['NAME OF FACULTY / STAFF'];
+            contact['EXTENSION NO.'] = matchingContact['EXTENSION NO.'];
+            contact['EMAIL ID'] = matchingContact['EMAIL ID'];
+          }
+
+          // If no matching contact found, return the original contact
+        }
+        setState(() {
+          contacts = [...facultycontacts, ...savedContacts];
+          filteredContacts = contacts;
+        });
+      }
     }
   }
 
@@ -491,9 +443,11 @@ class _ContactsPageState extends State<ContactsPage> {
     String query = searchController.text.toLowerCase();
     setState(() {
       filteredContacts = contacts.where((contact) {
-        String name = contact['NAME '] ?? contact['NAME'] ??
+        String name = contact['NAME '] ??
+            contact['NAME'] ??
             contact['NAME OF FACULTY / STAFF'] ??
-            contact['NAME OF DEPARTMENT'] ?? contact['LAB NAME'] ??
+            contact['NAME OF DEPARTMENT'] ??
+            contact['LAB NAME'] ??
             contact['MEETING ROOM'];
         return name.toLowerCase().contains(query);
       }).toList();
@@ -503,7 +457,7 @@ class _ContactsPageState extends State<ContactsPage> {
   Future<void> _saveContactToPreferences(Map contact) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     List<String>? savedContacts =
-    prefs.getStringList('${widget.sectionTitle}_contacts');
+        prefs.getStringList('${widget.sectionTitle}_contacts');
     if (savedContacts == null) savedContacts = [];
     savedContacts.add(json.encode(contact));
     await prefs.setStringList('${widget.sectionTitle}_contacts', savedContacts);
@@ -514,69 +468,67 @@ class _ContactsPageState extends State<ContactsPage> {
     TextEditingController phoneController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add Phone Number"),
-            content: TextField(
-              controller: phoneController,
-              decoration: InputDecoration(hintText: "Enter phone number"),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String newPhone = phoneController.text.trim();
-                  print("Okk uptill here");
-                  print(phonekey);
-                  if (newPhone.isNotEmpty) {
-                    // Find the contact that this number should be added to
-                    Map<String, dynamic>? contactToUpdate = contacts
-                        .firstWhere((contact) {
-                      return (contact[key] == phonekey);
-                    }, orElse: () => null);
-                    if (contactToUpdate != null) {
-                      // Contact found, append the new phone number
+      builder: (context) => AlertDialog(
+        title: Text("Add Phone Number"),
+        content: TextField(
+          controller: phoneController,
+          decoration: InputDecoration(hintText: "Enter phone number"),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String newPhone = phoneController.text.trim();
+              print("Okk uptill here");
+              print(phonekey);
+              if (newPhone.isNotEmpty) {
+                // Find the contact that this number should be added to
+                Map<String, dynamic>? contactToUpdate =
+                    contacts.firstWhere((contact) {
+                  return (contact[key] == phonekey);
+                }, orElse: () => null);
+                if (contactToUpdate != null) {
+                  // Contact found, append the new phone number
 
-                      List<
-                          String> phoneNumbers = (contactToUpdate['EXTENSION NO.'] as String)
+                  List<String> phoneNumbers =
+                      (contactToUpdate['EXTENSION NO.'] as String)
                           .split(',')
                           .map((e) => e.trim())
                           .toList();
 
-                      // Avoid duplicate entries of the phone number
-                      if (!phoneNumbers.contains(newPhone)) {
-                        phoneNumbers.add(newPhone);
-                      }
-
-                      // Update contact with the new phone number list
-                      contactToUpdate['EXTENSION NO.'] =
-                          phoneNumbers.join(', ');
-
-                      // Save the modified contact to SharedPreferences
-                      await _saveModifiedContact(contactToUpdate, key);
-
-                      setState(() {
-                        contacts = List.from(contacts); // Refresh the list
-                        filteredContacts = contacts;
-                      });
-                    } else {
-                      // If no matching contact, create a new one
-                      Map<String, dynamic> newContact = {
-                        'NAME': "Added Contact",
-                        'EXTENSION NO.': newPhone,
-                      };
-                      await _saveContactToPreferences(newContact);
-                      setState(() {
-                        contacts.add(newContact);
-                        filteredContacts = contacts;
-                      });
-                    }
-                    Navigator.of(context).pop();
+                  // Avoid duplicate entries of the phone number
+                  if (!phoneNumbers.contains(newPhone)) {
+                    phoneNumbers.add(newPhone);
                   }
-                },
-                child: Text("Add"),
-              ),
-            ],
+
+                  // Update contact with the new phone number list
+                  contactToUpdate['EXTENSION NO.'] = phoneNumbers.join(', ');
+
+                  // Save the modified contact to SharedPreferences
+                  await _saveModifiedContact(contactToUpdate, key);
+
+                  setState(() {
+                    contacts = List.from(contacts); // Refresh the list
+                    filteredContacts = contacts;
+                  });
+                } else {
+                  // If no matching contact, create a new one
+                  Map<String, dynamic> newContact = {
+                    'NAME': "Added Contact",
+                    'EXTENSION NO.': newPhone,
+                  };
+                  await _saveContactToPreferences(newContact);
+                  setState(() {
+                    contacts.add(newContact);
+                    filteredContacts = contacts;
+                  });
+                }
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
@@ -592,34 +544,35 @@ class _ContactsPageState extends State<ContactsPage> {
     }
   }
 
-  Future<void> _showPhoneDialog(List<dynamic> phoneNumbers, String phonekey,
-      String key) async {
+  Future<void> _showPhoneDialog(
+      List<dynamic> phoneNumbers, String phonekey, String key) async {
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Phone Numbers"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                ...phoneNumbers.map((phone) {
-                  return ListTile(
-                    title: Text(phone),
-                    leading: Icon(Icons.phone),
-                    onTap: () => _makePhoneCall(phone),
-                  );
-                }).toList(),
-                ListTile(
-                  title: Text("Add Phone Number"),
-                  leading: Icon(Icons.add),
-                  onTap: () => _addPhoneNumber(phonekey, key),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Phone Numbers"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ...phoneNumbers.map((phone) {
+              final displayPhone = phone.length == 4
+                  ? "0712-280$phone" // Display mobile number as is
+                  : phone;
+              return ListTile(
+                title: Text(displayPhone),
+                leading: Icon(Icons.phone),
+                onTap: () => _makePhoneCall(phone),
+              );
+            }).toList(),
+            ListTile(
+              title: Text("Add Phone Number"),
+              leading: Icon(Icons.add),
+              onTap: () => _addPhoneNumber(phonekey, key),
             ),
-          ),
+          ],
+        ),
+      ),
     );
   }
-
 
   void _addNewContact() {
     TextEditingController nameController = TextEditingController();
@@ -627,51 +580,50 @@ class _ContactsPageState extends State<ContactsPage> {
     TextEditingController emailController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add New Contact"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                TextField(
-                  controller: nameController,
-                  decoration: InputDecoration(hintText: "Name"),
-                ),
-                TextField(
-                  controller: phoneController,
-                  decoration: InputDecoration(hintText: "Phone Number"),
-                ),
-                TextField(
-                  controller: emailController,
-                  decoration: InputDecoration(hintText: "Email"),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Add New Contact"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: nameController,
+              decoration: InputDecoration(hintText: "Name"),
             ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String name = nameController.text.trim();
-                  String phone = phoneController.text.trim();
-                  String email = emailController.text.trim();
+            TextField(
+              controller: phoneController,
+              decoration: InputDecoration(hintText: "Phone Number"),
+            ),
+            TextField(
+              controller: emailController,
+              decoration: InputDecoration(hintText: "Email"),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String name = nameController.text.trim();
+              String phone = phoneController.text.trim();
+              String email = emailController.text.trim();
 
-                  if (name.isNotEmpty || phone.isNotEmpty || email.isNotEmpty) {
-                    Map<String, dynamic> newContact = {
-                      'NAME': name,
-                      'EXTENSION NO.': phone,
-                      'EMAIL ID': email,
-                    };
-                    await _saveContactToPreferences(newContact);
-                    setState(() {
-                      contacts.add(newContact);
-                      filteredContacts = contacts;
-                    });
-                    Navigator.of(context).pop();
-                  }
-                },
-                child: Text("Add"),
-              ),
-            ],
+              if (name.isNotEmpty || phone.isNotEmpty || email.isNotEmpty) {
+                Map<String, dynamic> newContact = {
+                  'NAME': name,
+                  'EXTENSION NO.': phone,
+                  'EMAIL ID': email,
+                };
+                await _saveContactToPreferences(newContact);
+                setState(() {
+                  contacts.add(newContact);
+                  filteredContacts = contacts;
+                });
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
@@ -680,101 +632,96 @@ class _ContactsPageState extends State<ContactsPage> {
     TextEditingController phoneController = TextEditingController();
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Add an Email"),
-            content: TextField(
-              controller: phoneController,
-              decoration: InputDecoration(hintText: "Enter email address"),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () async {
-                  String newPhone = phoneController.text.trim();
-                  print("Okk uptill here");
-                  print(phonekey);
-                  if (newPhone.isNotEmpty) {
-                    // Find the contact that this number should be added to
-                    Map<String, dynamic>? contactToUpdate = contacts
-                        .firstWhere((contact) {
-                      return (contact[key] == phonekey);
-                    }, orElse: () => null);
-                    if (contactToUpdate != null) {
-                      // Contact found, append the new phone number
+      builder: (context) => AlertDialog(
+        title: Text("Add an Email"),
+        content: TextField(
+          controller: phoneController,
+          decoration: InputDecoration(hintText: "Enter email address"),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              String newPhone = phoneController.text.trim();
+              print("Okk uptill here");
+              print(phonekey);
+              if (newPhone.isNotEmpty) {
+                // Find the contact that this number should be added to
+                Map<String, dynamic>? contactToUpdate =
+                    contacts.firstWhere((contact) {
+                  return (contact[key] == phonekey);
+                }, orElse: () => null);
+                if (contactToUpdate != null) {
+                  // Contact found, append the new phone number
 
-                      List<
-                          String> phoneNumbers = (contactToUpdate['EMAIL ID'] as String)
+                  List<String> phoneNumbers =
+                      (contactToUpdate['EMAIL ID'] as String)
                           .split(',')
                           .map((e) => e.trim())
                           .toList();
 
-                      // Avoid duplicate entries of the phone number
-                      if (!phoneNumbers.contains(newPhone)) {
-                        phoneNumbers.add(newPhone);
-                      }
-
-                      // Update contact with the new phone number list
-                      contactToUpdate['EMAIL ID'] = phoneNumbers.join(', ');
-
-                      // Save the modified contact to SharedPreferences
-                      await _saveModifiedContact(contactToUpdate, key);
-
-                      setState(() {
-                        contacts = List.from(contacts); // Refresh the list
-                        filteredContacts = contacts;
-                      });
-                    } else {
-                      // If no matching contact, create a new one
-                      Map<String, dynamic> newContact = {
-                        'NAME': "Added Contact",
-                        'EXTENSION NO.': newPhone,
-                      };
-                      await _saveContactToPreferences(newContact);
-                      setState(() {
-                        contacts.add(newContact);
-                        filteredContacts = contacts;
-                      });
-                    }
-                    Navigator.of(context).pop();
+                  // Avoid duplicate entries of the phone number
+                  if (!phoneNumbers.contains(newPhone)) {
+                    phoneNumbers.add(newPhone);
                   }
-                },
-                child: Text("Add"),
-              ),
-            ],
+
+                  // Update contact with the new phone number list
+                  contactToUpdate['EMAIL ID'] = phoneNumbers.join(', ');
+
+                  // Save the modified contact to SharedPreferences
+                  await _saveModifiedContact(contactToUpdate, key);
+
+                  setState(() {
+                    contacts = List.from(contacts); // Refresh the list
+                    filteredContacts = contacts;
+                  });
+                } else {
+                  // If no matching contact, create a new one
+                  Map<String, dynamic> newContact = {
+                    'NAME': "Added Contact",
+                    'EXTENSION NO.': newPhone,
+                  };
+                  await _saveContactToPreferences(newContact);
+                  setState(() {
+                    contacts.add(newContact);
+                    filteredContacts = contacts;
+                  });
+                }
+                Navigator.of(context).pop();
+              }
+            },
+            child: Text("Add"),
           ),
+        ],
+      ),
     );
   }
 
-  Future<void> _showMailDialog(List<dynamic> emails, String mailkey,
-      String key) async {
+  Future<void> _showMailDialog(
+      List<dynamic> emails, String mailkey, String key) async {
     showDialog(
       context: context,
-      builder: (context) =>
-          AlertDialog(
-            title: Text("Emails"),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                ...emails.where((email) => email.isNotEmpty).map((email) {
-                  return ListTile(
-                    title: Text(email),
-                    leading: Icon(Icons.email_outlined),
-                    onTap: () async => await launch("mailto:$email"),
-                  );
-                }).toList(),
-
-
-                ListTile(
-                  title: Text("Add an Email"),
-                  leading: Icon(Icons.add),
-                  onTap: () => _addEmail(mailkey, key),
-                ),
-              ],
+      builder: (context) => AlertDialog(
+        title: Text("Emails"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ...emails.where((email) => email.isNotEmpty).map((email) {
+              return ListTile(
+                title: Text(email),
+                leading: Icon(Icons.email_outlined),
+                onTap: () async => await launch("mailto:$email"),
+              );
+            }).toList(),
+            ListTile(
+              title: Text("Add an Email"),
+              leading: Icon(Icons.add),
+              onTap: () => _addEmail(mailkey, key),
             ),
-          ),
+          ],
+        ),
+      ),
     );
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -806,10 +753,14 @@ class _ContactsPageState extends State<ContactsPage> {
         children: [
           ...filteredContacts.map((contact) {
             final name = contact['NAME OF FACULTY / STAFF'] ??
-                contact['NAME'] ?? contact['NAME '] ?? "";
+                contact['NAME'] ??
+                contact['NAME '] ??
+                "";
 
-            final emails = (contact['EMAIL ID'] ?? '').split(',').map((e) =>
-                e.trim()).toList();
+            final emails = (contact['EMAIL ID'] ?? '')
+                .split(',')
+                .map((e) => e.trim())
+                .toList();
             final phoneNumbers = (contact['EXTENSION NO.'] ?? '')
                 .split(',')
                 .map((e) => e.trim())
@@ -824,12 +775,13 @@ class _ContactsPageState extends State<ContactsPage> {
               }
             });
 
-            if (contact.containsKey('LAB NAME') || contact.containsKey('NAME OF FACULTY') ) {
+            if (contact.containsKey('LAB NAME') ||
+                contact.containsKey('NAME OF FACULTY')) {
               return SizedBox.shrink();
             } else {
               return Container(
-                margin: const EdgeInsets.symmetric(
-                    vertical: 8.0, horizontal: 16.0),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                 decoration: BoxDecoration(
                   color: Color(0xDDE9EEFF), // Background color similar to crème
                   borderRadius: BorderRadius.only(
@@ -876,17 +828,15 @@ class _ContactsPageState extends State<ContactsPage> {
               );
             }
           }).toList(),
-
           if (islabpresent)
             Padding(
-              padding: const EdgeInsets.symmetric(
-                  vertical: 8.0, horizontal: 16.0),
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
               child: Text(
                 "Laboratories",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-
           if (islabpresent)
             ...filteredContacts.map((lab) {
               final labName = lab['LAB NAME'] ?? lab['MEETING ROOM'] ?? "";
@@ -896,8 +846,8 @@ class _ContactsPageState extends State<ContactsPage> {
               }
               var key = 'LAB NAME';
               return Container(
-                margin: const EdgeInsets.symmetric(
-                    vertical: 8.0, horizontal: 16.0),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFFFE1C4), // Background color similar to crème
                   borderRadius: BorderRadius.only(
@@ -932,22 +882,22 @@ class _ContactsPageState extends State<ContactsPage> {
                 ),
               );
             }).toList(),
-
           if (isworkshoppresent)
             Padding(
-              padding: const EdgeInsets.symmetric(
-                  vertical: 8.0, horizontal: 16.0),
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
               child: Text(
                 "Workshop",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-
           if (isworkshoppresent)
             ...filteredContacts.map((contact) {
               final name = contact['NAME OF FACULTY'] ?? "";
-              final emails = (contact['EMAIL ID'] ?? '').split(',').map((e) =>
-                  e.trim()).toList();
+              final emails = (contact['EMAIL ID'] ?? '')
+                  .split(',')
+                  .map((e) => e.trim())
+                  .toList();
               final phoneNumbers = (contact['EXTENSION NO.'] ?? '')
                   .split(',')
                   .map((e) => e.trim())
@@ -961,7 +911,10 @@ class _ContactsPageState extends State<ContactsPage> {
                 }
               });
 
-              if (contact.containsKey('LAB NAME') || contact.containsKey('NAME OF FACULTY/STAFF') ||  contact.containsKey('NAME ') || contact.containsKey('NAME') ) {
+              if (contact.containsKey('LAB NAME') ||
+                  contact.containsKey('NAME OF FACULTY/STAFF') ||
+                  contact.containsKey('NAME ') ||
+                  contact.containsKey('NAME')) {
                 return SizedBox.shrink();
               } else {
                 return Container(
