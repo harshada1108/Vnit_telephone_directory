@@ -33,7 +33,7 @@ class LandingPage extends StatelessWidget {
 
   final List<String> students = [
     "DEPARTMENT / SECTION : STUDENT COUNCIL",
-    "DEPARTMENT / SECTION : STUDENT CLUBS",
+    // "DEPARTMENT / SECTION : STUDENT CLUBS",
   ];
 
   final List<String> services = [

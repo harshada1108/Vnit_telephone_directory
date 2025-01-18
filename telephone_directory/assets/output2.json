@@ -5703,31 +5703,7 @@
       ]
     ]
   },
-  {
-    "section": "DEPARTMENT / SECTION : STUDENT CLUBS",
-    "entries": [
-      [
-        {
-          "S.N.": "1",
-          "NAME": "Institute Development Society",
-          "EXTENSION NO.": "9928549635",
-          "EMAIL ID": "ids.vnitngp@gmail.com"
-        },
-        {
-          "S.N.": "2",
-          "NAME": "ACM",
-          "EXTENSION NO.": "X",
-          "EMAIL ID": "X"
-        },
-        {
-          "S.N.": "3",
-          "NAME": "IV Labs",
-          "EXTENSION NO.": "X",
-          "EMAIL ID": "X"
-        }
-      ]
-    ]
-  },
+
   {
     "section": "CENTRALIZED SERVICES (VNIT CAMPUS)",
     "entries": [
